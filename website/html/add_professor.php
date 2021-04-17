@@ -7,8 +7,7 @@ $nom = '';
 $prenom = '';
 $cin = ''; 
 $email = '';
-$cne = '';
-	$errors = ['code'=>'', 'nom'=>'', 'prenom'=>'','cin'=>'', 'email'=>'', 'cne'=>''];
+	$errors = ['code'=>'', 'nom'=>'', 'prenom'=>'','cin'=>'', 'email'=>''];
 	if(isSet($_POST['envoyer']))
 	{
 		$code = intval(mysqli_real_escape_string($conn,trim($_POST['code'])));
@@ -16,7 +15,6 @@ $cne = '';
 		$prenom = mysqli_real_escape_string($conn,trim($_POST['prenom']));
 		$cin = mysqli_real_escape_string($conn,trim($_POST['cin']));
 		$email = mysqli_real_escape_string($conn,trim($_POST['email']));
-		$cne = mysqli_real_escape_string($conn,trim($_POST['cne']));
 
 		//code
 		if(empty($code)){
@@ -61,19 +59,16 @@ $cne = '';
 				$errors['email'] = 'Veuillez entrer un email valide';
 				}	
         }
-
-		//cne
-		if(empty($cne)){
-			$errors['cne'] = 'Veuillez entrer un cne';
-		}else{
-			if (!preg_match('/^([A-Za-z]([0-9]{13}))$/', $cne)) {
-				$errors['cne'] = 'Veuillez entrer un cne valide';
-				}	
-		}		
+		
 
 	if( !array_filter($errors) ){
-		$sql = "INSERT INTO etudiants(code_e,nom,prenom,cin,email,cne) VALUES ('$code','$nom','$prenom','$cin','$email','$cne');";
+		$sql = "INSERT INTO professeurs(code_p,nom,prenom,cin,email) VALUES ('$code','$nom','$prenom','$cin','$email');";
 		if( mysqli_query($conn,$sql) ){
+			$password = $cin;
+			$hash = hash("sha256",$password,false);
+			$sql2 = "INSERT INTO utilisateurs(code_p,nom,prenom,cin,email,hash) VALUES ('$code','$nom','$prenom','$cin','$email','$hash');";
+		}
+		if( mysqli_query($conn,$sql) && mysqli_query($conn,$sql2)){
 			header('Location: index.php');
 		}else{
 			echo "failed to run insert query";
@@ -94,7 +89,7 @@ $cne = '';
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Ajouter un etudiant</title>
+	<title>Ajouter un professeur</title>
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 <body>
@@ -103,7 +98,7 @@ $cne = '';
 		<img src="../images/fsdm_trans.png">
 	</div>	
 	<div id="main">
-		<h1>Ajouter un etudiant</h1>
+		<h1>Ajouter un professeur</h1>
 	</div>
 	<hr>
 </header>
@@ -148,13 +143,6 @@ $cne = '';
 			<div class="error" style="color:#E31215;" > <?php echo " <strong> {$errors['email']} </strong>" ?> </div>
 			<br>
 
-			<!--cne-->
-			<label>Entrer le cne  &nbsp &nbsp &nbsp :</label>
-			<input type="text" id="cne" name="cne" placeholder="Entrer le cne ici" value = "<?php echo $cne ?>" required>
-			<br>
-			<div class="error" style="color:#E31215;" > <?php echo " <strong> {$errors['cne']} </strong>" ?> </div>
-			<br>		
-
 
 
 			<input type="submit" id="submit" name="envoyer" value="Envoyer">	
@@ -167,10 +155,9 @@ $cne = '';
 <nav id="mainNavbar">
 	<ul>
 		<li><a href="index.php">Acceuil</a></li>
-		<li><a href="#main">Ajouter un etudiant</a></li>
-		<li><a href="add_professor.php">Ajouter un professeur</a></li>
+		<li><a href="add_student.php">Ajouter un etudiant</a></li>
+		<li><a href="#main">Ajouter un professeur</a></li>
 		<li><a href="add_unit.php">Ajouter un module</a></li>
-
 	</ul>
 </nav>
 <hr>

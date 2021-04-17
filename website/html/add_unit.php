@@ -54,7 +54,7 @@
 
 
 	if( !array_filter($errors) ){
-		$sql = "INSERT INTO etudiants(id_m,nom_m,id_f,code_p) VALUES ('$id_m',$nom','$id_f','$code_p');";
+		$sql = "INSERT INTO modules(id_m,nom_m,id_f,code_p) VALUES ('$id_m',$nom','$id_f','$code_p');";
 		if( mysqli_query($conn,$sql) ){
 			header('Location: index.php');
 		}else{
@@ -75,7 +75,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Ajouter un etudiant</title>
+	<title>Ajouter un module</title>
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 <body>
@@ -84,7 +84,7 @@
 		<img src="../images/fsdm_trans.png">
 	</div>	
 	<div id="main">
-		<h1>Ajouter un etudiant</h1>
+		<h1>Ajouter un module</h1>
 	</div>
 	<hr>
 </header>
@@ -93,14 +93,14 @@
 		<form class="myForm" id="form" method="POST">
 			
             <!--id_m-->
-			<label>Entrer le id_m  &nbsp &nbsp &nbsp :</label>
+			<label>Entrer le id_m &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp :</label>
 			<input type="text" id="id_m" name="id_m" placeholder="Entrer l' id ici" value = "<?php echo $id_m ?>" required>
 			<br>
 			<div class="error" style="color:#E31215;" > <?php echo " <strong> {$errors['id_m']} </strong>" ?> </div>
 			<br>
 
 			<!--nom-->
-			<label>Entrer le nom &nbsp &nbsp &nbsp:</label>
+			<label>Entrer le nom &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp :</label>
 			<input type="text" id="nom"name="nom" placeholder="Entrer le nom ici" 
 			value = "<?php echo $nom ?>" required>
 			<br>
@@ -108,7 +108,7 @@
 			<br>		
 
 			<!--code-->
-			<label>Entrer le code du prof:</label>
+			<label>Entrer le code du prof :</label>
 			<input type="number" id="code_p" name="code_p" placeholder="Exemple: 59855" 
 			value = "<?php echo $code_p ?>" required>
 			<br>
@@ -116,7 +116,7 @@
 			<br>
 
             <!--id_f-->
-			<label>Entrer le id_m  &nbsp &nbsp &nbsp :</label>
+			<label>Entrer le id_f &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  :</label>
 			<input type="text" id="id_f" name="id_f" placeholder="Entrer l' id de la filiere ici" value = "<?php echo $id_m ?>" required>
 			<br>
 			<div class="error" style="color:#E31215;" > <?php echo " <strong> {$errors['id_f']} </strong>" ?> </div>

@@ -57,8 +57,11 @@ a:hover{
 }
 
 ul{
-	padding-left: 37%;
+	padding-left: 30%;
+	align-content: center;
 }
+
+
 li{
 	display: inline;
 	padding-right:2% 
