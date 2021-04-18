@@ -1,3 +1,8 @@
+<?php 
+  session_start();
+
+  if (isset($_SESSION['user_id']) && isset($_SESSION['user_email'])) { 
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -25,6 +30,8 @@
 		<li><a href="add_student.php">Ajouter un etudiant</a></li>
 		<li><a href="add_professor.php">Ajouter un professeur</a></li>
 		<li><a href="add_unit.php">Ajouter un module</a></li>		
+		</h1> <li><a href="logout.php">Logout</a></li>	
+		<h1  style="font-size: 1rem; text-align: center; "><?=$_SESSION['user_full_name']?>
 	</ul>
 </nav>
 <hr>
@@ -37,3 +44,8 @@ require('templates/footer.php');
 
 </body>
 </html>
+<?php 
+}else {
+   header("Location: login.php");
+}
+ ?>
