@@ -14,47 +14,50 @@
 		$id_f = mysqli_real_escape_string($conn,trim($_POST['id_f']));
 		$code_p = intval(mysqli_real_escape_string($conn,trim($_POST['code_p'])));
 
-		//code
-		if(empty($code_p)){
-			$errors['code_p'] = 'Veuillez entrer un code de professeur';
-		}else{
-			if ($code < 1) {
-				$errors['code_p'] = 'code > 0 !!!';
-				}	
-        }
-        
-		//nom
-		if(empty($nom)){
-			$errors['nom'] = 'Veuillez entrer un nom';
-		}else{
-			if (!preg_match('/^([A-Za-z\s])+$/', $nom)) {
-				$errors['nom'] = 'Veuillez entrer un nom valide';
-				echo "test";
-				}	
-		}
-
+		
 		//id_m
 		if(empty($id_m)){
 			$errors['id_m'] = 'Veuillez entrer un id de module';
 		}else{
-			if (!preg_match('/^([A-Za-z]([0-9]{3}))$/', $id_m)) {
+			if (!preg_match('/^([A-Za-z][0-9]{3})$/', $id_m)) {
 				$errors['id_m'] = 'Veuillez entrer un id de module valide';
+				}	
+			
+		}
+
+		//nom
+		if(empty($nom)){
+			$errors['nom'] = 'Veuillez entrer un nom';
+		}else{
+			if (!preg_match('/^([A-Za-z0-9\s])+$/', $nom)) {
+				$errors['nom'] = 'Veuillez entrer un nom valide';
+				echo "test";
 				}	
 		}		
 
+
+		//code
+		if(empty($code_p)){
+			$errors['code_p'] = 'Veuillez entrer un code de professeur';
+		}else{
+			if ($code_p < 1) {
+				$errors['code_p'] = 'code > 0 !!!';
+				}	
+        }
+        
 		//id_f
 		if(empty($id_f)){
 			$errors['id_f'] = 'Veuillez entrer un id de filiere';
 		}else{
 			if (!preg_match('/^[A-Za-z]{3}$/', $id_f)) {
-				$errors['id_m'] = 'Veuillez entrer un id de module valide';
+				$errors['id_f'] = 'Veuillez entrer un id de module valide';
 				}	
 		}	
 
 
 
 	if( !array_filter($errors) ){
-		$sql = "INSERT INTO modules(id_m,nom_m,id_f,code_p) VALUES ('$id_m',$nom','$id_f','$code_p');";
+		$sql = "INSERT INTO modules(id_m,nom_m,id_f,code_p) VALUES ('$id_m','$nom','$id_f','$code_p');";
 		if( mysqli_query($conn,$sql) ){
 			header('Location: index.php');
 		}else{
@@ -117,7 +120,7 @@
 
             <!--id_f-->
 			<label>Entrer le id_f &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  :</label>
-			<input type="text" id="id_f" name="id_f" placeholder="Entrer l' id de la filiere ici" value = "<?php echo $id_m ?>" required>
+			<input type="text" id="id_f" name="id_f" placeholder="Entrer l' id de la filiere ici" value = "<?php echo $id_f ?>" required>
 			<br>
 			<div class="error" style="color:#E31215;" > <?php echo " <strong> {$errors['id_f']} </strong>" ?> </div>
 			<br>

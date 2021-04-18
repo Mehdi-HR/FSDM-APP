@@ -66,21 +66,22 @@ $cne = '';
 		if(empty($cne)){
 			$errors['cne'] = 'Veuillez entrer un cne';
 		}else{
-			if (!preg_match('/^([A-Za-z]([0-9]{13}))$/', $cne)) {
+			if (!preg_match('/^([A-Za-z]([0-9]{9}))$/', $cne)) {
 				$errors['cne'] = 'Veuillez entrer un cne valide';
 				}	
 		}		
 
 	if( !array_filter($errors) ){
+		$type = 'E';
 		$sql = "INSERT INTO etudiants(code_e,nom,prenom,cin,email,cne) VALUES ('$code','$nom','$prenom','$cin','$email','$cne');";
 		if( mysqli_query($conn,$sql) ){
 			$password = $cin;
 			$hash = hash("sha256",$password,false);
-			$sql2 = "INSERT INTO utilisateurs(code_p,nom,prenom,cin,email,hash) VALUES ('$code','$nom','$prenom','$cin','$email','$hash');";
-		}		
-		if( mysqli_query($conn,$sql) && mysqli_query($conn,$sql2)  ){
+			$sql2 = "INSERT INTO utilisateurs(code,nom,prenom,type,cin,email,hash) VALUES ('$code','$nom','$prenom','$type','$cin','$email','$hash');";
+			mysqli_query($conn,$sql2);
 			header('Location: index.php');
-		}else{
+		}		
+		else{
 			echo "failed to run insert query";
 		}
 	}else{

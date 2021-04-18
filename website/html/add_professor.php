@@ -62,16 +62,16 @@ $email = '';
 		
 
 	if( !array_filter($errors) ){
+		$type = 'P';
 		$sql = "INSERT INTO professeurs(code_p,nom,prenom,cin,email) VALUES ('$code','$nom','$prenom','$cin','$email');";
 		if( mysqli_query($conn,$sql) ){
 			$password = $cin;
 			$hash = hash("sha256",$password,false);
-			$sql2 = "INSERT INTO utilisateurs(code_p,nom,prenom,cin,email,hash) VALUES ('$code','$nom','$prenom','$cin','$email','$hash');";
-		}
-		if( mysqli_query($conn,$sql) && mysqli_query($conn,$sql2)){
+			$sql2 = "INSERT INTO utilisateurs(code,nom,prenom,type,cin,email,hash) VALUES ('$code','$nom','$prenom','$type','$cin','$email','$hash');";
+			mysqli_query($conn,$sql2);
 			header('Location: index.php');
 		}else{
-			echo "failed to run insert query";
+			echo "Failed to run insert query";
 		}
 	}else{
 		echo "bad user input";	
