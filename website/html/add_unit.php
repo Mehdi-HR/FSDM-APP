@@ -120,11 +120,16 @@
 
             <!--id_f-->
 			<label>Entrer le id_f &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  :</label>
-			<input type="text" id="id_f" name="id_f" placeholder="Entrer l' id de la filiere ici" value = "<?php echo $id_f ?>" required>
-			<br>
+			<select class="mySelect" id="id_f" name="id_f" >
+				<option>SMI</option>
+				<option>SMA</option>
+				<option>SVI</option>
+				<option>STU</option>
+				<option>SMP</option>
+				<option>SMC</option>				
+			</select>			<br>
 			<div class="error" style="color:#E31215;" > <?php echo " <strong> {$errors['id_f']} </strong>" ?> </div>
 			<br>
-
 			<input type="submit" id="submit" name="envoyer" value="Envoyer">	
 			<input type="reset" name="annuler" value="Annuler">	
 		</form>
