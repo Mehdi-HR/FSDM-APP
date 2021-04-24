@@ -8,87 +8,99 @@ $prenom = '';
 $cin = ''; 
 $email = '';
 $cne = '';
-	$errors = ['code'=>'', 'nom'=>'', 'prenom'=>'','cin'=>'', 'email'=>'', 'cne'=>''];
-	if(isSet($_POST['envoyer']))
-	{
-		$code = intval(mysqli_real_escape_string($conn,trim($_POST['code'])));
-		$nom = mysqli_real_escape_string($conn,trim($_POST['nom']));
-		$prenom = mysqli_real_escape_string($conn,trim($_POST['prenom']));
-		$cin = mysqli_real_escape_string($conn,trim($_POST['cin']));
-		$email = mysqli_real_escape_string($conn,trim($_POST['email']));
-		$cne = mysqli_real_escape_string($conn,trim($_POST['cne']));
+$id_filiere = '';
 
-		//code
-		if(empty($code)){
-			$errors['code'] = 'Veuillez entrer un code';
-		}else{
-			if ($code < 1) {
-				$errors['code'] = 'code > 0 !!!';
-				}	
-		}
-		//nom
-		if(empty($nom)){
-			$errors['nom'] = 'Veuillez entrer un nom';
-		}else{
-			if (!preg_match('/^([A-Za-z\s])+$/', $nom)) {
-				$errors['nom'] = 'Veuillez entrer un nom valide';
-				echo "test";
-				}	
-		}
-		//prenom
-		if(empty($prenom)){
-			$errors['prenom'] = 'Veuillez entrer un prenom';
-		}else{
-			if (!preg_match('/^([A-Za-z\s])+$/', $prenom)) {
-				$errors['prenom'] = 'Veuillez entrer un prenom valide';
-				}	
-		}
+$errors = ['code'=>'', 'nom'=>'', 'prenom'=>'','cin'=>'', 'email'=>'', 'cne'=>'','id_filiere'=>''];
+if(isSet($_POST['envoyer']))
+{
+	$code = intval(mysqli_real_escape_string($conn,trim($_POST['code'])));
+	$nom = mysqli_real_escape_string($conn,trim($_POST['nom']));
+	$prenom = mysqli_real_escape_string($conn,trim($_POST['prenom']));
+	$cin = mysqli_real_escape_string($conn,trim($_POST['cin']));
+	$email = mysqli_real_escape_string($conn,trim($_POST['email']));
+	$cne = mysqli_real_escape_string($conn,trim($_POST['cne']));
+	$id_filiere = mysqli_real_escape_string($conn,trim($_POST['id_filiere']));
 
-		//cin	
-		if(empty($cin)){
-			$errors['cin'] = 'Veuillez entrer un cin';
-		}else{
-			if (!preg_match('/^(([A-Za-z])+([0-9])+)$/', $cin)) {
-				$errors['cin'] = 'Veuillez entrer un cin valide';
-				}	
-		}
-
-		//email
-		if(empty($email)){
-			$errors['email'] = 'Veuillez entrer un email';
-		}else{
-			if (!filter_var($email,FILTER_VALIDATE_EMAIL)) {
-				$errors['email'] = 'Veuillez entrer un email valide';
-				}	
-        }
-
-		//cne
-		if(empty($cne)){
-			$errors['cne'] = 'Veuillez entrer un cne';
-		}else{
-			if (!preg_match('/^([A-Za-z]([0-9]{9}))$/', $cne)) {
-				$errors['cne'] = 'Veuillez entrer un cne valide';
-				}	
-		}		
-
-	if( !array_filter($errors) ){
-		$type = 'E';
-		$sql = "INSERT INTO etudiants(code_e,nom,prenom,cin,email,cne) VALUES ('$code','$nom','$prenom','$cin','$email','$cne');";
-		if( mysqli_query($conn,$sql) ){
-			$password = $cin;
-			$hash = hash("sha256",$password,false);
-			$sql2 = "INSERT INTO utilisateurs(code,nom,prenom,type,cin,email,hash) VALUES ('$code','$nom','$prenom','$type','$cin','$email','$hash');";
-			mysqli_query($conn,$sql2);
-			header('Location: index.php');
-		}		
-		else{
-			echo "failed to run insert query";
-		}
+	//code
+	if(empty($code)){
+		$errors['code'] = 'Veuillez entrer un code';
 	}else{
-		echo "bad user input";	
-		}
+		if ($code < 1) {
+			$errors['code'] = 'code > 0 !!!';
+			}	
+	}
+	//nom
+	if(empty($nom)){
+		$errors['nom'] = 'Veuillez entrer un nom';
+	}else{
+		if (!preg_match('/^([A-Za-z\s])+$/', $nom)) {
+			$errors['nom'] = 'Veuillez entrer un nom valide';
+			echo "test";
+			}	
+	}
+	//prenom
+	if(empty($prenom)){
+		$errors['prenom'] = 'Veuillez entrer un prenom';
+	}else{
+		if (!preg_match('/^([A-Za-z\s])+$/', $prenom)) {
+			$errors['prenom'] = 'Veuillez entrer un prenom valide';
+			}	
+	}
 
-	mysqli_close($conn);		
+	//cin	
+	if(empty($cin)){
+		$errors['cin'] = 'Veuillez entrer un cin';
+	}else{
+		if (!preg_match('/^(([A-Za-z])+([0-9])+)$/', $cin)) {
+			$errors['cin'] = 'Veuillez entrer un cin valide';
+			}	
+	}
+
+	//email
+	if(empty($email)){
+		$errors['email'] = 'Veuillez entrer un email';
+	}else{
+		if (!filter_var($email,FILTER_VALIDATE_EMAIL)) {
+			$errors['email'] = 'Veuillez entrer un email valide';
+			}	
+    }
+
+	//cne
+	if(empty($cne)){
+		$errors['cne'] = 'Veuillez entrer un cne';
+	}else{
+		if (!preg_match('/^([A-Za-z]([0-9]{9}))$/', $cne)) {
+			$errors['cne'] = 'Veuillez entrer un cne valide';
+			}	
+	}		
+
+	//id_filiere
+	if(empty($id_filiere)){
+		$errors['id_filiere'] = 'Veuillez entrer un id de filiere';
+	}else{
+		if (!preg_match('/^[A-Za-z]{3}$/', $id_filiere)) {
+			$errors['id_filiere'] = 'Veuillez entrer un id de module valide';
+			}	
+	}
+
+if( !array_filter($errors) ){
+	$type = 'E';
+	$sql = "INSERT INTO etudiants(code_etudiant,nom,prenom,cin,email,cne,id_filiere) VALUES ('$code','$nom','$prenom','$cin','$email','$cne','$id_filiere');";
+	if( mysqli_query($conn,$sql) ){
+		$password = $cin;
+		$hash = hash("sha256",$password,false);
+		$sql2 = "INSERT INTO utilisateurs(code,nom,prenom,type,cin,email,hash) VALUES ('$code','$nom','$prenom','$type','$cin','$email','$hash');";
+		mysqli_query($conn,$sql2);
+		header('Location: index.php');
+	}		
+	else{
+		echo "failed to run insert query";
+	}
+}else{
+	echo "bad user input";	
+	}
+
+mysqli_close($conn);		
 }
 
 
@@ -105,9 +117,11 @@ $cne = '';
 </head>
 <body>
 <header id="mainHeader"> 
-	<div class="headerBG"> 
-		<img src="../images/fsdm_trans.png">
-	</div>	
+<?php 
+
+include("templates/header.php");
+
+?>	
 	<div id="main">
 		<h1>Ajouter un etudiant</h1>
 	</div>
@@ -161,6 +175,18 @@ $cne = '';
 			<div class="error" style="color:#E31215;" > <?php echo " <strong> {$errors['cne']} </strong>" ?> </div>
 			<br>		
 
+			<!--id_filiere-->
+			<label>Choisir une filiere:</label>
+			<select class="mySelect" id="id_filiere" name="id_filiere" >
+				<option>SMI</option>				
+				<option>SMA</option>
+				<option>SVI</option>
+				<option>STU</option>
+				<option>SMP</option>
+				<option>SMC</option>				
+			</select>			<br>
+			<div class="error" style="color:#E31215;" > <?php echo " <strong> {$errors['id_filiere']} </strong>" ?> </div>
+			<br>
 
 
 			<input type="submit" id="submit" name="envoyer" value="Envoyer">	
@@ -170,15 +196,11 @@ $cne = '';
 	<hr>
 </section>
 
-<nav id="mainNavbar">
-	<ul>
-		<li><a href="index.php">Acceuil</a></li>
-		<li><a href="#main">Ajouter un etudiant</a></li>
-		<li><a href="add_professor.php">Ajouter un professeur</a></li>
-		<li><a href="add_unit.php">Ajouter un module</a></li>
+<?php 	
 
-	</ul>
-</nav>
+require('templates/nav.php');
+
+ ?>
 <hr>
 
 <?php 	

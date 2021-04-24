@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1
--- Généré le : sam. 17 avr. 2021 à 01:24
+-- Généré le : sam. 24 avr. 2021 à 19:07
 -- Version du serveur :  10.4.18-MariaDB
 -- Version de PHP : 8.0.3
 
@@ -28,13 +28,21 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `etudiants` (
-  `code_e` int(6) NOT NULL,
+  `code_etudiant` int(6) NOT NULL,
   `nom` varchar(100) NOT NULL,
   `prenom` varchar(100) NOT NULL,
   `cin` varchar(10) NOT NULL,
   `email` varchar(100) NOT NULL,
-  `cne` varchar(14) NOT NULL
+  `cne` varchar(14) NOT NULL,
+  `id_filiere` varchar(4) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Déchargement des données de la table `etudiants`
+--
+
+INSERT INTO `etudiants` (`code_etudiant`, `nom`, `prenom`, `cin`, `email`, `cne`, `id_filiere`) VALUES
+(875, 'alami', 'nizar', 'zn549987', 'nizar.alami@gmail.com', 'M198154271', 'SMI');
 
 -- --------------------------------------------------------
 
@@ -43,8 +51,8 @@ CREATE TABLE `etudiants` (
 --
 
 CREATE TABLE `etudiant_module` (
-  `code_e` int(6) NOT NULL,
-  `id_m` varchar(4) NOT NULL
+  `code_etudiant` int(6) NOT NULL,
+  `id_module` varchar(4) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
@@ -54,9 +62,21 @@ CREATE TABLE `etudiant_module` (
 --
 
 CREATE TABLE `filieres` (
-  `id_f` varchar(3) NOT NULL,
-  `nom_f` varchar(100) NOT NULL
+  `id_filiere` varchar(4) NOT NULL,
+  `nom_filiere` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Déchargement des données de la table `filieres`
+--
+
+INSERT INTO `filieres` (`id_filiere`, `nom_filiere`) VALUES
+('SMA', 'Science Mathématiques et Application'),
+('SMC', 'Sciences de la Matière Chimie'),
+('SMP', 'Sciences de la Matière Physique'),
+('STU', 'Sciences de la Terre et de l\'Univers'),
+('SVI', 'Sciences de la Vie '),
+('SMI', 'Sciences Mathématiques et Informatique ');
 
 -- --------------------------------------------------------
 
@@ -65,10 +85,10 @@ CREATE TABLE `filieres` (
 --
 
 CREATE TABLE `modules` (
-  `id_m` varchar(4) NOT NULL,
-  `nom_m` varchar(100) NOT NULL,
-  `id_f` varchar(3) NOT NULL,
-  `code_p` int(6) NOT NULL
+  `id_module` varchar(4) NOT NULL,
+  `nom_module` varchar(100) NOT NULL,
+  `id_filiere` varchar(4) NOT NULL,
+  `code_prof` int(6) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
@@ -78,12 +98,19 @@ CREATE TABLE `modules` (
 --
 
 CREATE TABLE `professeurs` (
-  `code_p` int(6) NOT NULL,
+  `code_prof` int(6) NOT NULL,
   `nom` varchar(100) NOT NULL,
   `prenom` varchar(100) NOT NULL,
   `cin` varchar(10) NOT NULL,
   `email` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Déchargement des données de la table `professeurs`
+--
+
+INSERT INTO `professeurs` (`code_prof`, `nom`, `prenom`, `cin`, `email`) VALUES
+(87, 'le prof', 'test', 'c765900', 'prof.test@usmba.ac.ma');
 
 -- --------------------------------------------------------
 
@@ -133,34 +160,40 @@ CREATE TABLE `utilisateurs` (
 -- Index pour la table `etudiants`
 --
 ALTER TABLE `etudiants`
-  ADD PRIMARY KEY (`code_e`);
+  ADD PRIMARY KEY (`code_etudiant`),
+  ADD UNIQUE KEY `email` (`email`),
+  ADD UNIQUE KEY `cne` (`cne`),
+  ADD UNIQUE KEY `cin` (`cin`),
+  ADD KEY `id_filiere_fk` (`id_filiere`);
 
 --
 -- Index pour la table `etudiant_module`
 --
 ALTER TABLE `etudiant_module`
-  ADD PRIMARY KEY (`code_e`,`id_m`),
-  ADD KEY `id_m_fk` (`id_m`);
+  ADD PRIMARY KEY (`code_etudiant`,`id_module`),
+  ADD KEY `id_moduleFK` (`id_module`);
 
 --
 -- Index pour la table `filieres`
 --
 ALTER TABLE `filieres`
-  ADD PRIMARY KEY (`id_f`);
+  ADD PRIMARY KEY (`id_filiere`),
+  ADD UNIQUE KEY `nom_filiere` (`nom_filiere`);
 
 --
 -- Index pour la table `modules`
 --
 ALTER TABLE `modules`
-  ADD PRIMARY KEY (`id_m`),
-  ADD KEY `code_p_fk` (`code_p`),
-  ADD KEY `id_f_fk` (`id_f`);
+  ADD PRIMARY KEY (`id_module`),
+  ADD UNIQUE KEY `nom_module` (`nom_module`);
 
 --
 -- Index pour la table `professeurs`
 --
 ALTER TABLE `professeurs`
-  ADD PRIMARY KEY (`code_p`);
+  ADD PRIMARY KEY (`code_prof`),
+  ADD UNIQUE KEY `cin` (`cin`),
+  ADD UNIQUE KEY `email` (`email`);
 
 --
 -- Index pour la table `test`
@@ -169,22 +202,29 @@ ALTER TABLE `test`
   ADD PRIMARY KEY (`code`);
 
 --
+-- Index pour la table `utilisateurs`
+--
+ALTER TABLE `utilisateurs`
+  ADD PRIMARY KEY (`code`),
+  ADD UNIQUE KEY `cin` (`cin`),
+  ADD UNIQUE KEY `email` (`email`);
+
+--
 -- Contraintes pour les tables déchargées
 --
+
+--
+-- Contraintes pour la table `etudiants`
+--
+ALTER TABLE `etudiants`
+  ADD CONSTRAINT `id_filiere_fk` FOREIGN KEY (`id_filiere`) REFERENCES `filieres` (`id_filiere`) ON UPDATE CASCADE;
 
 --
 -- Contraintes pour la table `etudiant_module`
 --
 ALTER TABLE `etudiant_module`
-  ADD CONSTRAINT `code_e_fk` FOREIGN KEY (`code_e`) REFERENCES `etudiants` (`code_e`) ON UPDATE CASCADE,
-  ADD CONSTRAINT `id_m_fk` FOREIGN KEY (`id_m`) REFERENCES `modules` (`id_m`) ON UPDATE CASCADE;
-
---
--- Contraintes pour la table `modules`
---
-ALTER TABLE `modules`
-  ADD CONSTRAINT `code_p_fk` FOREIGN KEY (`code_p`) REFERENCES `professeurs` (`code_p`) ON UPDATE CASCADE,
-  ADD CONSTRAINT `id_f_fk` FOREIGN KEY (`id_f`) REFERENCES `filieres` (`id_f`) ON UPDATE CASCADE;
+  ADD CONSTRAINT `code_etudiantFK` FOREIGN KEY (`code_etudiant`) REFERENCES `etudiants` (`code_etudiant`) ON UPDATE CASCADE,
+  ADD CONSTRAINT `id_moduleFK` FOREIGN KEY (`id_module`) REFERENCES `modules` (`id_module`) ON DELETE CASCADE;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

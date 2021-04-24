@@ -2,25 +2,25 @@
 
     require('templates/config.php');
 
-    $code_p = ''; 
+    $code_prof = ''; 
     $nom = ''; 
-    $id_f = '';
-    $id_m = '';
-	$errors = ['code_p'=>'', 'nom'=>'', 'id_f'=>'', 'id_m'=>''];
+    $id_filiere = '';
+    $id_module = '';
+	$errors = ['code_prof'=>'', 'nom'=>'', 'id_filiere'=>'', 'id_module'=>''];
 	if(isSet($_POST['envoyer']))
 	{
 		$nom = mysqli_real_escape_string($conn,trim($_POST['nom']));
-		$id_m = mysqli_real_escape_string($conn,trim($_POST['id_m']));
-		$id_f = mysqli_real_escape_string($conn,trim($_POST['id_f']));
-		$code_p = intval(mysqli_real_escape_string($conn,trim($_POST['code_p'])));
+		$id_module = mysqli_real_escape_string($conn,trim($_POST['id_module']));
+		$id_filiere = mysqli_real_escape_string($conn,trim($_POST['id_filiere']));
+		$code_prof = intval(mysqli_real_escape_string($conn,trim($_POST['code_prof'])));
 
 		
-		//id_m
-		if(empty($id_m)){
-			$errors['id_m'] = 'Veuillez entrer un id de module';
+		//id_module
+		if(empty($id_module)){
+			$errors['id_module'] = 'Veuillez entrer un id de module';
 		}else{
-			if (!preg_match('/^([A-Za-z][0-9]{3})$/', $id_m)) {
-				$errors['id_m'] = 'Veuillez entrer un id de module valide';
+			if (!preg_match('/^([A-Za-z][0-9]{3})$/', $id_module)) {
+				$errors['id_module'] = 'Veuillez entrer un id de module valide';
 				}	
 			
 		}
@@ -37,27 +37,27 @@
 
 
 		//code
-		if(empty($code_p)){
-			$errors['code_p'] = 'Veuillez entrer un code de professeur';
+		if(empty($code_prof)){
+			$errors['code_prof'] = 'Veuillez entrer un code de professeur';
 		}else{
-			if ($code_p < 1) {
-				$errors['code_p'] = 'code > 0 !!!';
+			if ($code_prof < 1) {
+				$errors['code_prof'] = 'code > 0 !!!';
 				}	
         }
         
-		//id_f
-		if(empty($id_f)){
-			$errors['id_f'] = 'Veuillez entrer un id de filiere';
+		//id_filiere
+		if(empty($id_filiere)){
+			$errors['id_filiere'] = 'Veuillez entrer un id de filiere';
 		}else{
-			if (!preg_match('/^[A-Za-z]{3}$/', $id_f)) {
-				$errors['id_f'] = 'Veuillez entrer un id de module valide';
+			if (!preg_match('/^[A-Za-z]{3}$/', $id_filiere)) {
+				$errors['id_filiere'] = 'Veuillez entrer un id de module valide';
 				}	
 		}	
 
 
 
 	if( !array_filter($errors) ){
-		$sql = "INSERT INTO modules(id_m,nom_m,id_f,code_p) VALUES ('$id_m','$nom','$id_f','$code_p');";
+		$sql = "INSERT INTO modules(id_module,nom_module,id_filiere,code_prof) VALUES ('$id_module','$nom','$id_filiere','$code_prof');";
 		if( mysqli_query($conn,$sql) ){
 			header('Location: index.php');
 		}else{
@@ -83,9 +83,11 @@
 </head>
 <body>
 <header id="mainHeader"> 
-	<div class="headerBG"> 
-		<img src="../images/fsdm_trans.png">
-	</div>	
+<?php 
+
+include("templates/header.php");
+
+?>	
 	<div id="main">
 		<h1>Ajouter un module</h1>
 	</div>
@@ -95,11 +97,11 @@
 	<div class="form">
 		<form class="myForm" id="form" method="POST">
 			
-            <!--id_m-->
-			<label>Entrer le id_m &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp :</label>
-			<input type="text" id="id_m" name="id_m" placeholder="Entrer l' id ici" value = "<?php echo $id_m ?>" required>
+            <!--id_module-->
+			<label>Entrer le id du module:</label>
+			<input type="text" id="id_module" name="id_module" placeholder="Entrer l' id ici" value = "<?php echo $id_module ?>" required>
 			<br>
-			<div class="error" style="color:#E31215;" > <?php echo " <strong> {$errors['id_m']} </strong>" ?> </div>
+			<div class="error" style="color:#E31215;" > <?php echo " <strong> {$errors['id_module']} </strong>" ?> </div>
 			<br>
 
 			<!--nom-->
@@ -112,15 +114,15 @@
 
 			<!--code-->
 			<label>Entrer le code du prof :</label>
-			<input type="number" id="code_p" name="code_p" placeholder="Exemple: 59855" 
-			value = "<?php echo $code_p ?>" required>
+			<input type="number" id="code_prof" name="code_prof" placeholder="Exemple: 59855" 
+			value = "<?php echo $code_prof ?>" required>
 			<br>
-			<div class="error" style="color:#E31215;" > <?php echo " <strong> {$errors['code_p']} </strong>" ?> </div> 
+			<div class="error" style="color:#E31215;" > <?php echo " <strong> {$errors['code_prof']} </strong>" ?> </div> 
 			<br>
 
-            <!--id_f-->
-			<label>Entrer le id_f &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  :</label>
-			<select class="mySelect" id="id_f" name="id_f" >
+            <!--id_filiere-->
+			<label>Choisir une filiere &nbsp &nbsp &nbsp &nbsp  :</label>
+			<select class="mySelect" id="id_filiere" name="id_filiere" >
 				<option>SMI</option>
 				<option>SMA</option>
 				<option>SVI</option>
@@ -128,7 +130,7 @@
 				<option>SMP</option>
 				<option>SMC</option>				
 			</select>			<br>
-			<div class="error" style="color:#E31215;" > <?php echo " <strong> {$errors['id_f']} </strong>" ?> </div>
+			<div class="error" style="color:#E31215;" > <?php echo " <strong> {$errors['id_filiere']} </strong>" ?> </div>
 			<br>
 			<input type="submit" id="submit" name="envoyer" value="Envoyer">	
 			<input type="reset" name="annuler" value="Annuler">	
@@ -136,16 +138,11 @@
 	</div>
 	<hr>
 </section>
+<?php 	
 
-<nav id="mainNavbar">
-	<ul>
-		<li><a href="index.php">Acceuil</a></li>
-		<li><a href="add_student.php">Ajouter un etudiant</a></li>
-		<li><a href="add_professor.php">Ajouter un professeur</a></li>
-		<li><a href="#main">Ajouter un module</a></li>
+require('templates/nav.php');
 
-	</ul>
-</nav>
+ ?>
 <hr>
 
 <?php 	

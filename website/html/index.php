@@ -11,9 +11,11 @@
 </head>
 <body>
 <header id="mainHeader"> 
-	<div class="headerBG"> 
-		<img src="../images/fsdm_trans.png" height="300px" width="700">	
-	</div>
+<?php 
+
+include("templates/header.php");
+
+?>
 	<div id="main">
 		<h1>Gestion des etudiants</h1>
 	</div>
@@ -24,16 +26,9 @@
 	</div>
 	<hr>
 </header>
-<nav id="mainNavbar">
-	<ul>
-		<li><a href="#main">Acceuil</a></li>
-		<li><a href="add_student.php">Ajouter un etudiant</a></li>
-		<li><a href="add_professor.php">Ajouter un professeur</a></li>
-		<li><a href="add_unit.php">Ajouter un module</a></li>		
-		</h1> <li><a href="logout.php">Logout</a></li>	
-		<h1  style="font-size: 1rem; text-align: center; "><?=$_SESSION['user_full_name']?>
-	</ul>
-</nav>
+<?php
+include('templates/nav.php');	
+?>
 <hr>
 
 <?php 	

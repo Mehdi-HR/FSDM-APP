@@ -63,7 +63,7 @@ $email = '';
 
 	if( !array_filter($errors) ){
 		$type = 'P';
-		$sql = "INSERT INTO professeurs(code_p,nom,prenom,cin,email) VALUES ('$code','$nom','$prenom','$cin','$email');";
+		$sql = "INSERT INTO professeurs(code_prof,nom,prenom,cin,email) VALUES ('$code','$nom','$prenom','$cin','$email');";
 		if( mysqli_query($conn,$sql) ){
 			$password = $cin;
 			$hash = hash("sha256",$password,false);
@@ -94,9 +94,11 @@ $email = '';
 </head>
 <body>
 <header id="mainHeader"> 
-	<div class="headerBG"> 
-		<img src="../images/fsdm_trans.png">
-	</div>	
+<?php 
+
+include("templates/header.php");
+
+?>	
 	<div id="main">
 		<h1>Ajouter un professeur</h1>
 	</div>
@@ -152,14 +154,11 @@ $email = '';
 	<hr>
 </section>
 
-<nav id="mainNavbar">
-	<ul>
-		<li><a href="index.php">Acceuil</a></li>
-		<li><a href="add_student.php">Ajouter un etudiant</a></li>
-		<li><a href="#main">Ajouter un professeur</a></li>
-		<li><a href="add_unit.php">Ajouter un module</a></li>
-	</ul>
-</nav>
+<?php 	
+
+require('templates/nav.php');
+
+ ?>
 <hr>
 
 <?php 	
