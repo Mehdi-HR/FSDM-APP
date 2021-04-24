@@ -1,0 +1,5477 @@
+[
+        {
+            "code": "34783",
+            "nom": "BOUHOU",
+            "prenom": "HAYAT",
+            "cin": "CN40640",
+            "email": "hayat.bouhou@usmba.ac.ma",
+            "cne": "N137334830",
+            "filiere": "SVI"
+        },
+        {
+            "code": "23122",
+            "nom": "BOUHRIBA",
+            "prenom": "MARIAM",
+            "cin": "CB301181",
+            "email": "mariam.bouhriba@usmba.ac.ma",
+            "cne": "1412764837",
+            "filiere": "SMP"
+        },
+        {
+            "code": "34788",
+            "nom": "BOUIHALLAL",
+            "prenom": "HAKIMA",
+            "cin": "CN40850",
+            "email": "hakima.bouihallal@usmba.ac.ma",
+            "cne": "N137095717",
+            "filiere": "SVI"
+        },
+        {
+            "code": "23123",
+            "nom": "BOUIZGMA",
+            "prenom": "ABDELLATIF",
+            "cin": "c952540",
+            "email": "abdellatif.bouizgma@usmba.ac.ma",
+            "cne": "1414778218",
+            "filiere": "SMP"
+        },
+        {
+            "code": "34790",
+            "nom": "BOUJARDA",
+            "prenom": "SALMA",
+            "cin": "ZT293302",
+            "email": "salma.boujarda@usmba.ac.ma",
+            "cne": "S136145520",
+            "filiere": "SVI"
+        },
+        {
+            "code": "34792",
+            "nom": "BOUJEDDAINE",
+            "prenom": "HAMZA",
+            "cin": "CN40052",
+            "email": "hamza.boujeddaine@usmba.ac.ma",
+            "cne": "N148043324",
+            "filiere": "SVI"
+        },
+        {
+            "code": "23126",
+            "nom": "BOU-JEDDAINE",
+            "prenom": "ZAKARIA",
+            "cin": "CN20226",
+            "email": "zakaria.bou-jeddaine@usmba.ac.ma",
+            "cne": "1412788775",
+            "filiere": "SMP"
+        },
+        {
+            "code": "28630",
+            "nom": "BOUJENANE",
+            "prenom": "FATIMA",
+            "cin": "CB314130",
+            "email": "fatima.boujenane@usmba.ac.ma",
+            "cne": "N135071495",
+            "filiere": "STU"
+        },
+        {
+            "code": "13704",
+            "nom": "BOUJIDA",
+            "prenom": "MOHAMED",
+            "cin": "ZG102668",
+            "email": "mohamed.boujida@usmba.ac.ma",
+            "cne": "1027825615",
+            "filiere": "SMP"
+        },
+        {
+            "code": "32292",
+            "nom": "BOUJIDAH",
+            "prenom": "SOUFYANE",
+            "cin": "CD685453",
+            "email": "soufyane.boujidah@usmba.ac.ma",
+            "cne": "N131170726",
+            "filiere": "SVI"
+        },
+        {
+            "code": "32293",
+            "nom": "BOUJOUJ",
+            "prenom": "SALMA",
+            "cin": "CD718718",
+            "email": "salma.boujouj@usmba.ac.ma",
+            "cne": "N132338140",
+            "filiere": "SVI"
+        },
+        {
+            "code": "34793",
+            "nom": "BOUJRAF",
+            "prenom": "ILYASSE",
+            "cin": "Cb329168",
+            "email": "ilyasse.boujraf@usmba.ac.ma",
+            "cne": "N136283490",
+            "filiere": "SMP"
+        },
+        {
+            "code": "25110",
+            "nom": "BOUJRAINE",
+            "prenom": "KANZA",
+            "cin": "1412751491",
+            "email": "kanza.boujraine@usmba.ac.ma",
+            "cne": "1412751491",
+            "filiere": "SMI"
+        },
+        {
+            "code": "28631",
+            "nom": "BOUKAA",
+            "prenom": "HIND",
+            "cin": "CD588813",
+            "email": "hind.boukaa@usmba.ac.ma",
+            "cne": "N143040709",
+            "filiere": "SVI"
+        },
+        {
+            "code": "34796",
+            "nom": "BOUKAABA",
+            "prenom": "ILHAME",
+            "cin": "CB330495",
+            "email": "ilhame.boukaaba@usmba.ac.ma",
+            "cne": "N138317794",
+            "filiere": "SMP"
+        },
+        {
+            "code": "34797",
+            "nom": "BOUKAISSI",
+            "prenom": "KARIM",
+            "cin": "CD146382",
+            "email": "karim.boukaissi@usmba.ac.ma",
+            "cne": "N138303446",
+            "filiere": "SMP"
+        },
+        {
+            "code": "32296",
+            "nom": "BOUKALLABA",
+            "prenom": "ABDELHAY",
+            "cin": "ZT285077",
+            "email": "abdelhay.boukallaba@usmba.ac.ma",
+            "cne": "S136263718",
+            "filiere": "SMP"
+        },
+        {
+            "code": "32296",
+            "nom": "BOUKALLABA",
+            "prenom": "ABDELHAY",
+            "cin": "ZT285077",
+            "email": "abdelhay.boukallaba@usmba.ac.ma",
+            "cne": "S136263718",
+            "filiere": "SMP"
+        },
+        {
+            "code": "25989",
+            "nom": "BOUKHARI",
+            "prenom": "RANIA",
+            "cin": "CD264589",
+            "email": "rania.boukhari@usmba.ac.ma",
+            "cne": "N135200879",
+            "filiere": "SVI"
+        },
+        {
+            "code": "25990",
+            "nom": "BOUKHERSA",
+            "prenom": "ABD ERRAHIM",
+            "cin": "CN21218",
+            "email": "abderrahim.boukhersa@usmba.ac.ma",
+            "cne": "1511741995",
+            "filiere": "SVI"
+        },
+        {
+            "code": "34799",
+            "nom": "BOUKHIMA",
+            "prenom": "BOUCHRA",
+            "cin": "CD689726",
+            "email": "bouchra.boukhima@usmba.ac.ma",
+            "cne": "N136167959",
+            "filiere": "SVI"
+        },
+        {
+            "code": "25991",
+            "nom": "BOUKHOLLA",
+            "prenom": "YOUSSEF",
+            "cin": "ZT238108",
+            "email": "youssef.boukholla@usmba.ac.ma",
+            "cne": "1513809940",
+            "filiere": "SMP"
+        },
+        {
+            "code": "30854",
+            "nom": "BOUKHRIS",
+            "prenom": "YASSINE",
+            "cin": "CD674262",
+            "email": "yassine.boukhris@usmba.ac.ma",
+            "cne": "N138208660",
+            "filiere": "SVI"
+        },
+        {
+            "code": "30855",
+            "nom": "BOUKHRIS",
+            "prenom": "AYOUB",
+            "cin": "CD686006",
+            "email": "ayoub.boukhris@usmba.ac.ma",
+            "cne": "N132184199",
+            "filiere": "SVI"
+        },
+        {
+            "code": "34801",
+            "nom": "BOUKHRIT",
+            "prenom": "YASSINE",
+            "cin": "Z652621",
+            "email": "yassine.boukhrit@usmba.ac.ma",
+            "cne": "S138187466",
+            "filiere": "SMA"
+        },
+        {
+            "code": "34802",
+            "nom": "BOUKILI",
+            "prenom": "MOHAMMED",
+            "cin": "CB334851",
+            "email": "mohammed.boukili@usmba.ac.ma",
+            "cne": "N131355867",
+            "filiere": "SMA"
+        },
+        {
+            "code": "32302",
+            "nom": "BOUKILI",
+            "prenom": "ABDERAHIM",
+            "cin": "CD435987",
+            "email": "abderahim.boukili@usmba.ac.ma",
+            "cne": "N144036330",
+            "filiere": "SVI"
+        },
+        {
+            "code": "30119",
+            "nom": "BOUKILI",
+            "prenom": "MOHAMED",
+            "cin": "ZT260292",
+            "email": "mohamed.boukili@usmba.ac.ma",
+            "cne": "S132085661",
+            "filiere": "SMC"
+        },
+        {
+            "code": "32303",
+            "nom": "BOUKILI",
+            "prenom": "MOHAMED",
+            "cin": "ZT271357",
+            "email": "mohamed.boukili@usmba.ac.ma",
+            "cne": "S138085592",
+            "filiere": "SMP"
+        },
+        {
+            "code": "7376",
+            "nom": "BOUKIR",
+            "prenom": "AHMED",
+            "cin": "Zt3461",
+            "email": "ahmed.boukir@usmba.ac.ma",
+            "cne": "2724807668",
+            "filiere": "SMA"
+        },
+        {
+            "code": "28634",
+            "nom": "BOUKJIJ",
+            "prenom": "KHAOULA",
+            "cin": "CD674241",
+            "email": "khaoula.boukjij@usmba.ac.ma",
+            "cne": "N133328667",
+            "filiere": "SMI"
+        },
+        {
+            "code": "30138",
+            "nom": "CHARAI",
+            "prenom": "MOHAMED",
+            "cin": "ZT273219",
+            "email": "mohamed.charai@usmba.ac.ma",
+            "cne": "S149054970",
+            "filiere": "SMP"
+        },
+        {
+            "code": "28692",
+            "nom": "CHARAOUI",
+            "prenom": "AHLAM",
+            "cin": "CB314645",
+            "email": "ahlam.charaoui@usmba.ac.ma",
+            "cne": "1513763433",
+            "filiere": "SVI"
+        },
+        {
+            "code": "30900",
+            "nom": "CHARARA",
+            "prenom": "HIND",
+            "cin": "CD723499",
+            "email": "hind.charara@usmba.ac.ma",
+            "cne": "N138266445",
+            "filiere": "SVI"
+        },
+        {
+            "code": "30139",
+            "nom": "CHARFI",
+            "prenom": "ABDERRAHIM",
+            "cin": "CN36739",
+            "email": "abderrahim.charfi@usmba.ac.ma",
+            "cne": "N134301032",
+            "filiere": "SMP"
+        },
+        {
+            "code": "34904",
+            "nom": "CHARFI",
+            "prenom": "AHLAME",
+            "cin": "ZT294682",
+            "email": "ahlame.charfi@usmba.ac.ma",
+            "cne": "S130297596",
+            "filiere": "SMP"
+        },
+        {
+            "code": "32384",
+            "nom": "CHARKAOUI",
+            "prenom": "ABDELHAY",
+            "cin": "CD299662",
+            "email": "abdelhay.charkaoui@usmba.ac.ma",
+            "cne": "N142032628",
+            "filiere": "SMP"
+        },
+        {
+            "code": "34906",
+            "nom": "CHARKI",
+            "prenom": "KAOUTHAR",
+            "cin": "CD782243",
+            "email": "kaouthar.charki@usmba.ac.ma",
+            "cne": "N139167861",
+            "filiere": "SVI"
+        },
+        {
+            "code": "30140",
+            "nom": "CHARKI",
+            "prenom": "ABDELLAH",
+            "cin": "ZT238526",
+            "email": "abdellah.charki@usmba.ac.ma",
+            "cne": "S147011873",
+            "filiere": "SMI"
+        },
+        {
+            "code": "24289",
+            "nom": "CHARRAT",
+            "prenom": "IMANE",
+            "cin": "ZT185199",
+            "email": "imane.charrat@usmba.ac.ma",
+            "cne": "1411805177",
+            "filiere": "SVI"
+        },
+        {
+            "code": "28694",
+            "nom": "CHARRAT",
+            "prenom": "KAOUTAR",
+            "cin": "ZT249037",
+            "email": "kaoutar.charrat@usmba.ac.ma",
+            "cne": "S130398710",
+            "filiere": "SVI"
+        },
+        {
+            "code": "23162",
+            "nom": "CHATER",
+            "prenom": "MOHAMED",
+            "cin": "CD638385",
+            "email": "mohamed.chater@usmba.ac.ma",
+            "cne": "1412789161",
+            "filiere": "SMP"
+        },
+        {
+            "code": "26092",
+            "nom": "CHATER",
+            "prenom": "SALMA",
+            "cin": "CD652965",
+            "email": "salma.chater@usmba.ac.ma",
+            "cne": "N134124070",
+            "filiere": "SVI"
+        },
+        {
+            "code": "30901",
+            "nom": "CHATER",
+            "prenom": "YOUSSRA",
+            "cin": "CD715411",
+            "email": "youssra.chater@usmba.ac.ma",
+            "cne": "N137338279",
+            "filiere": "SVI"
+        },
+        {
+            "code": "28696",
+            "nom": "CHATER",
+            "prenom": "RHITA",
+            "cin": "CD740074",
+            "email": "rhita.chater@usmba.ac.ma",
+            "cne": "N135343794",
+            "filiere": "SMA"
+        },
+        {
+            "code": "34909",
+            "nom": "CHATER",
+            "prenom": "NAJOUA",
+            "cin": "ZH1821",
+            "email": "najoua.chater@usmba.ac.ma",
+            "cne": "S139291830",
+            "filiere": "SMA"
+        },
+        {
+            "code": "34911",
+            "nom": "CHATOUI",
+            "prenom": "IMANE",
+            "cin": "ZT297465",
+            "email": "imane.chatoui@usmba.ac.ma",
+            "cne": "N137282636",
+            "filiere": "SMA"
+        },
+        {
+            "code": "28699",
+            "nom": "CHDID",
+            "prenom": "FATIMA",
+            "cin": "CD663370",
+            "email": "fatima.chdid@usmba.ac.ma",
+            "cne": "N133252376",
+            "filiere": "SMP"
+        },
+        {
+            "code": "32387",
+            "nom": "CHEDADI",
+            "prenom": "ASMAE",
+            "cin": "CD677537",
+            "email": "asmae.chedadi@usmba.ac.ma",
+            "cne": "N136191164",
+            "filiere": "SMP"
+        },
+        {
+            "code": "32389",
+            "nom": "CHEDDADI",
+            "prenom": "ZAKARYA",
+            "cin": "zt281117",
+            "email": "zakarya.cheddadi@usmba.ac.ma",
+            "cne": "s130261375",
+            "filiere": "SVI"
+        },
+        {
+            "code": "26095",
+            "nom": "CHEHBI",
+            "prenom": "HAMZA",
+            "cin": "CD587111",
+            "email": "hamza.chehbi@usmba.ac.ma",
+            "cne": "N139179226",
+            "filiere": "SVI"
+        },
+        {
+            "code": "30143",
+            "nom": "CHEHOUN",
+            "prenom": "ABDERRAZAK",
+            "cin": "CD740891",
+            "email": "abderrazak.chehoun@usmba.ac.ma",
+            "cne": "N131224458",
+            "filiere": "SMP"
+        },
+        {
+            "code": "24954",
+            "nom": "CHEHOUN",
+            "prenom": "MERYEME",
+            "cin": "CD587683",
+            "email": "meryeme.chehoun@usmba.ac.ma",
+            "cne": "1412811651",
+            "filiere": "SMA"
+        },
+        {
+            "code": "26100",
+            "nom": "CHEKROUNI",
+            "prenom": "MOHAMMED",
+            "cin": "CD528296",
+            "email": "mohammed.chekrouni@usmba.ac.ma",
+            "cne": "N135184712",
+            "filiere": "SMI"
+        },
+        {
+            "code": "32390",
+            "nom": "CHELKHA",
+            "prenom": "ANWAR",
+            "cin": "ZT283932",
+            "email": "anwar.chelkha@usmba.ac.ma",
+            "cne": "S133292416",
+            "filiere": "SVI"
+        },
+        {
+            "code": "32391",
+            "nom": "CHELLAK",
+            "prenom": "MOHAMMED",
+            "cin": "K574548",
+            "email": "mohammed.chellak@usmba.ac.ma",
+            "cne": "S136250523",
+            "filiere": "SVI"
+        },
+        {
+            "code": "34914",
+            "nom": "CHELOUATI",
+            "prenom": "KARIM",
+            "cin": "CB335397",
+            "email": "karim.chelouati@usmba.ac.ma",
+            "cne": "N133323043",
+            "filiere": "SMP"
+        },
+        {
+            "code": "30902",
+            "nom": "CHEMLAL",
+            "prenom": "KARIMA",
+            "cin": "Z627732",
+            "email": "karima.chemlal@usmba.ac.ma",
+            "cne": "S138379682",
+            "filiere": "SVI"
+        },
+        {
+            "code": "23167",
+            "nom": "CHEMSI",
+            "prenom": "SIHAME",
+            "cin": "CD256617",
+            "email": "sihame.chemsi@usmba.ac.ma",
+            "cne": "1412751710",
+            "filiere": "SMP"
+        },
+        {
+            "code": "30144",
+            "nom": "CHENIOUR",
+            "prenom": "HANAN",
+            "cin": "GJ56915",
+            "email": "hanan.cheniour@usmba.ac.ma",
+            "cne": "E145199354",
+            "filiere": "SMP"
+        },
+        {
+            "code": "34916",
+            "nom": "CHENIOUR",
+            "prenom": "RAJAE",
+            "cin": "ZH1684",
+            "email": "rajae.cheniour@usmba.ac.ma",
+            "cne": "S146017741",
+            "filiere": "SMA"
+        },
+        {
+            "code": "36738",
+            "nom": "CHENTIR",
+            "prenom": "OUMAIMA",
+            "cin": "Z604483",
+            "email": "oumaima.chentir@usmba.ac.ma",
+            "cne": "S144007219",
+            "filiere": "SMC"
+        },
+        {
+            "code": "28705",
+            "nom": "CHENTOUF",
+            "prenom": "SAID",
+            "cin": "CD588508",
+            "email": "said.chentouf@usmba.ac.ma",
+            "cne": "N130252467",
+            "filiere": "SVI"
+        },
+        {
+            "code": "32396",
+            "nom": "CHENTOUFI",
+            "prenom": "FATIMA EZZAHRAE",
+            "cin": "CD461347",
+            "email": "fatimaezzahrae.chentoufi@usmba.ac.ma",
+            "cne": "N152037994",
+            "filiere": "SMP"
+        },
+        {
+            "code": "31894",
+            "nom": "DOUMBIA",
+            "prenom": "MARIAM",
+            "cin": "AA0040785",
+            "email": "mariam.doumbia@usmba.ac.ma",
+            "cne": "1780110077",
+            "filiere": "SVI"
+        },
+        {
+            "code": "31707",
+            "nom": "DOUMBIA",
+            "prenom": "SEYDOU",
+            "cin": "AA0111466",
+            "email": "seydou.doumbia@usmba.ac.ma",
+            "cne": "1780110025",
+            "filiere": "SMI"
+        },
+        {
+            "code": "34339",
+            "nom": "DOUMBOUYA",
+            "prenom": "MOUSSA",
+            "cin": "O00400822",
+            "email": "moussa.doumbouya@usmba.ac.ma",
+            "cne": "1880110017",
+            "filiere": "STU"
+        },
+        {
+            "code": "24929",
+            "nom": "DOURGUA",
+            "prenom": "FARAH",
+            "cin": "ZT215971",
+            "email": "farah.dourgua@usmba.ac.ma",
+            "cne": "1412813046",
+            "filiere": "SVI"
+        },
+        {
+            "code": "12075",
+            "nom": "DOURHRI",
+            "prenom": "LAHSEN",
+            "cin": "CB240210",
+            "email": "lahsen.dourhri@usmba.ac.ma",
+            "cne": "1027763724",
+            "filiere": "SMA"
+        },
+        {
+            "code": "31895",
+            "nom": "DRABO",
+            "prenom": "ICHAKA",
+            "cin": "AA0112671",
+            "email": "ichaka.drabo@usmba.ac.ma",
+            "cne": "1780110074",
+            "filiere": "STU"
+        },
+        {
+            "code": "20844",
+            "nom": "DRAFAT",
+            "prenom": "IMANE",
+            "cin": "Cd253217",
+            "email": "imane.drafat@usmba.ac.ma",
+            "cne": "1311748880",
+            "filiere": "SVI"
+        },
+        {
+            "code": "26173",
+            "nom": "DRAISA",
+            "prenom": "SOUKAYNA",
+            "cin": "CD568055",
+            "email": "soukayna.draisa@usmba.ac.ma",
+            "cne": "N139277969",
+            "filiere": "SVI"
+        },
+        {
+            "code": "30928",
+            "nom": "DRAJJOU",
+            "prenom": "CHAIMAE",
+            "cin": "CD287730",
+            "email": "chaimae.drajjou@usmba.ac.ma",
+            "cne": "N138195447",
+            "filiere": "SVI"
+        },
+        {
+            "code": "26174",
+            "nom": "DRAJOU",
+            "prenom": "YOUSSRA",
+            "cin": "CD690715",
+            "email": "youssra.drajou@usmba.ac.ma",
+            "cne": "1513789512",
+            "filiere": "SMC"
+        },
+        {
+            "code": "28755",
+            "nom": "DRAOUI",
+            "prenom": "SOUKAYNA",
+            "cin": "CB318044",
+            "email": "soukayna.draoui@usmba.ac.ma",
+            "cne": "N132284633",
+            "filiere": "SMC"
+        },
+        {
+            "code": "32454",
+            "nom": "DREYA",
+            "prenom": "WAFAA",
+            "cin": "CD718687",
+            "email": "wafaa.dreya@usmba.ac.ma",
+            "cne": "N146060296",
+            "filiere": "SVI"
+        },
+        {
+            "code": "34995",
+            "nom": "DRIDER",
+            "prenom": "OUIAM",
+            "cin": "CD666833",
+            "email": "ouiam.drider@usmba.ac.ma",
+            "cne": "N130224582",
+            "filiere": "SVI"
+        },
+        {
+            "code": "32456",
+            "nom": "DRIMANI",
+            "prenom": "OUSSAMA",
+            "cin": "CB310570",
+            "email": "oussama.drimani@usmba.ac.ma",
+            "cne": "N133284690",
+            "filiere": "SMI"
+        },
+        {
+            "code": "31380",
+            "nom": "DRIOUECH",
+            "prenom": "SALAH ED DINE",
+            "cin": "CD286628",
+            "email": "salaheddine.driouech@usmba.ac.ma",
+            "cne": "N132269345",
+            "filiere": "SVI"
+        },
+        {
+            "code": "26178",
+            "nom": "DRISSI",
+            "prenom": "ILHAM",
+            "cin": "CN25392",
+            "email": "ilham.drissi@usmba.ac.ma",
+            "cne": "N136017536",
+            "filiere": "SVI"
+        },
+        {
+            "code": "26179",
+            "nom": "DRISSI",
+            "prenom": "IMANE",
+            "cin": "CN28268",
+            "email": "imane.drissi@usmba.ac.ma",
+            "cne": "N131035510",
+            "filiere": "SVI"
+        },
+        {
+            "code": "29836",
+            "nom": "DRISSI",
+            "prenom": "HAFSA",
+            "cin": "Z618234",
+            "email": "hafsa.drissi@usmba.ac.ma",
+            "cne": "S135367658",
+            "filiere": "SVI"
+        },
+        {
+            "code": "34367",
+            "nom": "DUMBI",
+            "prenom": "PHOBA EZECHIEL",
+            "cin": "OP0463607",
+            "email": "phobaezechiel.dumbi@usmba.ac.ma",
+            "cne": "1880110102",
+            "filiere": "SMA"
+        },
+        {
+            "code": "26182",
+            "nom": "DYOUBA",
+            "prenom": "ADIL",
+            "cin": "CD295161",
+            "email": "adil.dyouba@usmba.ac.ma",
+            "cne": "N130262210",
+            "filiere": "SMC"
+        },
+        {
+            "code": "20858",
+            "nom": "ECH CHABLY",
+            "prenom": "HANANE",
+            "cin": "CD622731",
+            "email": "hanane.echchably@usmba.ac.ma",
+            "cne": "1311759119",
+            "filiere": "SMA"
+        },
+        {
+            "code": "28759",
+            "nom": "ECH CHAMMAKHY",
+            "prenom": "HOUDA",
+            "cin": "CD588889",
+            "email": "houda.echchammakhy@usmba.ac.ma",
+            "cne": "N132215218",
+            "filiere": "SVI"
+        },
+        {
+            "code": "26187",
+            "nom": "ECH- CHARFY",
+            "prenom": "NAZHA",
+            "cin": "CN27433",
+            "email": "nazha.ech-charfy@usmba.ac.ma",
+            "cne": "1513742620",
+            "filiere": "SMP"
+        },
+        {
+            "code": "26188",
+            "nom": "ECH -CHEIKH",
+            "prenom": "ABDENNASSAR",
+            "cin": "CD638883",
+            "email": "abdennassar.ech-cheikh@usmba.ac.ma",
+            "cne": "N136239102",
+            "filiere": "SMA"
+        },
+        {
+            "code": "26191",
+            "nom": "ECH- CHIGUER",
+            "prenom": "HAFID",
+            "cin": "ZT223769",
+            "email": "hafid.ech-chiguer@usmba.ac.ma",
+            "cne": "1513811520",
+            "filiere": "SMP"
+        },
+        {
+            "code": "20861",
+            "nom": "ECH CHYGUER",
+            "prenom": "RACHIDA",
+            "cin": "Zt206612",
+            "email": "rachida.echchyguer@usmba.ac.ma",
+            "cne": "1311803458",
+            "filiere": "SVI"
+        },
+        {
+            "code": "34999",
+            "nom": "ECHADILI",
+            "prenom": "AMINE",
+            "cin": "CD666175",
+            "email": "amine.echadili@usmba.ac.ma",
+            "cne": "N130351373",
+            "filiere": "SMP"
+        },
+        {
+            "code": "32463",
+            "nom": "ECHALH",
+            "prenom": "OUMAIMA",
+            "cin": "CD296692",
+            "email": "oumaima.echalh@usmba.ac.ma",
+            "cne": "N132264594",
+            "filiere": "SMP"
+        },
+        {
+            "code": "30931",
+            "nom": "ECH-CHAFFANI",
+            "prenom": "ABDESSAMAD",
+            "cin": "CD266011",
+            "email": "abdessamad.ech-chaffani@usmba.ac.ma",
+            "cne": "S133311998",
+            "filiere": "SVI"
+        },
+        {
+            "code": "23196",
+            "nom": "ECH-CHAHED",
+            "prenom": "IMAD",
+            "cin": "CD622826",
+            "email": "imad.ech-chahed@usmba.ac.ma",
+            "cne": "1412789585",
+            "filiere": "SMP"
+        },
+        {
+            "code": "35000",
+            "nom": "ECH-CHAHID",
+            "prenom": "HAFSA",
+            "cin": "CD679996",
+            "email": "hafsa.ech-chahid@usmba.ac.ma",
+            "cne": "N133348461",
+            "filiere": "SVI"
+        },
+        {
+            "code": "26080",
+            "nom": "ECH-CHAKERY",
+            "prenom": "IBTISSAM",
+            "cin": "CD295686",
+            "email": "ibtissam.ech-chakery@usmba.ac.ma",
+            "cne": "n130385277",
+            "filiere": "SVI"
+        },
+        {
+            "code": "35001",
+            "nom": "ECH-CHAQROUNY",
+            "prenom": "WALID",
+            "cin": "Zh3572",
+            "email": "walid.ech-chaqrouny@usmba.ac.ma",
+            "cne": "S143025199",
+            "filiere": "SMP"
+        },
+        {
+            "code": "28820",
+            "nom": "EL BAKKALI",
+            "prenom": "ABDELLATIF",
+            "cin": "ZT242006",
+            "email": "abdellatif.elbakkali@usmba.ac.ma",
+            "cne": "S131096064",
+            "filiere": "SMP"
+        },
+        {
+            "code": "35109",
+            "nom": "EL BAKKIOUI",
+            "prenom": "NOUHAILA",
+            "cin": "ZT298305",
+            "email": "nouhaila.elbakkioui@usmba.ac.ma",
+            "cne": "S134412195",
+            "filiere": "SMA"
+        },
+        {
+            "code": "35110",
+            "nom": "EL BAKRI",
+            "prenom": "AMAL",
+            "cin": "CD29416",
+            "email": "amal.elbakri@usmba.ac.ma",
+            "cne": "N143015947",
+            "filiere": "SMP"
+        },
+        {
+            "code": "32563",
+            "nom": "EL BANANE",
+            "prenom": "WIAME",
+            "cin": "CD698302",
+            "email": "wiame.elbanane@usmba.ac.ma",
+            "cne": "E139161637",
+            "filiere": "SVI"
+        },
+        {
+            "code": "30631",
+            "nom": "EL BANNA",
+            "prenom": "FATIMA",
+            "cin": "ZT269546",
+            "email": "fatima.elbanna@usmba.ac.ma",
+            "cne": "S133330770",
+            "filiere": "SMC"
+        },
+        {
+            "code": "26311",
+            "nom": "EL BANNE",
+            "prenom": "HANAE",
+            "cin": "Zt243145",
+            "email": "hanae.elbanne@usmba.ac.ma",
+            "cne": "S146014578",
+            "filiere": "SMA"
+        },
+        {
+            "code": "14562",
+            "nom": "EL BARADÄY",
+            "prenom": "IBRAHIM",
+            "cin": "CD560073",
+            "email": "ibrahim.elbaradäy@usmba.ac.ma",
+            "cne": "1129752960",
+            "filiere": "SMP"
+        },
+        {
+            "code": "34151",
+            "nom": "EL BARAKA",
+            "prenom": "YOUNES",
+            "cin": "ZT271915",
+            "email": "younes.elbaraka@usmba.ac.ma",
+            "cne": "S148045234",
+            "filiere": "SMP"
+        },
+        {
+            "code": "30634",
+            "nom": "EL BARAKA",
+            "prenom": "MOHAMMED",
+            "cin": "CD434840",
+            "email": "mohammed.elbaraka@usmba.ac.ma",
+            "cne": "N132264968",
+            "filiere": "SMC"
+        },
+        {
+            "code": "35115",
+            "nom": "EL BARBARI",
+            "prenom": "HAFSA",
+            "cin": "CD790996",
+            "email": "hafsa.elbarbari@usmba.ac.ma",
+            "cne": "N130343513",
+            "filiere": "SVI"
+        },
+        {
+            "code": "24271",
+            "nom": "EL BASSRI",
+            "prenom": "LATIFA",
+            "cin": "184848",
+            "email": "latifa.elbassri@usmba.ac.ma",
+            "cne": "1411804589",
+            "filiere": "SVI"
+        },
+        {
+            "code": "35118",
+            "nom": "EL BASSRI",
+            "prenom": "ZAYD",
+            "cin": "ZH2261",
+            "email": "zayd.elbassri@usmba.ac.ma",
+            "cne": "S148040772",
+            "filiere": "SMA"
+        },
+        {
+            "code": "28825",
+            "nom": "EL BATEOUI",
+            "prenom": "AYYOUB",
+            "cin": "ZT244362",
+            "email": "ayyoub.elbateoui@usmba.ac.ma",
+            "cne": "S137344180",
+            "filiere": "SMA"
+        },
+        {
+            "code": "36811",
+            "nom": "EL BATTIOUI",
+            "prenom": "NASSIRA",
+            "cin": "Rc37747",
+            "email": "nassira.elbattioui@usmba.ac.ma",
+            "cne": "P142019938",
+            "filiere": "SMP"
+        },
+        {
+            "code": "31582",
+            "nom": "EL BAZ",
+            "prenom": "ASMAE",
+            "cin": "CD702125",
+            "email": "asmae.elbaz@usmba.ac.ma",
+            "cne": "N130225702",
+            "filiere": "SMA"
+        },
+        {
+            "code": "35120",
+            "nom": "EL BAZ",
+            "prenom": "SALIMA",
+            "cin": "Zt294386",
+            "email": "salima.elbaz@usmba.ac.ma",
+            "cne": "S142031877",
+            "filiere": "SVI"
+        },
+        {
+            "code": "35122",
+            "nom": "EL BEKKOURI",
+            "prenom": "NADYA",
+            "cin": "CB337088",
+            "email": "nadya.elbekkouri@usmba.ac.ma",
+            "cne": "N130386642",
+            "filiere": "SVI"
+        },
+        {
+            "code": "19833",
+            "nom": "EL BELGHITI",
+            "prenom": "KHALID",
+            "cin": "Zt95480",
+            "email": "khalid.elbelghiti@usmba.ac.ma",
+            "cne": "112782727275",
+            "filiere": "SMA"
+        },
+        {
+            "code": "19833",
+            "nom": "EL BELGHITI",
+            "prenom": "KHALID",
+            "cin": "ZT954880",
+            "email": "khalid.elbelghiti@usmba.ac.ma",
+            "cne": "1127827275",
+            "filiere": "SMA"
+        },
+        {
+            "code": "19955",
+            "nom": "EL BEN",
+            "prenom": "YOUNESS",
+            "cin": "Z541783",
+            "email": "youness.elben@usmba.ac.ma",
+            "cne": "1210780021",
+            "filiere": "SMP"
+        },
+        {
+            "code": "26323",
+            "nom": "EL BENAISSI EL HOUSSAINI",
+            "prenom": "KARIM",
+            "cin": "CD720146",
+            "email": "karim.elbenaissielhoussaini@usmba.ac.ma",
+            "cne": "1513747105",
+            "filiere": "SMA"
+        },
+        {
+            "code": "32568",
+            "nom": "EL BERCH",
+            "prenom": "SOUKAYNA",
+            "cin": "CD716590",
+            "email": "soukayna.elberch@usmba.ac.ma",
+            "cne": "N136328457",
+            "filiere": "SMP"
+        },
+        {
+            "code": "35123",
+            "nom": "EL BETIOUI",
+            "prenom": "OUIAM",
+            "cin": "CD679864",
+            "email": "ouiam.elbetioui@usmba.ac.ma",
+            "cne": "N134156973",
+            "filiere": "SMP"
+        },
+        {
+            "code": "32569",
+            "nom": "EL BOUABDELLAOUI",
+            "prenom": "SAIDA",
+            "cin": "CD745041",
+            "email": "saida.elbouabdellaoui@usmba.ac.ma",
+            "cne": "N134244342",
+            "filiere": "SMP"
+        },
+        {
+            "code": "27959",
+            "nom": "EL BOUACHRI",
+            "prenom": "SOUAD",
+            "cin": "Zt234123",
+            "email": "souad.elbouachri@usmba.ac.ma",
+            "cne": "S121399596",
+            "filiere": "SVI"
+        },
+        {
+            "code": "35127",
+            "nom": "EL BOUAZAOUI",
+            "prenom": "ABDELHAFID",
+            "cin": "ZT291214",
+            "email": "abdelhafid.elbouazaoui@usmba.ac.ma",
+            "cne": "S134121417",
+            "filiere": "SMA"
+        },
+        {
+            "code": "26673",
+            "nom": "EL BOUAZATI",
+            "prenom": "LAILA",
+            "cin": "CD559050",
+            "email": "laila.elbouazati@usmba.ac.ma",
+            "cne": "1512758777",
+            "filiere": "SVI"
+        },
+        {
+            "code": "28832",
+            "nom": "EL BOUAZZAOUY",
+            "prenom": "RAJAE",
+            "cin": "CD751555",
+            "email": "rajae.elbouazzaouy@usmba.ac.ma",
+            "cne": "N132198040",
+            "filiere": "SMC"
+        },
+        {
+            "code": "32571",
+            "nom": "EL BOUCHEBTI",
+            "prenom": "NAJOWA",
+            "cin": "CD745958",
+            "email": "najowa.elbouchebti@usmba.ac.ma",
+            "cne": "N131256774",
+            "filiere": "SVI"
+        },
+        {
+            "code": "26335",
+            "nom": "EL BOUCHRIFI",
+            "prenom": "EZZAHRA",
+            "cin": "CN27028",
+            "email": "ezzahra.elbouchrifi@usmba.ac.ma",
+            "cne": "N130308983",
+            "filiere": "SVI"
+        },
+        {
+            "code": "30635",
+            "nom": "EL BOUDI",
+            "prenom": "OUMAIMA",
+            "cin": "CD742674",
+            "email": "oumaima.elboudi@usmba.ac.ma",
+            "cne": "N134346935",
+            "filiere": "SMC"
+        },
+        {
+            "code": "30189",
+            "nom": "EL BOUDI",
+            "prenom": "MOHAMMED",
+            "cin": "RC30484",
+            "email": "mohammed.elboudi@usmba.ac.ma",
+            "cne": "S136409274",
+            "filiere": "SMP"
+        },
+        {
+            "code": "23250",
+            "nom": "EL BOUDI",
+            "prenom": "YASSINE",
+            "cin": "ZT205973",
+            "email": "yassine.elboudi@usmba.ac.ma",
+            "cne": "1412814068",
+            "filiere": "SMP"
+        },
+        {
+            "code": "32669",
+            "nom": "EL HASSOUNI",
+            "prenom": "IKRAM",
+            "cin": "CD703017",
+            "email": "ikram.elhassouni@usmba.ac.ma",
+            "cne": "N134147326",
+            "filiere": "SMA"
+        },
+        {
+            "code": "36748",
+            "nom": "EL HATHATE",
+            "prenom": "OMAYMA",
+            "cin": "ZT284974",
+            "email": "omayma.elhathate@usmba.ac.ma",
+            "cne": "S131210013",
+            "filiere": "SVI"
+        },
+        {
+            "code": "30218",
+            "nom": "EL HAYAL",
+            "prenom": "SOUMIA",
+            "cin": "CD298515",
+            "email": "soumia.elhayal@usmba.ac.ma",
+            "cne": "N137264555",
+            "filiere": "SMP"
+        },
+        {
+            "code": "30641",
+            "nom": "EL HAYANI",
+            "prenom": "HAJAR",
+            "cin": "CD716894",
+            "email": "hajar.elhayani@usmba.ac.ma",
+            "cne": "N133172378",
+            "filiere": "SMC"
+        },
+        {
+            "code": "28903",
+            "nom": "EL HAYANI",
+            "prenom": "IMANE",
+            "cin": "CD298028",
+            "email": "imane.elhayani@usmba.ac.ma",
+            "cne": "N132264623",
+            "filiere": "SVI"
+        },
+        {
+            "code": "32670",
+            "nom": "EL HAYANI",
+            "prenom": "ADIL",
+            "cin": "CD689137",
+            "email": "adil.elhayani@usmba.ac.ma",
+            "cne": "N132175808",
+            "filiere": "SMP"
+        },
+        {
+            "code": "35215",
+            "nom": "EL HAYANI EL MOURABI",
+            "prenom": "BOUTHAYNA",
+            "cin": "CB328686",
+            "email": "bouthayna.elhayanielmourabi@usmba.ac.ma",
+            "cne": "N130266030",
+            "filiere": "SVI"
+        },
+        {
+            "code": "32671",
+            "nom": "EL HAYOUNE",
+            "prenom": "ZINEB",
+            "cin": "CD664319",
+            "email": "zineb.elhayoune@usmba.ac.ma",
+            "cne": "N133173321",
+            "filiere": "SVI"
+        },
+        {
+            "code": "31001",
+            "nom": "EL HAYYOUNI",
+            "prenom": "NASIRA",
+            "cin": "CD674780",
+            "email": "nasira.elhayyouni@usmba.ac.ma",
+            "cne": "N135246503",
+            "filiere": "SVI"
+        },
+        {
+            "code": "26446",
+            "nom": "EL HBAYLI",
+            "prenom": "MOUNTASSIR",
+            "cin": "ZT222125",
+            "email": "mountassir.elhbayli@usmba.ac.ma",
+            "cne": "S136271672",
+            "filiere": "SVI"
+        },
+        {
+            "code": "12439",
+            "nom": "EL HEND",
+            "prenom": "JIHANE",
+            "cin": "CD225696",
+            "email": "jihane.elhend@usmba.ac.ma",
+            "cne": "1027758499",
+            "filiere": "SMP"
+        },
+        {
+            "code": "35218",
+            "nom": "EL HERCH",
+            "prenom": "MARWANE",
+            "cin": "CN39906",
+            "email": "marwane.elherch@usmba.ac.ma",
+            "cne": "H131392831",
+            "filiere": "SMP"
+        },
+        {
+            "code": "12675",
+            "nom": "EL HIHI",
+            "prenom": "YOUSSEF",
+            "cin": "CD510411",
+            "email": "youssef.elhihi@usmba.ac.ma",
+            "cne": "1028758770",
+            "filiere": "SMP"
+        },
+        {
+            "code": "30220",
+            "nom": "EL HILAL",
+            "prenom": "MOHAMMED",
+            "cin": "CD288411",
+            "email": "mohammed.elhilal@usmba.ac.ma",
+            "cne": "N143029027",
+            "filiere": "SMP"
+        },
+        {
+            "code": "35219",
+            "nom": "EL HILAL",
+            "prenom": "ABDENOUR",
+            "cin": "ZT290714",
+            "email": "abdenour.elhilal@usmba.ac.ma",
+            "cne": "N120041953",
+            "filiere": "SMP"
+        },
+        {
+            "code": "26448",
+            "nom": "EL HILALI",
+            "prenom": "SAID",
+            "cin": "CD264608",
+            "email": "said.elhilali@usmba.ac.ma",
+            "cne": "N130201719",
+            "filiere": "SMC"
+        },
+        {
+            "code": "31002",
+            "nom": "EL HILALI",
+            "prenom": "SOUHAYLA",
+            "cin": "CD298070",
+            "email": "souhayla.elhilali@usmba.ac.ma",
+            "cne": "N132255538",
+            "filiere": "SVI"
+        },
+        {
+            "code": "12369",
+            "nom": "EL HILALI",
+            "prenom": "OULAYA",
+            "cin": "CD400802",
+            "email": "oulaya.elhilali@usmba.ac.ma",
+            "cne": "1026741909",
+            "filiere": "SMC"
+        },
+        {
+            "code": "32673",
+            "nom": "EL HILALI",
+            "prenom": "FATIMA ZOHRA",
+            "cin": "CD703010",
+            "email": "fatimazohra.elhilali@usmba.ac.ma",
+            "cne": "N139293324",
+            "filiere": "SMP"
+        },
+        {
+            "code": "28905",
+            "nom": "EL HIRI",
+            "prenom": "KAOUTAR",
+            "cin": "CD652477",
+            "email": "kaoutar.elhiri@usmba.ac.ma",
+            "cne": "N137378225",
+            "filiere": "SVI"
+        },
+        {
+            "code": "30221",
+            "nom": "EL HIRI",
+            "prenom": "AMINE",
+            "cin": "ZT236876",
+            "email": "amine.elhiri@usmba.ac.ma",
+            "cne": "S130339985",
+            "filiere": "SMP"
+        },
+        {
+            "code": "32675",
+            "nom": "EL HIYANI",
+            "prenom": "NOUREDDINE",
+            "cin": "CD437079",
+            "email": "noureddine.elhiyani@usmba.ac.ma",
+            "cne": "N133280386",
+            "filiere": "SMA"
+        },
+        {
+            "code": "30642",
+            "nom": "EL HLAISSI",
+            "prenom": "HAJAR",
+            "cin": "CD656669",
+            "email": "hajar.elhlaissi@usmba.ac.ma",
+            "cne": "N134216000",
+            "filiere": "SMC"
+        },
+        {
+            "code": "35226",
+            "nom": "EL HMAIDI",
+            "prenom": "LOUBNA",
+            "cin": "ZT290375",
+            "email": "loubna.elhmaidi@usmba.ac.ma",
+            "cne": "S133332529",
+            "filiere": "SVI"
+        },
+        {
+            "code": "23294",
+            "nom": "EL HMAMOUCHI",
+            "prenom": "ISSAM",
+            "cin": "ZT204783",
+            "email": "issam.elhmamouchi@usmba.ac.ma",
+            "cne": "1412815894",
+            "filiere": "SMP"
+        },
+        {
+            "code": "28907",
+            "nom": "EL HMAMOUCHI",
+            "prenom": "NADIR",
+            "cin": "ZT254423",
+            "email": "nadir.elhmamouchi@usmba.ac.ma",
+            "cne": "S137262108",
+            "filiere": "SMP"
+        },
+        {
+            "code": "16849",
+            "nom": "EL HOLOUI",
+            "prenom": "SALAH-EDDINE",
+            "cin": "CD204882",
+            "email": "salah-eddine.elholoui@usmba.ac.ma",
+            "cne": "2927756530",
+            "filiere": "SMA"
+        },
+        {
+            "code": "35228",
+            "nom": "EL HOUARI",
+            "prenom": "IMANE",
+            "cin": "CD704822",
+            "email": "imane.elhouari@usmba.ac.ma",
+            "cne": "N142011978",
+            "filiere": "SMA"
+        },
+        {
+            "code": "31006",
+            "nom": "EL HOUARY",
+            "prenom": "FADOUA",
+            "cin": "Cd675575",
+            "email": "fadoua.elhouary@usmba.ac.ma",
+            "cne": "N135230561",
+            "filiere": "SVI"
+        },
+        {
+            "code": "31005",
+            "nom": "EL HOUARY",
+            "prenom": "RAJAE",
+            "cin": "CD695558",
+            "email": "rajae.elhouary@usmba.ac.ma",
+            "cne": "N134356525",
+            "filiere": "SVI"
+        },
+        {
+            "code": "28911",
+            "nom": "EL HOURCH",
+            "prenom": "SAFAE",
+            "cin": "CD711746",
+            "email": "safae.elhourch@usmba.ac.ma",
+            "cne": "N139316618",
+            "filiere": "SMC"
+        },
+        {
+            "code": "28912",
+            "nom": "EL- HOURDE",
+            "prenom": "FAIZA",
+            "cin": "CD296212",
+            "email": "faiza.el-hourde@usmba.ac.ma",
+            "cne": "N130238087",
+            "filiere": "SMP"
+        },
+        {
+            "code": "18737",
+            "nom": "EL MESELLEK",
+            "prenom": "ZOUHRIA",
+            "cin": "CD543851",
+            "email": "zouhria.elmesellek@usmba.ac.ma",
+            "cne": "1210744363",
+            "filiere": "SMP"
+        },
+        {
+            "code": "32757",
+            "nom": "EL MESOUDY",
+            "prenom": "IKRAM",
+            "cin": "CD437253",
+            "email": "ikram.elmesoudy@usmba.ac.ma",
+            "cne": "N146005911",
+            "filiere": "SVI"
+        },
+        {
+            "code": "17727",
+            "nom": "EL MESOUDY",
+            "prenom": "MOHAMMED",
+            "cin": "CD562416",
+            "email": "mohammed.elmesoudy@usmba.ac.ma",
+            "cne": "1228743808",
+            "filiere": "SMP"
+        },
+        {
+            "code": "32758",
+            "nom": "EL MESSAOUDI",
+            "prenom": "ANASS",
+            "cin": "CD742980",
+            "email": "anass.elmessaoudi@usmba.ac.ma",
+            "cne": "N137346856",
+            "filiere": "SMP"
+        },
+        {
+            "code": "35310",
+            "nom": "EL MESSARI",
+            "prenom": "IKRAM",
+            "cin": "ZT290700",
+            "email": "ikram.elmessari@usmba.ac.ma",
+            "cne": "S131355600",
+            "filiere": "SMP"
+        },
+        {
+            "code": "36753",
+            "nom": "EL MESTOUR",
+            "prenom": "HAMZA",
+            "cin": "CD289429",
+            "email": "hamza.elmestour@usmba.ac.ma",
+            "cne": "N131171004",
+            "filiere": "SVI"
+        },
+        {
+            "code": "35311",
+            "nom": "EL MESTOUR",
+            "prenom": "MOURAD",
+            "cin": "CD355670",
+            "email": "mourad.elmestour@usmba.ac.ma",
+            "cne": "N137170311",
+            "filiere": "SVI"
+        },
+        {
+            "code": "35312",
+            "nom": "EL MEZIOUI",
+            "prenom": "MALIKA",
+            "cin": "ZT299328",
+            "email": "malika.elmezioui@usmba.ac.ma",
+            "cne": "S131241015",
+            "filiere": "SMA"
+        },
+        {
+            "code": "35313",
+            "nom": "EL MGATAA",
+            "prenom": "SAFAE",
+            "cin": "CD752382",
+            "email": "safae.elmgataa@usmba.ac.ma",
+            "cne": "N133231249",
+            "filiere": "SVI"
+        },
+        {
+            "code": "32759",
+            "nom": "EL MGHARI",
+            "prenom": "FARAH",
+            "cin": "CD436193",
+            "email": "farah.elmghari@usmba.ac.ma",
+            "cne": "N135168814",
+            "filiere": "SMP"
+        },
+        {
+            "code": "30340",
+            "nom": "EL MHAOUFAR",
+            "prenom": "FATIMA EZZAHRAE",
+            "cin": "CD434720",
+            "email": "fatimaezzahrae.elmhaoufar@usmba.ac.ma",
+            "cne": "N136162720",
+            "filiere": "SMP"
+        },
+        {
+            "code": "35316",
+            "nom": "EL MIDAOUI",
+            "prenom": "AMAL",
+            "cin": "CD727434",
+            "email": "amal.elmidaoui@usmba.ac.ma",
+            "cne": "N135304982",
+            "filiere": "SVI"
+        },
+        {
+            "code": "24963",
+            "nom": "EL MIMOUNI",
+            "prenom": "YOUSSRA",
+            "cin": "CD282960",
+            "email": "youssra.elmimouni@usmba.ac.ma",
+            "cne": "1412785163",
+            "filiere": "SMA"
+        },
+        {
+            "code": "26567",
+            "nom": "EL MKILECH",
+            "prenom": "LAYLA",
+            "cin": "CD590996",
+            "email": "layla.elmkilech@usmba.ac.ma",
+            "cne": "N134240828",
+            "filiere": "SVI"
+        },
+        {
+            "code": "35319",
+            "nom": "EL MODEN",
+            "prenom": "AYYOUB",
+            "cin": "CD910301",
+            "email": "ayyoub.elmoden@usmba.ac.ma",
+            "cne": "N135326849",
+            "filiere": "SMP"
+        },
+        {
+            "code": "21225",
+            "nom": "EL MOGHARY",
+            "prenom": "SAID",
+            "cin": "CD523164",
+            "email": "said.elmoghary@usmba.ac.ma",
+            "cne": "1311756075",
+            "filiere": "SMC"
+        },
+        {
+            "code": "26570",
+            "nom": "EL MOHRY",
+            "prenom": "MOHAMED",
+            "cin": "ZT196631",
+            "email": "mohamed.elmohry@usmba.ac.ma",
+            "cne": "1512813391",
+            "filiere": "SMP"
+        },
+        {
+            "code": "28999",
+            "nom": "EL MONTASSER",
+            "prenom": "YOUSSEF",
+            "cin": "CD655942",
+            "email": "youssef.elmontasser@usmba.ac.ma",
+            "cne": "N132326988",
+            "filiere": "SMC"
+        },
+        {
+            "code": "35322",
+            "nom": "EL MORABET",
+            "prenom": "NADIA",
+            "cin": "CD697860",
+            "email": "nadia.elmorabet@usmba.ac.ma",
+            "cne": "N137154912",
+            "filiere": "SMA"
+        },
+        {
+            "code": "26572",
+            "nom": "EL MORDI",
+            "prenom": "YASSINE",
+            "cin": "CD264574",
+            "email": "yassine.elmordi@usmba.ac.ma",
+            "cne": "N139179233",
+            "filiere": "SVI"
+        },
+        {
+            "code": "35324",
+            "nom": "EL MOTAOUAKKEL",
+            "prenom": "HIND",
+            "cin": "CD344380",
+            "email": "hind.elmotaouakkel@usmba.ac.ma",
+            "cne": "N148025039",
+            "filiere": "SVI"
+        },
+        {
+            "code": "26574",
+            "nom": "EL MOUAFFAK",
+            "prenom": "HANANE",
+            "cin": "CN24653",
+            "email": "hanane.elmouaffak@usmba.ac.ma",
+            "cne": "N136068770",
+            "filiere": "SMC"
+        },
+        {
+            "code": "35325",
+            "nom": "EL MOUAFFAQ",
+            "prenom": "ABDELLAH",
+            "cin": "CD439399",
+            "email": "abdellah.elmouaffaq@usmba.ac.ma",
+            "cne": "N140039133",
+            "filiere": "SMP"
+        },
+        {
+            "code": "22616",
+            "nom": "EL MOUDEN",
+            "prenom": "ZAKARIA",
+            "cin": "CD527349",
+            "email": "zakaria.elmouden@usmba.ac.ma",
+            "cne": "1310749147",
+            "filiere": "SVI"
+        },
+        {
+            "code": "26576",
+            "nom": "EL MOUDNI",
+            "prenom": "ITAB",
+            "cin": "CD282598",
+            "email": "itab.elmoudni@usmba.ac.ma",
+            "cne": "N135368595",
+            "filiere": "SVI"
+        },
+        {
+            "code": "29002",
+            "nom": "EL MOUDNI",
+            "prenom": "SIHAM",
+            "cin": "CD654381",
+            "email": "siham.elmoudni@usmba.ac.ma",
+            "cne": "N132123546",
+            "filiere": "SMC"
+        },
+        {
+            "code": "30246",
+            "nom": "EL MOUEDDANE",
+            "prenom": "SOUKAINA",
+            "cin": "ZT264768",
+            "email": "soukaina.elmoueddane@usmba.ac.ma",
+            "cne": "S149045287",
+            "filiere": "SMP"
+        },
+        {
+            "code": "30247",
+            "nom": "EL MOUFAOUED",
+            "prenom": "YASSINE",
+            "cin": "CD663594",
+            "email": "yassine.elmoufaoued@usmba.ac.ma",
+            "cne": "N138174100",
+            "filiere": "SMP"
+        },
+        {
+            "code": "31042",
+            "nom": "EL MOUFAREJ",
+            "prenom": "BADIA",
+            "cin": "Zt270695",
+            "email": "badia.elmoufarej@usmba.ac.ma",
+            "cne": "S137174250",
+            "filiere": "SVI"
+        },
+        {
+            "code": "24684",
+            "nom": "EL MOUGHIR",
+            "prenom": "HANAE",
+            "cin": "Zt187034",
+            "email": "hanae.elmoughir@usmba.ac.ma",
+            "cne": "1411806157",
+            "filiere": "SVI"
+        },
+        {
+            "code": "35328",
+            "nom": "EL MOUHADANA",
+            "prenom": "IMANE",
+            "cin": "CD751992",
+            "email": "imane.elmouhadana@usmba.ac.ma",
+            "cne": "N132305064",
+            "filiere": "SVI"
+        },
+        {
+            "code": "26578",
+            "nom": "EL MOUHAJIR",
+            "prenom": "CHAIMAE",
+            "cin": "CD547906",
+            "email": "chaimae.elmouhajir@usmba.ac.ma",
+            "cne": "1513744303",
+            "filiere": "SVI"
+        },
+        {
+            "code": "30248",
+            "nom": "EL MOUJAHID",
+            "prenom": "OTHMANE",
+            "cin": "CD472591",
+            "email": "othmane.elmoujahid@usmba.ac.ma",
+            "cne": "N132196473",
+            "filiere": "SMP"
+        },
+        {
+            "code": "32881",
+            "nom": "EL-HAIMER",
+            "prenom": "HANANE",
+            "cin": "ZT284162",
+            "email": "hanane.el-haimer@usmba.ac.ma",
+            "cne": "S130304694",
+            "filiere": "SVI"
+        },
+        {
+            "code": "29075",
+            "nom": "ELHAJI",
+            "prenom": "YOUNES",
+            "cin": "CD673912",
+            "email": "younes.elhaji@usmba.ac.ma",
+            "cne": "N137259699",
+            "filiere": "SMA"
+        },
+        {
+            "code": "31233",
+            "nom": "EL-HAJJAMI",
+            "prenom": "KHADIJA",
+            "cin": "CD716395",
+            "email": "khadija.el-hajjami@usmba.ac.ma",
+            "cne": "N137216088",
+            "filiere": "SVI"
+        },
+        {
+            "code": "32879",
+            "nom": "ELHAJOUI",
+            "prenom": "NAJLAE",
+            "cin": "CD388321",
+            "email": "najlae.elhajoui@usmba.ac.ma",
+            "cne": "N135149153",
+            "filiere": "SMP"
+        },
+        {
+            "code": "35464",
+            "nom": "ELHAKIM",
+            "prenom": "CHAYMAE",
+            "cin": "CD439707",
+            "email": "chaymae.elhakim@usmba.ac.ma",
+            "cne": "N133249580",
+            "filiere": "SVI"
+        },
+        {
+            "code": "29077",
+            "nom": "EL-HAKKOUNY",
+            "prenom": "OUSSAMA",
+            "cin": "CD672204",
+            "email": "oussama.el-hakkouny@usmba.ac.ma",
+            "cne": "N139341039",
+            "filiere": "SVI"
+        },
+        {
+            "code": "29078",
+            "nom": "ELHAMDAOUI",
+            "prenom": "MOSTAFA",
+            "cin": "CN28641",
+            "email": "mostafa.elhamdaoui@usmba.ac.ma",
+            "cne": "N149045412",
+            "filiere": "SMP"
+        },
+        {
+            "code": "32882",
+            "nom": "ELHAMIMI",
+            "prenom": "ABDELMOUGHIT",
+            "cin": "ZT278232",
+            "email": "abdelmoughit.elhamimi@usmba.ac.ma",
+            "cne": "S137210082",
+            "filiere": "SVI"
+        },
+        {
+            "code": "28887",
+            "nom": "ELHAMMDANI",
+            "prenom": "Aimad",
+            "cin": "Z610311",
+            "email": "aimad.elhammdani@usmba.ac.ma",
+            "cne": "S135316719",
+            "filiere": "SMI"
+        },
+        {
+            "code": "26422",
+            "nom": "ELHAMMOUMI",
+            "prenom": "ZINEB",
+            "cin": "CD625851",
+            "email": "zineb.elhammoumi@usmba.ac.ma",
+            "cne": "1513760006",
+            "filiere": "SMA"
+        },
+        {
+            "code": "32885",
+            "nom": "ELHAMRI",
+            "prenom": "LOUBNA",
+            "cin": "CD658714",
+            "email": "loubna.elhamri@usmba.ac.ma",
+            "cne": "N135345768",
+            "filiere": "SVI"
+        },
+        {
+            "code": "30283",
+            "nom": "EL-HAMZAOUI",
+            "prenom": "MOHAMED",
+            "cin": "ZT236212",
+            "email": "mohamed.el-hamzaoui@usmba.ac.ma",
+            "cne": "S141045194",
+            "filiere": "SMC"
+        },
+        {
+            "code": "32886",
+            "nom": "ELHAOUARI",
+            "prenom": "HIND",
+            "cin": "CN40495",
+            "email": "hind.elhaouari@usmba.ac.ma",
+            "cne": "N131065703",
+            "filiere": "SMC"
+        },
+        {
+            "code": "24970",
+            "nom": "EL-HARCHALI",
+            "prenom": "SABIRINE",
+            "cin": "ZT208081",
+            "email": "sabirine.el-harchali@usmba.ac.ma",
+            "cne": "1412806880",
+            "filiere": "SMI"
+        },
+        {
+            "code": "31084",
+            "nom": "EL-HARCHALI",
+            "prenom": "NAJIA",
+            "cin": "ZT268455",
+            "email": "najia.el-harchali@usmba.ac.ma",
+            "cne": "S136377210",
+            "filiere": "SVI"
+        },
+        {
+            "code": "24058",
+            "nom": "ELHARRAMI",
+            "prenom": "RAHMA",
+            "cin": "CD292755",
+            "email": "rahma.elharrami@usmba.ac.ma",
+            "cne": "1412787226",
+            "filiere": "SVI"
+        },
+        {
+            "code": "31517",
+            "nom": "EL-HASNAOUI",
+            "prenom": "AYOUB",
+            "cin": "CB327822",
+            "email": "ayoub.el-hasnaoui@usmba.ac.ma",
+            "cne": "N139309342",
+            "filiere": "SMA"
+        },
+        {
+            "code": "36706",
+            "nom": "EL-HASSOUNI",
+            "prenom": "YOUSSRA",
+            "cin": "ZT246098",
+            "email": "youssra.el-hassouni@usmba.ac.ma",
+            "cne": "S142029563",
+            "filiere": "SMA"
+        },
+        {
+            "code": "31085",
+            "nom": "EL-HASSOUNI",
+            "prenom": "OTMANE",
+            "cin": "ZT271814",
+            "email": "otmane.el-hassouni@usmba.ac.ma",
+            "cne": "S131409014",
+            "filiere": "SVI"
+        },
+        {
+            "code": "26690",
+            "nom": "ELHATTAB",
+            "prenom": "MAHDI",
+            "cin": "CD272631",
+            "email": "mahdi.elhattab@usmba.ac.ma",
+            "cne": "N136315683",
+            "filiere": "SMP"
+        },
+        {
+            "code": "29082",
+            "nom": "ELHAYAME",
+            "prenom": "HAYAT",
+            "cin": "CD588501",
+            "email": "hayat.elhayame@usmba.ac.ma",
+            "cne": "N135252219",
+            "filiere": "SVI"
+        },
+        {
+            "code": "35471",
+            "nom": "EL-HEGGACH",
+            "prenom": "NOUHAYLA",
+            "cin": "cd438440",
+            "email": "nouhayla.el-heggach@usmba.ac.ma",
+            "cne": "N135349497",
+            "filiere": "SVI"
+        },
+        {
+            "code": "29087",
+            "nom": "ELIBRAHIMI",
+            "prenom": "AYOUB",
+            "cin": "ZT258499",
+            "email": "ayoub.elibrahimi@usmba.ac.ma",
+            "cne": "S142011870",
+            "filiere": "SMP"
+        },
+        {
+            "code": "32892",
+            "nom": "ELIDRISSI",
+            "prenom": "ASSIA",
+            "cin": "CD289764",
+            "email": "assia.elidrissi@usmba.ac.ma",
+            "cne": "N133306828",
+            "filiere": "SMP"
+        },
+        {
+            "code": "30366",
+            "nom": "ELIDRISSI",
+            "prenom": "HAYATE",
+            "cin": "CD683367",
+            "email": "hayate.elidrissi@usmba.ac.ma",
+            "cne": "N134201164",
+            "filiere": "SMP"
+        },
+        {
+            "code": "35474",
+            "nom": "ELIDRISSI",
+            "prenom": "MERYEM",
+            "cin": "CD725659",
+            "email": "meryem.elidrissi@usmba.ac.ma",
+            "cne": "N133305024",
+            "filiere": "SMP"
+        },
+        {
+            "code": "32893",
+            "nom": "EL-IDRISSI",
+            "prenom": "RAJAE",
+            "cin": "CD677410",
+            "email": "rajae.el-idrissi@usmba.ac.ma",
+            "cne": "N131301972",
+            "filiere": "SMI"
+        },
+        {
+            "code": "31086",
+            "nom": "ELIDRYSY",
+            "prenom": "FATIMA-ZAHRA",
+            "cin": "CD675833",
+            "email": "fatima-zahra.elidrysy@usmba.ac.ma",
+            "cne": "N147035853",
+            "filiere": "SVI"
+        },
+        {
+            "code": "15587",
+            "nom": "EL-IMRANY",
+            "prenom": "AHMED",
+            "cin": "ZT51396",
+            "email": "ahmed.el-imrany@usmba.ac.ma",
+            "cne": "1128838278",
+            "filiere": "SMC"
+        },
+        {
+            "code": "35475",
+            "nom": "ELIYSAOUY",
+            "prenom": "BADR",
+            "cin": "CN44428",
+            "email": "badr.eliysaouy@usmba.ac.ma",
+            "cne": "N136092776",
+            "filiere": "SVI"
+        },
+        {
+            "code": "35476",
+            "nom": "ELIYSAOUY",
+            "prenom": "MOHAMMED",
+            "cin": "CN45149",
+            "email": "mohammed.eliysaouy@usmba.ac.ma",
+            "cne": "N135094339",
+            "filiere": "SVI"
+        },
+        {
+            "code": "32894",
+            "nom": "ELIYSAOUY",
+            "prenom": "KAWTHAR",
+            "cin": "CN7397",
+            "email": "kawthar.eliysaouy@usmba.ac.ma",
+            "cne": "N131145756",
+            "filiere": "SMP"
+        },
+        {
+            "code": "32895",
+            "nom": "EL-JABALI",
+            "prenom": "IKRAM",
+            "cin": "CD688624",
+            "email": "ikram.el-jabali@usmba.ac.ma",
+            "cne": "N144025393",
+            "filiere": "SVI"
+        },
+        {
+            "code": "32928",
+            "nom": "EL-MOUJAHID",
+            "prenom": "IMANE",
+            "cin": "GM220985",
+            "email": "imane.el-moujahid@usmba.ac.ma",
+            "cne": "P132161096",
+            "filiere": "SMP"
+        },
+        {
+            "code": "29112",
+            "nom": "EL-MOUMNI",
+            "prenom": "YASSINE",
+            "cin": "ZT246462",
+            "email": "yassine.el-moumni@usmba.ac.ma",
+            "cne": "S144029554",
+            "filiere": "SMA"
+        },
+        {
+            "code": "32930",
+            "nom": "EL-MOUMNI",
+            "prenom": "OUSSAMA",
+            "cin": "ZT260645",
+            "email": "oussama.el-moumni@usmba.ac.ma",
+            "cne": "S131305074",
+            "filiere": "SMP"
+        },
+        {
+            "code": "18952",
+            "nom": "EL-MOUMNI",
+            "prenom": "MOUNIM",
+            "cin": "ZT33532",
+            "email": "mounim.el-moumni@usmba.ac.ma",
+            "cne": "1228829359",
+            "filiere": "SMP"
+        },
+        {
+            "code": "26713",
+            "nom": "ELMOURABET",
+            "prenom": "FARAH",
+            "cin": "CD569718",
+            "email": "farah.elmourabet@usmba.ac.ma",
+            "cne": "N132312263",
+            "filiere": "SMC"
+        },
+        {
+            "code": "35521",
+            "nom": "ELMOUSSAOUI",
+            "prenom": "WALID",
+            "cin": "CB338898",
+            "email": "walid.elmoussaoui@usmba.ac.ma",
+            "cne": "N140012360",
+            "filiere": "SMP"
+        },
+        {
+            "code": "26715",
+            "nom": "ELMOUSSAOUI",
+            "prenom": "MOHAMMED",
+            "cin": "CD562415",
+            "email": "mohammed.elmoussaoui@usmba.ac.ma",
+            "cne": "1512747941",
+            "filiere": "SMP"
+        },
+        {
+            "code": "30302",
+            "nom": "ELMOUSSAOUI",
+            "prenom": "KHALID",
+            "cin": "CN36673",
+            "email": "khalid.elmoussaoui@usmba.ac.ma",
+            "cne": "N135146066",
+            "filiere": "SMI"
+        },
+        {
+            "code": "29114",
+            "nom": "EL-MOUSSAOUI",
+            "prenom": "ISMAIL",
+            "cin": "CD549514",
+            "email": "ismail.el-moussaoui@usmba.ac.ma",
+            "cne": "N136326920",
+            "filiere": "SMP"
+        },
+        {
+            "code": "29115",
+            "nom": "ELMOUSSAOUY",
+            "prenom": "REDWANE",
+            "cin": "CD683537",
+            "email": "redwane.elmoussaouy@usmba.ac.ma",
+            "cne": "N136216338",
+            "filiere": "SVI"
+        },
+        {
+            "code": "35522",
+            "nom": "ELMOUTAOUAKIL",
+            "prenom": "OUMAYMA",
+            "cin": "CD726923",
+            "email": "oumayma.elmoutaouakil@usmba.ac.ma",
+            "cne": "N130184571",
+            "filiere": "SVI"
+        },
+        {
+            "code": "18722",
+            "nom": "ELMRABET",
+            "prenom": "ABDELWAFI",
+            "cin": "Zt110217",
+            "email": "abdelwafi.elmrabet@usmba.ac.ma",
+            "cne": "1229810261",
+            "filiere": "SMP"
+        },
+        {
+            "code": "32932",
+            "nom": "ELMRABET",
+            "prenom": "ADIL",
+            "cin": "Zt269356",
+            "email": "adil.elmrabet@usmba.ac.ma",
+            "cne": "S134255789",
+            "filiere": "SMP"
+        },
+        {
+            "code": "32933",
+            "nom": "EL-MRABET",
+            "prenom": "IKRAM",
+            "cin": "CD677378",
+            "email": "ikram.el-mrabet@usmba.ac.ma",
+            "cne": "N134211472",
+            "filiere": "SMP"
+        },
+        {
+            "code": "32935",
+            "nom": "ELMRINI",
+            "prenom": "BOUTAINA",
+            "cin": "CD724702",
+            "email": "boutaina.elmrini@usmba.ac.ma",
+            "cne": "N132163171",
+            "filiere": "SVI"
+        },
+        {
+            "code": "35524",
+            "nom": "EL-MZOUNI",
+            "prenom": "KHADIJA",
+            "cin": "ZT295504",
+            "email": "khadija.el-mzouni@usmba.ac.ma",
+            "cne": "S130338331",
+            "filiere": "SMP"
+        },
+        {
+            "code": "31600",
+            "nom": "EL-OGRI",
+            "prenom": "OTHMANE",
+            "cin": "Zt238568",
+            "email": "othmane.el-ogri@usmba.ac.ma",
+            "cne": "S144006331",
+            "filiere": "SMA"
+        },
+        {
+            "code": "32936",
+            "nom": "EL-OGRI",
+            "prenom": "SOUAD",
+            "cin": "ZT282924",
+            "email": "souad.el-ogri@usmba.ac.ma",
+            "cne": "N132228953",
+            "filiere": "SMP"
+        },
+        {
+            "code": "29117",
+            "nom": "EL-OMMAL",
+            "prenom": "OUIDAD",
+            "cin": "ZT248339",
+            "email": "ouidad.el-ommal@usmba.ac.ma",
+            "cne": "S138349572",
+            "filiere": "SMP"
+        },
+        {
+            "code": "12331",
+            "nom": "ELÖMRI",
+            "prenom": "FATIHA",
+            "cin": "CD187437",
+            "email": "fatiha.elömri@usmba.ac.ma",
+            "cne": "1028762255",
+            "filiere": "SMP"
+        },
+        {
+            "code": "35526",
+            "nom": "ELOUAFY",
+            "prenom": "FATIMA",
+            "cin": "ZT294191",
+            "email": "fatima.elouafy@usmba.ac.ma",
+            "cne": "S149005983",
+            "filiere": "SVI"
+        },
+        {
+            "code": "35527",
+            "nom": "EL-OUANNASY",
+            "prenom": "ABDELMAJID",
+            "cin": "ZT297561",
+            "email": "abdelmajid.el-ouannasy@usmba.ac.ma",
+            "cne": "S140051899",
+            "filiere": "SVI"
+        },
+        {
+            "code": "35528",
+            "nom": "ELOUARDI",
+            "prenom": "MERYEM",
+            "cin": "CD29747",
+            "email": "meryem.elouardi@usmba.ac.ma",
+            "cne": "N135224828",
+            "filiere": "SMP"
+        },
+        {
+            "code": "16107",
+            "nom": "ELOUARDI",
+            "prenom": "NISRINE",
+            "cin": "CD353019",
+            "email": "nisrine.elouardi@usmba.ac.ma",
+            "cne": "1127743636",
+            "filiere": "SVI"
+        },
+        {
+            "code": "23424",
+            "nom": "EL-OUARDI",
+            "prenom": "HAJAR",
+            "cin": "CD624299",
+            "email": "hajar.el-ouardi@usmba.ac.ma",
+            "cne": "1411040658",
+            "filiere": "SMP"
+        },
+        {
+            "code": "31101",
+            "nom": "EL-OUARDI",
+            "prenom": "FADOUA",
+            "cin": "ZT245617",
+            "email": "fadoua.el-ouardi@usmba.ac.ma",
+            "cne": "S141011945",
+            "filiere": "SVI"
+        },
+        {
+            "code": "34155",
+            "nom": "EL-OUARDY",
+            "prenom": "ELALIA",
+            "cin": "CD718245",
+            "email": "elalia.el-ouardy@usmba.ac.ma",
+            "cne": "N131172343",
+            "filiere": "SMP"
+        },
+        {
+            "code": "35529",
+            "nom": "EL-OUARDY",
+            "prenom": "CHADIA",
+            "cin": "ZH1175",
+            "email": "chadia.el-ouardy@usmba.ac.ma",
+            "cne": "S133182533",
+            "filiere": "SVI"
+        },
+        {
+            "code": "35530",
+            "nom": "ELOUARTI",
+            "prenom": "AMINE",
+            "cin": "CD743076",
+            "email": "amine.elouarti@usmba.ac.ma",
+            "cne": "N130367083",
+            "filiere": "SMP"
+        },
+        {
+            "code": "35531",
+            "nom": "EL-OUATIK",
+            "prenom": "SAMIRA",
+            "cin": "CN42332",
+            "email": "samira.el-ouatik@usmba.ac.ma",
+            "cne": "N131110360",
+            "filiere": "SVI"
+        },
+        {
+            "code": "30307",
+            "nom": "EL-OUAZZANI",
+            "prenom": "AMINA",
+            "cin": "ZT259657",
+            "email": "amina.el-ouazzani@usmba.ac.ma",
+            "cne": "S135311962",
+            "filiere": "SMP"
+        },
+        {
+            "code": "30306",
+            "nom": "EL-OUAZZANI",
+            "prenom": "BTISSAM",
+            "cin": "ZT270730",
+            "email": "btissam.el-ouazzani@usmba.ac.ma",
+            "cne": "S142045245",
+            "filiere": "SMP"
+        },
+        {
+            "code": "32944",
+            "nom": "EL-OUAZZANI",
+            "prenom": "ZIAD",
+            "cin": "ZT275402",
+            "email": "ziad.el-ouazzani@usmba.ac.ma",
+            "cne": "S134311762",
+            "filiere": "SMP"
+        },
+        {
+            "code": "23435",
+            "nom": "ENNADIR",
+            "prenom": "MOUNYA",
+            "cin": "CB302129          1412764656",
+            "email": "mounya.ennadir@usmba.ac.ma",
+            "filiere": "SMP"
+        },
+        {
+            "code": "35546",
+            "nom": "ENNAFISSI",
+            "prenom": "EL MEHDI",
+            "cin": "ZT269286           S1341769900",
+            "email": "elmehdi.ennafissi@usmba.ac.ma",
+            "filiere": "SVI"
+        },
+        {
+            "code": "32962",
+            "nom": "ENNAGOURA",
+            "prenom": "DRISSIA",
+            "cin": "CD676986          N138314171",
+            "email": "drissia.ennagoura@usmba.ac.ma",
+            "filiere": "SMI"
+        },
+        {
+            "code": "17109",
+            "nom": "EN-NAHRY",
+            "prenom": "ZINEB",
+            "cin": "CD235776         1229754533",
+            "email": "zineb.en-nahry@usmba.ac.ma",
+            "filiere": "SVI"
+        },
+        {
+            "code": "14795",
+            "nom": "EN-NAIM",
+            "prenom": "MOUAD",
+            "cin": "Zt123039           1129810187",
+            "email": "mouad.en-naim@usmba.ac.ma",
+            "filiere": "SMP"
+        },
+        {
+            "code": "35547",
+            "nom": "EN-NAJARY",
+            "prenom": "MOHAMMED",
+            "cin": "ZT299683           S130264955",
+            "email": "mohammed.en-najary@usmba.ac.ma",
+            "filiere": "SVI"
+        },
+        {
+            "code": "32964",
+            "nom": "ENNAJIMI",
+            "prenom": "IKRAME",
+            "cin": "CB323317           N132261242",
+            "email": "ikrame.ennajimi@usmba.ac.ma",
+            "filiere": "SMA"
+        },
+        {
+            "code": "32965",
+            "nom": "ENNAJJARI",
+            "prenom": "IKRAM",
+            "cin": "CD268228          N133232912",
+            "email": "ikram.ennajjari@usmba.ac.ma",
+            "filiere": "SMP"
+        },
+        {
+            "code": "30311",
+            "nom": "ENNAJJARI",
+            "prenom": "MOHAMED",
+            "cin": "CD299928          N142032719",
+            "email": "mohamed.ennajjari@usmba.ac.ma",
+            "filiere": "SMP"
+        },
+        {
+            "code": "32966",
+            "nom": "EN-NAJJARI",
+            "prenom": "SOUMIYA",
+            "cin": "CD436972          N136181475",
+            "email": "soumiya.en-najjari@usmba.ac.ma",
+            "filiere": "SMP"
+        },
+        {
+            "code": "31105",
+            "nom": "EN-NAJY",
+            "prenom": "LAMYAE",
+            "cin": "CD288011          N134156764",
+            "email": "lamyae.en-najy@usmba.ac.ma",
+            "filiere": "SVI"
+        },
+        {
+            "code": "35549",
+            "nom": "EN-NAJY",
+            "prenom": "BILAL",
+            "cin": "ZT289644           S147014854",
+            "email": "bilal.en-najy@usmba.ac.ma",
+            "filiere": "SMP"
+        },
+        {
+            "code": "32967",
+            "nom": "EN-NAKABI",
+            "prenom": "AICHA",
+            "cin": "ZT278824           S136412473",
+            "email": "aicha.en-nakabi@usmba.ac.ma",
+            "filiere": "SVI"
+        },
+        {
+            "code": "29126",
+            "nom": "ENNAMICH",
+            "prenom": "HAMZA",
+            "cin": "CD741705          N131360664",
+            "email": "hamza.ennamich@usmba.ac.ma",
+            "filiere": "SMA"
+        },
+        {
+            "code": "23439",
+            "nom": "ENNASRY",
+            "prenom": "ACHRAF",
+            "cin": "CD514403         1411757566",
+            "email": "achraf.ennasry@usmba.ac.ma",
+            "filiere": "SMP"
+        },
+        {
+            "code": "32969",
+            "nom": "ENNASRY",
+            "prenom": "HOUDA",
+            "cin": "CD718224          N137306993",
+            "email": "houda.ennasry@usmba.ac.ma",
+            "filiere": "SVI"
+        },
+        {
+            "code": "35550",
+            "nom": "ENNASSIH",
+            "prenom": "FATIMA ZAHRA",
+            "cin": "Cd679516           N120028645",
+            "email": "fatimazahra.ennassih@usmba.ac.ma",
+            "filiere": "SMA"
+        },
+        {
+            "code": "30659",
+            "nom": "ENNEJJARI",
+            "prenom": "YASSINE",
+            "cin": "CD652625          N132212287",
+            "email": "yassine.ennejjari@usmba.ac.ma",
+            "filiere": "SMC"
+        },
+        {
+            "code": "32972",
+            "nom": "EN-NIYA",
+            "prenom": "NAJIB",
+            "cin": "ZT242506           S141014429",
+            "email": "najib.en-niya@usmba.ac.ma",
+            "filiere": "SMP"
+        },
+        {
+            "code": "31106",
+            "nom": "ENNOUGOUME",
+            "prenom": "OUMAIMA",
+            "cin": "RB18592             S139251122",
+            "email": "oumaima.ennougoume@usmba.ac.ma",
+            "filiere": "SVI"
+        },
+        {
+            "code": "32973",
+            "nom": "ENNOUICHI",
+            "prenom": "HAJAR",
+            "cin": "CD664909          N135347699",
+            "email": "hajar.ennouichi@usmba.ac.ma",
+            "filiere": "SVI"
+        },
+        {
+            "code": "35554",
+            "nom": "ENNOURI",
+            "prenom": "SOFIANE",
+            "cin": "cd747340           n138348792",
+            "email": "sofiane.ennouri@usmba.ac.ma",
+            "filiere": "SMP"
+        },
+        {
+            "code": "14805",
+            "nom": "ER  RIYANI",
+            "prenom": "NABIL",
+            "cin": "ZT92995            1127827342",
+            "email": "nabil.erriyani@usmba.ac.ma",
+            "filiere": "SMP"
+        },
+        {
+            "code": "31107",
+            "nom": "ER ERMYLY",
+            "prenom": "MOUHSIN",
+            "cin": "CD693634          S132255933",
+            "email": "mouhsin.erermyly@usmba.ac.ma",
+            "filiere": "SVI"
+        },
+        {
+            "code": "29129",
+            "nom": "ER RAMI",
+            "prenom": "FATIMA ZAHRAE",
+            "cin": "CD710445          N143017218",
+            "email": "fatimazahrae.errami@usmba.ac.ma",
+            "filiere": "SVI"
+        },
+        {
+            "code": "26745",
+            "nom": "ER RAMI",
+            "prenom": "YOUSSEF",
+            "cin": "ZT238908           S141014392",
+            "email": "youssef.errami@usmba.ac.ma",
+            "filiere": "SVI"
+        },
+        {
+            "code": "35555",
+            "nom": "ER RAYSSY",
+            "prenom": "IMANE",
+            "cin": "CD346306          N135193707",
+            "email": "imane.errayssy@usmba.ac.ma",
+            "filiere": "SVI"
+        },
+        {
+            "code": "34890",
+            "nom": "ER REZYQY",
+            "prenom": "CHAIMAE",
+            "cin": "CD347632          N130249624",
+            "email": "chaimae.errezyqy@usmba.ac.ma",
+            "filiere": "SVI"
+        },
+        {
+            "code": "21401",
+            "nom": "ER RYFY",
+            "prenom": "YOUSSEF",
+            "cin": "CD198562         1311787280",
+            "email": "youssef.erryfy@usmba.ac.ma",
+            "filiere": "SMI"
+        },
+        {
+            "code": "29130",
+            "nom": "ER.RADY",
+            "prenom": "IMANE",
+            "cin": "CD721357          N139230252",
+            "email": "imane.er.rady@usmba.ac.ma",
+            "filiere": "SMP"
+        },
+        {
+            "code": "32976",
+            "nom": "ER.RASSIY",
+            "prenom": "MOHAMMED",
+            "cin": "CD343795          S136174050",
+            "email": "mohammed.er.rassiy@usmba.ac.ma",
+            "filiere": "SMP"
+        },
+        {
+            "code": "30312",
+            "nom": "ER.RAZY",
+            "prenom": "ABDELFATAH",
+            "cin": "CN718004CN71 N134374543",
+            "email": "abdelfatah.er.razy@usmba.ac.ma",
+            "filiere": "SMP"
+        },
+        {
+            "code": "17854",
+            "nom": "ERGHOUT",
+            "prenom": "OUMAYMA",
+            "cin": "CB293330          1210767744",
+            "email": "oumayma.erghout@usmba.ac.ma",
+            "filiere": "SMP"
+        },
+        {
+            "code": "33060",
+            "nom": "FARID",
+            "prenom": "ASMAE",
+            "cin": "CD652116",
+            "email": "asmae.farid@usmba.ac.ma",
+            "cne": "N137378363",
+            "filiere": "SVI"
+        },
+        {
+            "code": "31611",
+            "nom": "FARIH",
+            "prenom": "ABDELMAJID",
+            "cin": "ZT267376",
+            "email": "abdelmajid.farih@usmba.ac.ma",
+            "cne": "S135263902",
+            "filiere": "SMI"
+        },
+        {
+            "code": "23495",
+            "nom": "FARIS",
+            "prenom": "MOHAMED",
+            "cin": "CN5253",
+            "email": "mohamed.faris@usmba.ac.ma",
+            "cne": "1414783991",
+            "filiere": "SMP"
+        },
+        {
+            "code": "29209",
+            "nom": "FARYSSY",
+            "prenom": "M'HAMED",
+            "cin": "Z569717",
+            "email": "m'hamed.faryssy@usmba.ac.ma",
+            "cne": "S138426345",
+            "filiere": "SVI"
+        },
+        {
+            "code": "29210",
+            "nom": "FASSIH",
+            "prenom": "NOUHAILA",
+            "cin": "CD674173",
+            "email": "nouhaila.fassih@usmba.ac.ma",
+            "cne": "N136343848",
+            "filiere": "SMC"
+        },
+        {
+            "code": "33065",
+            "nom": "FATEH",
+            "prenom": "FADOUA",
+            "cin": "CD725212",
+            "email": "fadoua.fateh@usmba.ac.ma",
+            "cne": "N138357465",
+            "filiere": "SMP"
+        },
+        {
+            "code": "30339",
+            "nom": "FATH ALLAH",
+            "prenom": "CHAYMAE",
+            "cin": "CD657874",
+            "email": "chaymae.fathallah@usmba.ac.ma",
+            "cne": "N133264845",
+            "filiere": "SMP"
+        },
+        {
+            "code": "34176",
+            "nom": "FATHI",
+            "prenom": "ASMAE",
+            "cin": "CB320694",
+            "email": "asmae.fathi@usmba.ac.ma",
+            "cne": "N135087802",
+            "filiere": "SVI"
+        },
+        {
+            "code": "29211",
+            "nom": "FATHI",
+            "prenom": "OLAYA",
+            "cin": "CD693249",
+            "email": "olaya.fathi@usmba.ac.ma",
+            "cne": "N138224319",
+            "filiere": "SMP"
+        },
+        {
+            "code": "31149",
+            "nom": "FATOUAKI",
+            "prenom": "BOUTAYNA",
+            "cin": "ZT266842",
+            "email": "boutayna.fatouaki@usmba.ac.ma",
+            "cne": "S139253397",
+            "filiere": "SVI"
+        },
+        {
+            "code": "26866",
+            "nom": "FATTAH",
+            "prenom": "ABDERRAHMANE",
+            "cin": "CB297021",
+            "email": "abderrahmane.fattah@usmba.ac.ma",
+            "cne": "N135274115",
+            "filiere": "SMC"
+        },
+        {
+            "code": "29212",
+            "nom": "FATTAH",
+            "prenom": "SOUKAINA",
+            "cin": "CD684814",
+            "email": "soukaina.fattah@usmba.ac.ma",
+            "cne": "N137246933",
+            "filiere": "SMC"
+        },
+        {
+            "code": "33068",
+            "nom": "FATTAH",
+            "prenom": "IKRAM",
+            "cin": "CD725756",
+            "email": "ikram.fattah@usmba.ac.ma",
+            "cne": "N139194613",
+            "filiere": "SVI"
+        },
+        {
+            "code": "29213",
+            "nom": "FECHTALI",
+            "prenom": "KHADIJA",
+            "cin": "CD263510",
+            "email": "khadija.fechtali@usmba.ac.ma",
+            "cne": "N139201613",
+            "filiere": "SVI"
+        },
+        {
+            "code": "31150",
+            "nom": "FELLAH",
+            "prenom": "MERIEM",
+            "cin": "CD692466",
+            "email": "meriem.fellah@usmba.ac.ma",
+            "cne": "N138224321",
+            "filiere": "SVI"
+        },
+        {
+            "code": "35682",
+            "nom": "FELLAS",
+            "prenom": "OUMAYMA",
+            "cin": "S795408",
+            "email": "oumayma.fellas@usmba.ac.ma",
+            "cne": "N132325421",
+            "filiere": "SMP"
+        },
+        {
+            "code": "35683",
+            "nom": "FENNANE",
+            "prenom": "SALMA",
+            "cin": "CD675986",
+            "email": "salma.fennane@usmba.ac.ma",
+            "cne": "N138373877",
+            "filiere": "SMA"
+        },
+        {
+            "code": "34142",
+            "nom": "FERGOUGUI",
+            "prenom": "MOHAMED",
+            "cin": "Z627179",
+            "email": "mohamed.fergougui@usmba.ac.ma",
+            "cne": "S138344615",
+            "filiere": "STU"
+        },
+        {
+            "code": "33071",
+            "nom": "FERTASS",
+            "prenom": "FATIMA",
+            "cin": "CB326694",
+            "email": "fatima.fertass@usmba.ac.ma",
+            "cne": "N131127550",
+            "filiere": "SVI"
+        },
+        {
+            "code": "29215",
+            "nom": "FHASSA",
+            "prenom": "YOUNESS",
+            "cin": "Zt218418",
+            "email": "youness.fhassa@usmba.ac.ma",
+            "cne": "S140014401",
+            "filiere": "SMP"
+        },
+        {
+            "code": "33073",
+            "nom": "FIGUIG",
+            "prenom": "SOUAD",
+            "cin": "CD288425",
+            "email": "souad.figuig@usmba.ac.ma",
+            "cne": "N135043505",
+            "filiere": "SVI"
+        },
+        {
+            "code": "35684",
+            "nom": "FIKIENS",
+            "prenom": "HAFSA",
+            "cin": "CN42989",
+            "email": "hafsa.fikiens@usmba.ac.ma",
+            "cne": "N137278387",
+            "filiere": "SVI"
+        },
+        {
+            "code": "33074",
+            "nom": "FIKRI",
+            "prenom": "OUMAIMA",
+            "cin": "CD289590",
+            "email": "oumaima.fikri@usmba.ac.ma",
+            "cne": "N1480111769",
+            "filiere": "SVI"
+        },
+        {
+            "code": "29218",
+            "nom": "FILALI",
+            "prenom": "OUMAIMA",
+            "cin": "CD293914",
+            "email": "oumaima.filali@usmba.ac.ma",
+            "cne": "N139255156",
+            "filiere": "SMP"
+        },
+        {
+            "code": "31151",
+            "nom": "FILALI",
+            "prenom": "FADOUA",
+            "cin": "CD696064",
+            "email": "fadoua.filali@usmba.ac.ma",
+            "cne": "n132171734",
+            "filiere": "SVI"
+        },
+        {
+            "code": "30344",
+            "nom": "FILALI BEN ZARROU",
+            "prenom": "DRISS",
+            "cin": "CD657428",
+            "email": "driss.filalibenzarrou@usmba.ac.ma",
+            "cne": "N135264951",
+            "filiere": "SMP"
+        },
+        {
+            "code": "35687",
+            "nom": "FILALI DAHNI",
+            "prenom": "FATIMA ZOHRA",
+            "cin": "CD698859",
+            "email": "fatimazohra.filalidahni@usmba.ac.ma",
+            "cne": "N132350046",
+            "filiere": "SMA"
+        },
+        {
+            "code": "31153",
+            "nom": "FILALI OMARI",
+            "prenom": "ZINEB",
+            "cin": "CD299819",
+            "email": "zineb.filaliomari@usmba.ac.ma",
+            "cne": "N133228673",
+            "filiere": "SVI"
+        },
+        {
+            "code": "25589",
+            "nom": "FILALI SABER",
+            "prenom": "AHLAM",
+            "cin": "CD527498",
+            "email": "ahlam.filalisaber@usmba.ac.ma",
+            "cne": "1512753614",
+            "filiere": "SVI"
+        },
+        {
+            "code": "31154",
+            "nom": "FIRA",
+            "prenom": "KHAOULA",
+            "cin": "CD713555",
+            "email": "khaoula.fira@usmba.ac.ma",
+            "cne": "N131338201",
+            "filiere": "SVI"
+        },
+        {
+            "code": "36761",
+            "nom": "FLILAH",
+            "prenom": "OUSSAMA",
+            "cin": "CD704654",
+            "email": "oussama.flilah@usmba.ac.ma",
+            "cne": "N136171992",
+            "filiere": "SMA"
+        },
+        {
+            "code": "33082",
+            "nom": "FLIOU",
+            "prenom": "DRISS",
+            "cin": "CD643515",
+            "email": "driss.fliou@usmba.ac.ma",
+            "cne": "N131192889",
+            "filiere": "SVI"
+        },
+        {
+            "code": "31896",
+            "nom": "FOFANA",
+            "prenom": "HAWA MAMOUDOU",
+            "cin": "AA0079106",
+            "email": "hawamamoudou.fofana@usmba.ac.ma",
+            "cne": "1780110082",
+            "filiere": "SMI"
+        },
+        {
+            "code": "33140",
+            "nom": "HALIM",
+            "prenom": "MOHAMMED",
+            "cin": "ZT283912",
+            "email": "mohammed.halim@usmba.ac.ma",
+            "cne": "N133162825",
+            "filiere": "SMA"
+        },
+        {
+            "code": "35757",
+            "nom": "HALMAOUI",
+            "prenom": "ATIKA",
+            "cin": "CD437132",
+            "email": "atika.halmaoui@usmba.ac.ma",
+            "cne": "N137280449",
+            "filiere": "SVI"
+        },
+        {
+            "code": "31172",
+            "nom": "HALOUBI",
+            "prenom": "BRAHIM",
+            "cin": "CD386915",
+            "email": "brahim.haloubi@usmba.ac.ma",
+            "cne": "N132263029",
+            "filiere": "SVI"
+        },
+        {
+            "code": "35759",
+            "nom": "HAMADI",
+            "prenom": "HALA",
+            "cin": "CD703471",
+            "email": "hala.hamadi@usmba.ac.ma",
+            "cne": "N146070481",
+            "filiere": "SMA"
+        },
+        {
+            "code": "31173",
+            "nom": "HAMAMA",
+            "prenom": "SOUHAYLA",
+            "cin": "Cb323422",
+            "email": "souhayla.hamama@usmba.ac.ma",
+            "cne": "N138237265",
+            "filiere": "SVI"
+        },
+        {
+            "code": "26942",
+            "nom": "HAMAN",
+            "prenom": "FATIMA ZOHRA",
+            "cin": "CD483421",
+            "email": "fatimazohra.haman@usmba.ac.ma",
+            "cne": "N141002607",
+            "filiere": "SVI"
+        },
+        {
+            "code": "30674",
+            "nom": "HAMANI",
+            "prenom": "FOUAD",
+            "cin": "C467432",
+            "email": "fouad.hamani@usmba.ac.ma",
+            "cne": "Z176201386",
+            "filiere": "SMA"
+        },
+        {
+            "code": "33141",
+            "nom": "HAMANI",
+            "prenom": "NADA",
+            "cin": "CD269345",
+            "email": "nada.hamani@usmba.ac.ma",
+            "cne": "N135286265",
+            "filiere": "SVI"
+        },
+        {
+            "code": "33145",
+            "nom": "HAMDADA",
+            "prenom": "FOUAD",
+            "cin": "CD678995",
+            "email": "fouad.hamdada@usmba.ac.ma",
+            "cne": "N138333242",
+            "filiere": "SVI"
+        },
+        {
+            "code": "35762",
+            "nom": "HAMDAN",
+            "prenom": "FATIMA-ZAHRA",
+            "cin": "CD406203",
+            "email": "fatima-zahra.hamdan@usmba.ac.ma",
+            "cne": "N130264024",
+            "filiere": "SVI"
+        },
+        {
+            "code": "33147",
+            "nom": "HAMDAOUI",
+            "prenom": "NAJAT",
+            "cin": "CN36928",
+            "email": "najat.hamdaoui@usmba.ac.ma",
+            "cne": "N139146114",
+            "filiere": "SVI"
+        },
+        {
+            "code": "35763",
+            "nom": "HAMDAOUI",
+            "prenom": "ABDELMOUNAIM",
+            "cin": "CN45025",
+            "email": "abdelmounaim.hamdaoui@usmba.ac.ma",
+            "cne": "N136259185",
+            "filiere": "SVI"
+        },
+        {
+            "code": "35764",
+            "nom": "HAMDAOUY",
+            "prenom": "SALMA",
+            "cin": "CD626252",
+            "email": "salma.hamdaouy@usmba.ac.ma",
+            "cne": "N137268264",
+            "filiere": "SMA"
+        },
+        {
+            "code": "29268",
+            "nom": "HAMDAOUY",
+            "prenom": "MBAREK",
+            "cin": "CN31712",
+            "email": "mbarek.hamdaouy@usmba.ac.ma",
+            "cne": "N135216299",
+            "filiere": "SMA"
+        },
+        {
+            "code": "33148",
+            "nom": "HAMDAOUY",
+            "prenom": "REDWANE",
+            "cin": "CN40113",
+            "email": "redwane.hamdaouy@usmba.ac.ma",
+            "cne": "N136146335",
+            "filiere": "SMA"
+        },
+        {
+            "code": "35766",
+            "nom": "HAMDIDOU",
+            "prenom": "MERYEM",
+            "cin": "CD703806",
+            "email": "meryem.hamdidou@usmba.ac.ma",
+            "cne": "N135147318",
+            "filiere": "SVI"
+        },
+        {
+            "code": "35765",
+            "nom": "HAMDIDOU",
+            "prenom": "BILAL",
+            "cin": "P356198",
+            "email": "bilal.hamdidou@usmba.ac.ma",
+            "cne": "D130020387",
+            "filiere": "SVI"
+        },
+        {
+            "code": "35767",
+            "nom": "HAMDIDOU",
+            "prenom": "HAJAR",
+            "cin": "ZT301390",
+            "email": "hajar.hamdidou@usmba.ac.ma",
+            "cne": "N133152186",
+            "filiere": "SVI"
+        },
+        {
+            "code": "31174",
+            "nom": "HAMDOUNE",
+            "prenom": "FOUZIA",
+            "cin": "CD685238",
+            "email": "fouzia.hamdoune@usmba.ac.ma",
+            "cne": "N138190123",
+            "filiere": "SVI"
+        },
+        {
+            "code": "30357",
+            "nom": "HAMID ALLAH",
+            "prenom": "ISMAIL",
+            "cin": "CN28534",
+            "email": "ismail.hamidallah@usmba.ac.ma",
+            "cne": "N131108454",
+            "filiere": "SMP"
+        },
+        {
+            "code": "31478",
+            "nom": "HAMIDI",
+            "prenom": "KHADIJA",
+            "cin": "CD287883",
+            "email": "khadija.hamidi@usmba.ac.ma",
+            "cne": "N135169369",
+            "filiere": "SVI"
+        },
+        {
+            "code": "35768",
+            "nom": "HAMIDI",
+            "prenom": "SOUMAYA",
+            "cin": "CD354990",
+            "email": "soumaya.hamidi@usmba.ac.ma",
+            "cne": "N146066506",
+            "filiere": "SVI"
+        },
+        {
+            "code": "35769",
+            "nom": "HAMIDI",
+            "prenom": "BOUCHRA",
+            "cin": "CD677180",
+            "email": "bouchra.hamidi@usmba.ac.ma",
+            "cne": "N131263184",
+            "filiere": "SVI"
+        },
+        {
+            "code": "30358",
+            "nom": "HAMIDI",
+            "prenom": "AHMED",
+            "cin": "CN32786",
+            "email": "ahmed.hamidi@usmba.ac.ma",
+            "cne": "N130383292",
+            "filiere": "SMA"
+        },
+        {
+            "code": "31175",
+            "nom": "HAMIDI",
+            "prenom": "FATIMA",
+            "cin": "CN34998",
+            "email": "fatima.hamidi@usmba.ac.ma",
+            "cne": "N137353529",
+            "filiere": "SVI"
+        },
+        {
+            "code": "31479",
+            "nom": "HAMIDI",
+            "prenom": "MOHCINE",
+            "cin": "CN35696",
+            "email": "mohcine.hamidi@usmba.ac.ma",
+            "cne": "N133383256",
+            "filiere": "STU"
+        },
+        {
+            "code": "33152",
+            "nom": "HAMMADOU",
+            "prenom": "GHITA",
+            "cin": "CD716341",
+            "email": "ghita.hammadou@usmba.ac.ma",
+            "cne": "N136173847",
+            "filiere": "SVI"
+        },
+        {
+            "code": "33153",
+            "nom": "HAMMAN",
+            "prenom": "ABDELLAH",
+            "cin": "CN39682",
+            "email": "abdellah.hamman@usmba.ac.ma",
+            "cne": "N137065730",
+            "filiere": "SMA"
+        },
+        {
+            "code": "33155",
+            "nom": "HAMMANE",
+            "prenom": "BOUTAYNA",
+            "cin": "CD289076",
+            "email": "boutayna.hammane@usmba.ac.ma",
+            "cne": "N141037318",
+            "filiere": "SMP"
+        },
+        {
+            "code": "16947",
+            "nom": "HAMMANI",
+            "prenom": "ABDERRAHIM",
+            "cin": "Cd509907",
+            "email": "abderrahim.hammani@usmba.ac.ma",
+            "cne": "1128756101",
+            "filiere": "SMP"
+        },
+        {
+            "code": "26953",
+            "nom": "HAMMANI",
+            "prenom": "MARYEM",
+            "cin": "CN23089",
+            "email": "maryem.hammani@usmba.ac.ma",
+            "cne": "N135068729",
+            "filiere": "SMC"
+        },
+        {
+            "code": "35770",
+            "nom": "HAMMANI",
+            "prenom": "MOHAMED",
+            "cin": "ZT291587",
+            "email": "mohamed.hammani@usmba.ac.ma",
+            "cne": "S134261331",
+            "filiere": "SMA"
+        },
+        {
+            "code": "35770",
+            "nom": "HAMMANI",
+            "prenom": "MOHAMED",
+            "cin": "Zt291587",
+            "email": "mohamed.hammani@usmba.ac.ma",
+            "cne": "S134261331",
+            "filiere": "SMA"
+        },
+        {
+            "code": "33258",
+            "nom": "JAMAL",
+            "prenom": "NADA",
+            "cin": "CD696351",
+            "email": "nada.jamal@usmba.ac.ma",
+            "cne": "N133157051",
+            "filiere": "SVI"
+        },
+        {
+            "code": "35860",
+            "nom": "JAMIA",
+            "prenom": "FATHIYAT OLATOKUNBO",
+            "cin": "CD9051179",
+            "email": "fathiyatolatokunbo.jamia@usmba.ac.ma",
+            "cne": "N120041964",
+            "filiere": "SMA"
+        },
+        {
+            "code": "27064",
+            "nom": "JAMIL",
+            "prenom": "CHAIMAE",
+            "cin": "CD282884",
+            "email": "chaimae.jamil@usmba.ac.ma",
+            "cne": "N137369282",
+            "filiere": "SVI"
+        },
+        {
+            "code": "29332",
+            "nom": "JANATA",
+            "prenom": "MONCIF",
+            "cin": "Zt258850",
+            "email": "moncif.janata@usmba.ac.ma",
+            "cne": "S137325452",
+            "filiere": "SMA"
+        },
+        {
+            "code": "33259",
+            "nom": "JANATA",
+            "prenom": "ZAKARIA",
+            "cin": "Zt287394",
+            "email": "zakaria.janata@usmba.ac.ma",
+            "cne": "S135325245",
+            "filiere": "SMP"
+        },
+        {
+            "code": "31211",
+            "nom": "JANATI",
+            "prenom": "HAFSA",
+            "cin": "zt270585",
+            "email": "hafsa.janati@usmba.ac.ma",
+            "cne": "s131243026",
+            "filiere": "SVI"
+        },
+        {
+            "code": "21746",
+            "nom": "JANATI IDRISSI",
+            "prenom": "YOUSRA",
+            "cin": "CD262391",
+            "email": "yousra.janatiidrissi@usmba.ac.ma",
+            "cne": "1311760063",
+            "filiere": "SMA"
+        },
+        {
+            "code": "33262",
+            "nom": "JANATI IDRISSI",
+            "prenom": "HAMZA",
+            "cin": "CD435415",
+            "email": "hamza.janatiidrissi@usmba.ac.ma",
+            "cne": "N132228405",
+            "filiere": "SVI"
+        },
+        {
+            "code": "33263",
+            "nom": "JANATI IDRISSI",
+            "prenom": "MINA",
+            "cin": "CD473775",
+            "email": "mina.janatiidrissi@usmba.ac.ma",
+            "cne": "N135214795",
+            "filiere": "SVI"
+        },
+        {
+            "code": "29338",
+            "nom": "JANATI IDRISSI",
+            "prenom": "GHITA",
+            "cin": "CD700925",
+            "email": "ghita.janatiidrissi@usmba.ac.ma",
+            "cne": "N145012136",
+            "filiere": "SVI"
+        },
+        {
+            "code": "21744",
+            "nom": "JANATI IDRISSI",
+            "prenom": "YOUSSEF",
+            "cin": "ZT200313",
+            "email": "youssef.janatiidrissi@usmba.ac.ma",
+            "cne": "1311807260",
+            "filiere": "SMA"
+        },
+        {
+            "code": "31625",
+            "nom": "JANATI IDRISSI",
+            "prenom": "ANASS",
+            "cin": "ZT248862",
+            "email": "anass.janatiidrissi@usmba.ac.ma",
+            "cne": "S135434070",
+            "filiere": "SMA"
+        },
+        {
+            "code": "31213",
+            "nom": "JANATI IDRISSI",
+            "prenom": "JAMILA",
+            "cin": "ZT270415",
+            "email": "jamila.janatiidrissi@usmba.ac.ma",
+            "cne": "S133437383",
+            "filiere": "SVI"
+        },
+        {
+            "code": "33264",
+            "nom": "JANATI IDRISSI",
+            "prenom": "ISSAM",
+            "cin": "ZT283487",
+            "email": "issam.janatiidrissi@usmba.ac.ma",
+            "cne": "S135263353",
+            "filiere": "SMP"
+        },
+        {
+            "code": "35862",
+            "nom": "JANATI IDRISSI",
+            "prenom": "AMINE",
+            "cin": "ZT291029",
+            "email": "amine.janatiidrissi@usmba.ac.ma",
+            "cne": "S133263767",
+            "filiere": "SVI"
+        },
+        {
+            "code": "35863",
+            "nom": "JANATI IDRISSI",
+            "prenom": "ABIR",
+            "cin": "ZT296979",
+            "email": "abir.janatiidrissi@usmba.ac.ma",
+            "cne": "S146050734",
+            "filiere": "SMA"
+        },
+        {
+            "code": "11159",
+            "nom": "JANATI IDRISSI",
+            "prenom": "BOUCHTA",
+            "cin": "Zt38864",
+            "email": "bouchta.janatiidrissi@usmba.ac.ma",
+            "cne": "2925803436",
+            "filiere": "SMP"
+        },
+        {
+            "code": "17847",
+            "nom": "JAOUAL",
+            "prenom": "SOUKAINA",
+            "cin": "CD192567",
+            "email": "soukaina.jaoual@usmba.ac.ma",
+            "cne": "1210762234",
+            "filiere": "SVI"
+        },
+        {
+            "code": "30394",
+            "nom": "JAOUANE",
+            "prenom": "MOURAD",
+            "cin": "CD433831",
+            "email": "mourad.jaouane@usmba.ac.ma",
+            "cne": "N134162741",
+            "filiere": "SMP"
+        },
+        {
+            "code": "29340",
+            "nom": "JAOUDI",
+            "prenom": "YOUSSEF",
+            "cin": "ZT258194",
+            "email": "youssef.jaoudi@usmba.ac.ma",
+            "cne": "S140011816",
+            "filiere": "SVI"
+        },
+        {
+            "code": "36825",
+            "nom": "JAOUHARI",
+            "prenom": "ABDELILAH",
+            "cin": "CD673732",
+            "email": "abdelilah.jaouhari@usmba.ac.ma",
+            "cne": "N139163592",
+            "filiere": "SMP"
+        },
+        {
+            "code": "31214",
+            "nom": "JARJINI",
+            "prenom": "SAFAE",
+            "cin": "CD472039",
+            "email": "safae.jarjini@usmba.ac.ma",
+            "cne": "N137171774",
+            "filiere": "SVI"
+        },
+        {
+            "code": "31215",
+            "nom": "JARJOUR",
+            "prenom": "MOHAMMED-AMINE",
+            "cin": "CB312756",
+            "email": "mohammed-amine.jarjour@usmba.ac.ma",
+            "cne": "N135322112",
+            "filiere": "SVI"
+        },
+        {
+            "code": "35864",
+            "nom": "JATTIOUI",
+            "prenom": "ABDELILAH",
+            "cin": "CD698296",
+            "email": "abdelilah.jattioui@usmba.ac.ma",
+            "cne": "N135347633",
+            "filiere": "SMP"
+        },
+        {
+            "code": "35865",
+            "nom": "JATTIOUI",
+            "prenom": "MARYAME",
+            "cin": "CD760269",
+            "email": "maryame.jattioui@usmba.ac.ma",
+            "cne": "N132243930",
+            "filiere": "SMP"
+        },
+        {
+            "code": "33267",
+            "nom": "JAWHAR",
+            "prenom": "NAIMA",
+            "cin": "CD724661",
+            "email": "naima.jawhar@usmba.ac.ma",
+            "cne": "N131194574",
+            "filiere": "SMI"
+        },
+        {
+            "code": "30397",
+            "nom": "JAY MANSOURI",
+            "prenom": "AMINA",
+            "cin": "ZT270589",
+            "email": "amina.jaymansouri@usmba.ac.ma",
+            "cne": "S133243022",
+            "filiere": "SMP"
+        },
+        {
+            "code": "31627",
+            "nom": "JAYAT",
+            "prenom": "MOHAMMED",
+            "cin": "CD266513",
+            "email": "mohammed.jayat@usmba.ac.ma",
+            "cne": "N139179849",
+            "filiere": "SMI"
+        },
+        {
+            "code": "24657",
+            "nom": "JAYAT",
+            "prenom": "CHAYMAE",
+            "cin": "ZT215014",
+            "email": "chaymae.jayat@usmba.ac.ma",
+            "cne": "1411807177",
+            "filiere": "SVI"
+        },
+        {
+            "code": "30013",
+            "nom": "JAZON",
+            "prenom": "NEPHNY",
+            "cin": "PP3643256",
+            "email": "nephny.jazon@usmba.ac.ma",
+            "cne": "1680110077",
+            "filiere": "SVI"
+        },
+        {
+            "code": "16984",
+            "nom": "JAZOULI",
+            "prenom": "GHIZLANE",
+            "cin": "Cd541904",
+            "email": "ghizlane.jazouli@usmba.ac.ma",
+            "cne": "1210746162",
+            "filiere": "SMC"
+        },
+        {
+            "code": "33269",
+            "nom": "JBILOU",
+            "prenom": "OUISSAL",
+            "cin": "CD676930",
+            "email": "ouissal.jbilou@usmba.ac.ma",
+            "cne": "N134208479",
+            "filiere": "SMP"
+        },
+        {
+            "code": "23578",
+            "nom": "JBILOU",
+            "prenom": "YOUSSEF",
+            "cin": "Z566423",
+            "email": "youssef.jbilou@usmba.ac.ma",
+            "cne": "1412807245",
+            "filiere": "SMP"
+        },
+        {
+            "code": "29376",
+            "nom": "KHADRAOUI",
+            "prenom": "SALMA",
+            "cin": "P335740",
+            "email": "salma.khadraoui@usmba.ac.ma",
+            "cne": "D135412911",
+            "filiere": "SVI"
+        },
+        {
+            "code": "27145",
+            "nom": "KHAIFALLAH",
+            "prenom": "JAMILA",
+            "cin": "CB312998",
+            "email": "jamila.khaifallah@usmba.ac.ma",
+            "cne": "1513766755",
+            "filiere": "SVI"
+        },
+        {
+            "code": "33320",
+            "nom": "KHAJOUI",
+            "prenom": "MOHAMMED",
+            "cin": "CD642100",
+            "email": "mohammed.khajoui@usmba.ac.ma",
+            "cne": "N137313406",
+            "filiere": "SVI"
+        },
+        {
+            "code": "33323",
+            "nom": "KHALDI",
+            "prenom": "YASSINE",
+            "cin": "CD354010",
+            "email": "yassine.khaldi@usmba.ac.ma",
+            "cne": "N139306857",
+            "filiere": "SMA"
+        },
+        {
+            "code": "31236",
+            "nom": "KHALDI",
+            "prenom": "SALMA",
+            "cin": "CD643650",
+            "email": "salma.khaldi@usmba.ac.ma",
+            "cne": "N139175830",
+            "filiere": "SVI"
+        },
+        {
+            "code": "29382",
+            "nom": "KHALFAOUI",
+            "prenom": "KENZA",
+            "cin": "CN33547",
+            "email": "kenza.khalfaoui@usmba.ac.ma",
+            "cne": "N137216363",
+            "filiere": "SMC"
+        },
+        {
+            "code": "35923",
+            "nom": "KHALFAOUY",
+            "prenom": "AZIZA",
+            "cin": "CN45859",
+            "email": "aziza.khalfaouy@usmba.ac.ma",
+            "cne": "N132146113",
+            "filiere": "SVI"
+        },
+        {
+            "code": "29384",
+            "nom": "KHALFOUNI",
+            "prenom": "AHMED",
+            "cin": "ZT250240",
+            "email": "ahmed.khalfouni@usmba.ac.ma",
+            "cne": "N134246953",
+            "filiere": "SMP"
+        },
+        {
+            "code": "29384",
+            "nom": "KHALFOUNI",
+            "prenom": "AHMED",
+            "cin": "ZT250240",
+            "email": "ahmed.khalfouni@usmba.ac.ma",
+            "cne": "N134246953",
+            "filiere": "SMP"
+        },
+        {
+            "code": "35924",
+            "nom": "KHALI",
+            "prenom": "NABIL",
+            "cin": "CD387881",
+            "email": "nabil.khali@usmba.ac.ma",
+            "cne": "N136336874",
+            "filiere": "SMP"
+        },
+        {
+            "code": "33325",
+            "nom": "KHALIE",
+            "prenom": "SAID",
+            "cin": "KB194397",
+            "email": "said.khalie@usmba.ac.ma",
+            "cne": "P131487321",
+            "filiere": "SVI"
+        },
+        {
+            "code": "30415",
+            "nom": "KHALLABI",
+            "prenom": "OUSSAMA",
+            "cin": "ZT255373",
+            "email": "oussama.khallabi@usmba.ac.ma",
+            "cne": "S149011993",
+            "filiere": "SMI"
+        },
+        {
+            "code": "31482",
+            "nom": "KHALLADI",
+            "prenom": "SOUHAILA",
+            "cin": "ZT235653",
+            "email": "souhaila.khalladi@usmba.ac.ma",
+            "cne": "S137307814",
+            "filiere": "STU"
+        },
+        {
+            "code": "33326",
+            "nom": "KHALLOUKI",
+            "prenom": "OUISAL",
+            "cin": "CD726162",
+            "email": "ouisal.khallouki@usmba.ac.ma",
+            "cne": "N138357466",
+            "filiere": "SMP"
+        },
+        {
+            "code": "23603",
+            "nom": "KHALOUF",
+            "prenom": "ABDERRAFIE",
+            "cin": "ZT193102",
+            "email": "abderrafie.khalouf@usmba.ac.ma",
+            "cne": "1412813039",
+            "filiere": "SMP"
+        },
+        {
+            "code": "29386",
+            "nom": "KHALOUF",
+            "prenom": "ABDELHAY",
+            "cin": "ZT257015",
+            "email": "abdelhay.khalouf@usmba.ac.ma",
+            "cne": "S137325572",
+            "filiere": "SMA"
+        },
+        {
+            "code": "35925",
+            "nom": "KHALOUTA",
+            "prenom": "OMAR",
+            "cin": "CD404091",
+            "email": "omar.khalouta@usmba.ac.ma",
+            "cne": "N130163315",
+            "filiere": "SMP"
+        },
+        {
+            "code": "35926",
+            "nom": "KHAMISSI",
+            "prenom": "HALIMA",
+            "cin": "ZT297112",
+            "email": "halima.khamissi@usmba.ac.ma",
+            "cne": "S131347933",
+            "filiere": "SVI"
+        },
+        {
+            "code": "33327",
+            "nom": "KHANNOUSSI ALAOUI",
+            "prenom": "ZINEB",
+            "cin": "CD703656",
+            "email": "zineb.khannoussialaoui@usmba.ac.ma",
+            "cne": "N133301956",
+            "filiere": "SVI"
+        },
+        {
+            "code": "29390",
+            "nom": "KHANTACHE",
+            "prenom": "FATIMA ZAHRAE",
+            "cin": "CD684713",
+            "email": "fatimazahrae.khantache@usmba.ac.ma",
+            "cne": "N136232272",
+            "filiere": "SVI"
+        },
+        {
+            "code": "29970",
+            "nom": "KHARBOUCH",
+            "prenom": "NAOUAR",
+            "cin": "CD598231",
+            "email": "naouar.kharbouch@usmba.ac.ma",
+            "cne": "1412754059",
+            "filiere": "SMA"
+        },
+        {
+            "code": "33328",
+            "nom": "KHARBOUCHE",
+            "prenom": "YOUSSEF",
+            "cin": "CB327594",
+            "email": "youssef.kharbouche@usmba.ac.ma",
+            "cne": "N135272402",
+            "filiere": "SMP"
+        },
+        {
+            "code": "33329",
+            "nom": "KHARCHACH",
+            "prenom": "NASSIMA",
+            "cin": "ZT282815",
+            "email": "nassima.kharchach@usmba.ac.ma",
+            "cne": "S131404620",
+            "filiere": "SVI"
+        },
+        {
+            "code": "17981",
+            "nom": "KHARCHACHI",
+            "prenom": "ZOUHIR",
+            "cin": "CD560411",
+            "email": "zouhir.kharchachi@usmba.ac.ma",
+            "cne": "1229747924",
+            "filiere": "SMP"
+        },
+        {
+            "code": "23606",
+            "nom": "KHARCHACHI",
+            "prenom": "CHAYMAE",
+            "cin": "CD586008",
+            "email": "chaymae.kharchachi@usmba.ac.ma",
+            "cne": "1412747893",
+            "filiere": "SMP"
+        },
+        {
+            "code": "33332",
+            "nom": "KHARCHACHI",
+            "prenom": "ZAHIRA",
+            "cin": "CD659067",
+            "email": "zahira.kharchachi@usmba.ac.ma",
+            "cne": "N138194648",
+            "filiere": "SVI"
+        },
+        {
+            "code": "33335",
+            "nom": "KHARKOUK",
+            "prenom": "NAJOUA",
+            "cin": "ZT279961",
+            "email": "najoua.kharkouk@usmba.ac.ma",
+            "cne": "S130263993",
+            "filiere": "SVI"
+        },
+        {
+            "code": "29393",
+            "nom": "KHAROUACH",
+            "prenom": "OTMANE",
+            "cin": "CD672839",
+            "email": "otmane.kharouach@usmba.ac.ma",
+            "cne": "N139199619",
+            "filiere": "SMP"
+        },
+        {
+            "code": "23607",
+            "nom": "KHARRIBOU",
+            "prenom": "HATIM",
+            "cin": "CD486682",
+            "email": "hatim.kharribou@usmba.ac.ma",
+            "cne": "1412752621",
+            "filiere": "SVI"
+        },
+        {
+            "code": "33337",
+            "nom": "KHASSA",
+            "prenom": "MANAL",
+            "cin": "CN39142",
+            "email": "manal.khassa@usmba.ac.ma",
+            "cne": "N134065681",
+            "filiere": "SMP"
+        },
+        {
+            "code": "30418",
+            "nom": "KHATTABI",
+            "prenom": "OTHMANE",
+            "cin": "CD695549",
+            "email": "othmane.khattabi@usmba.ac.ma",
+            "cne": "N138374620",
+            "filiere": "SMP"
+        },
+        {
+            "code": "33339",
+            "nom": "KHAY",
+            "prenom": "ZINEB",
+            "cin": "CD697960",
+            "email": "zineb.khay@usmba.ac.ma",
+            "cne": "N132157057",
+            "filiere": "SVI"
+        },
+        {
+            "code": "23609",
+            "nom": "KHAYATI",
+            "prenom": "IHABE",
+            "cin": "CD596861",
+            "email": "ihabe.khayati@usmba.ac.ma",
+            "cne": "1411758898",
+            "filiere": "SMP"
+        },
+        {
+            "code": "29854",
+            "nom": "KHECHCHAF",
+            "prenom": "MOHAMMED",
+            "cin": "CB306752",
+            "email": "mohammed.khechchaf@usmba.ac.ma",
+            "cne": "1511767104",
+            "filiere": "SVI"
+        },
+        {
+            "code": "23610",
+            "nom": "KHENNOU",
+            "prenom": "AHMED",
+            "cin": "CD485968",
+            "email": "ahmed.khennou@usmba.ac.ma",
+            "cne": "1411754578",
+            "filiere": "SMP"
+        },
+        {
+            "code": "31484",
+            "nom": "KHICHA",
+            "prenom": "WIAM",
+            "cin": "CD675996",
+            "email": "wiam.khicha@usmba.ac.ma",
+            "cne": "N130189195",
+            "filiere": "SVI"
+        },
+        {
+            "code": "35934",
+            "nom": "KHILI",
+            "prenom": "SAFA",
+            "cin": "CD686835",
+            "email": "safa.khili@usmba.ac.ma",
+            "cne": "N132196494",
+            "filiere": "SMP"
+        },
+        {
+            "code": "35935",
+            "nom": "KHIRBA",
+            "prenom": "SALMA",
+            "cin": "CD689980",
+            "email": "salma.khirba@usmba.ac.ma",
+            "cne": "N143025711",
+            "filiere": "SVI"
+        },
+        {
+            "code": "30419",
+            "nom": "KHLIL",
+            "prenom": "OMAR",
+            "cin": "CD695076",
+            "email": "omar.khlil@usmba.ac.ma",
+            "cne": "N132230463",
+            "filiere": "SMP"
+        },
+        {
+            "code": "35937",
+            "nom": "KHOMSI",
+            "prenom": "FATIMA ZAHRAE",
+            "cin": "CD344073",
+            "email": "fatimazahrae.khomsi@usmba.ac.ma",
+            "cne": "N134305607",
+            "filiere": "SVI"
+        },
+        {
+            "code": "24986",
+            "nom": "KHOUIDER",
+            "prenom": "KENZA",
+            "cin": "CD621131",
+            "email": "kenza.khouider@usmba.ac.ma",
+            "cne": "1411784700",
+            "filiere": "SMI"
+        },
+        {
+            "code": "29397",
+            "nom": "KHOUIDI",
+            "prenom": "BILAL",
+            "cin": "Zt262066",
+            "email": "bilal.khouidi@usmba.ac.ma",
+            "cne": "S147048400",
+            "filiere": "SMA"
+        },
+        {
+            "code": "33346",
+            "nom": "KHOUJA",
+            "prenom": "SOUMAYA",
+            "cin": "CD678113",
+            "email": "soumaya.khouja@usmba.ac.ma",
+            "cne": "N135370529",
+            "filiere": "SVI"
+        },
+        {
+            "code": "33346",
+            "nom": "KHOUJA",
+            "prenom": "SOUMAYA",
+            "cin": "CD678113",
+            "email": "soumaya.khouja@usmba.ac.ma",
+            "cne": "N135370529",
+            "filiere": "SVI"
+        },
+        {
+            "code": "33347",
+            "nom": "KHOUKHANE",
+            "prenom": "MAJDA",
+            "cin": "CN40599",
+            "email": "majda.khoukhane@usmba.ac.ma",
+            "cne": "N132315215",
+            "filiere": "SMP"
+        },
+        {
+            "code": "29398",
+            "nom": "KHOULANI HASSANI",
+            "prenom": "CHAIMAE",
+            "cin": "CD286490",
+            "email": "chaimae.khoulanihassani@usmba.ac.ma",
+            "cne": "N132234890",
+            "filiere": "SVI"
+        },
+        {
+            "code": "21850",
+            "nom": "KHOURCHOUF",
+            "prenom": "MERYEM",
+            "cin": "Cd271183",
+            "email": "meryem.khourchouf@usmba.ac.ma",
+            "cne": "1311753484",
+            "filiere": "SVI"
+        },
+        {
+            "code": "33348",
+            "nom": "KHOUTAME",
+            "prenom": "FATIMA ZOHRA",
+            "cin": "CD658677",
+            "email": "fatimazohra.khoutame@usmba.ac.ma",
+            "cne": "N133380836",
+            "filiere": "SMI"
+        },
+        {
+            "code": "31629",
+            "nom": "KHRIFI",
+            "prenom": "AYYOUB",
+            "cin": "CD299747",
+            "email": "ayyoub.khrifi@usmba.ac.ma",
+            "cne": "N133162697",
+            "filiere": "SMI"
+        },
+        {
+            "code": "33350",
+            "nom": "KHZIZOU",
+            "prenom": "KHAOULA",
+            "cin": "ZT279433",
+            "email": "khaoula.khzizou@usmba.ac.ma",
+            "cne": "S136250267",
+            "filiere": "SMP"
+        },
+        {
+            "code": "36899",
+            "nom": "KIAH  JR",
+            "prenom": "JAMES  SAAH",
+            "cin": "PP0038432",
+            "email": "jamessaah.kiahjr@usmba.ac.ma",
+            "cne": "1980110057",
+            "filiere": "SVI"
+        },
+        {
+            "code": "34157",
+            "nom": "KIBBOU",
+            "prenom": "YOUSSEF",
+            "cin": "CD743401",
+            "email": "youssef.kibbou@usmba.ac.ma",
+            "cne": "N130282819",
+            "filiere": "SVI"
+        },
+        {
+            "code": "27172",
+            "nom": "KIBOUR",
+            "prenom": "KHATIMA",
+            "cin": "CD681136",
+            "email": "khatima.kibour@usmba.ac.ma",
+            "cne": "N131247683",
+            "filiere": "SMA"
+        },
+        {
+            "code": "35940",
+            "nom": "KIOUACH",
+            "prenom": "HANAE",
+            "cin": "Zt297362",
+            "email": "hanae.kiouach@usmba.ac.ma",
+            "cne": "S141049300",
+            "filiere": "SMP"
+        },
+        {
+            "code": "33352",
+            "nom": "KISRA",
+            "prenom": "NOUHAYLA",
+            "cin": "CD354310",
+            "email": "nouhayla.kisra@usmba.ac.ma",
+            "cne": "N139254198",
+            "filiere": "SMP"
+        },
+        {
+            "code": "33352",
+            "nom": "KISRA",
+            "prenom": "NOUHAYLA",
+            "cin": "CD354310",
+            "email": "nouhayla.kisra@usmba.ac.ma",
+            "cne": "N139254198",
+            "filiere": "SMP"
+        },
+        {
+            "code": "31242",
+            "nom": "KITOUNI",
+            "prenom": "SOUKAYNA",
+            "cin": "CN36695",
+            "email": "soukayna.kitouni@usmba.ac.ma",
+            "cne": "N142011301",
+            "filiere": "SVI"
+        },
+        {
+            "code": "35941",
+            "nom": "KMACHOU",
+            "prenom": "MONSEF",
+            "cin": "CN45581",
+            "email": "monsef.kmachou@usmba.ac.ma",
+            "cne": "N135042633",
+            "filiere": "SMA"
+        },
+        {
+            "code": "27176",
+            "nom": "KOBBI",
+            "prenom": "HALIMA",
+            "cin": "CD258616",
+            "email": "halima.kobbi@usmba.ac.ma",
+            "cne": "1513748524",
+            "filiere": "SMA"
+        },
+        {
+            "code": "29403",
+            "nom": "KOBBI",
+            "prenom": "HANAE",
+            "cin": "CD286228",
+            "email": "hanae.kobbi@usmba.ac.ma",
+            "cne": "N136369843",
+            "filiere": "SVI"
+        },
+        {
+            "code": "35942",
+            "nom": "KOBBI",
+            "prenom": "SAFAE",
+            "cin": "CD437695",
+            "email": "safae.kobbi@usmba.ac.ma",
+            "cne": "N140036239",
+            "filiere": "SVI"
+        },
+        {
+            "code": "35943",
+            "nom": "KOBBI",
+            "prenom": "ABDELGHAFOUR",
+            "cin": "CD678133",
+            "email": "abdelghafour.kobbi@usmba.ac.ma",
+            "cne": "N136256625",
+            "filiere": "SVI"
+        },
+        {
+            "code": "34343",
+            "nom": "KONATE",
+            "prenom": "OUMAR",
+            "cin": "O00292495",
+            "email": "oumar.konate@usmba.ac.ma",
+            "cne": "1880110025",
+            "filiere": "STU"
+        },
+        {
+            "code": "36925",
+            "nom": "KONATEH",
+            "prenom": "ALASAN",
+            "cin": "PC052078",
+            "email": "alasan.konateh@usmba.ac.ma",
+            "cne": "1980110079",
+            "filiere": "SVI"
+        },
+        {
+            "code": "31713",
+            "nom": "KONDO",
+            "prenom": "HAWA",
+            "cin": "AA0153150",
+            "email": "hawa.kondo@usmba.ac.ma",
+            "cne": "1780110011",
+            "filiere": "SVI"
+        },
+        {
+            "code": "36904",
+            "nom": "KONE",
+            "prenom": "SIDI",
+            "cin": "18AX43768",
+            "email": "sidi.kone@usmba.ac.ma",
+            "cne": "1980110062",
+            "filiere": "SVI"
+        },
+        {
+            "code": "36040",
+            "nom": "LAZAR",
+            "prenom": "NABILA",
+            "cin": "CD387320",
+            "email": "nabila.lazar@usmba.ac.ma",
+            "cne": "N133205322",
+            "filiere": "SVI"
+        },
+        {
+            "code": "33439",
+            "nom": "LAZAR",
+            "prenom": "ILHAM",
+            "cin": "CD659416",
+            "email": "ilham.lazar@usmba.ac.ma",
+            "cne": "N132194731",
+            "filiere": "SMP"
+        },
+        {
+            "code": "36041",
+            "nom": "LAZIRI",
+            "prenom": "AZIZ",
+            "cin": "ZT292583",
+            "email": "aziz.laziri@usmba.ac.ma",
+            "cne": "S140013508",
+            "filiere": "SMP"
+        },
+        {
+            "code": "27285",
+            "nom": "LAZMI",
+            "prenom": "MOHAMED",
+            "cin": "ZT236033",
+            "email": "mohamed.lazmi@usmba.ac.ma",
+            "cne": "1513813508",
+            "filiere": "SMP"
+        },
+        {
+            "code": "33441",
+            "nom": "LAZRAG",
+            "prenom": "ZAKARIAE",
+            "cin": "CD657697",
+            "email": "zakariae.lazrag@usmba.ac.ma",
+            "cne": "N132163265",
+            "filiere": "SMP"
+        },
+        {
+            "code": "36043",
+            "nom": "LAZRAK",
+            "prenom": "ZINEB",
+            "cin": "CD610569",
+            "email": "zineb.lazrak@usmba.ac.ma",
+            "cne": "N131142127",
+            "filiere": "SMP"
+        },
+        {
+            "code": "31525",
+            "nom": "LAZRAK",
+            "prenom": "MOHAMED",
+            "cin": "ZT263174",
+            "email": "mohamed.lazrak@usmba.ac.ma",
+            "cne": "S136344958",
+            "filiere": "SMA"
+        },
+        {
+            "code": "31525",
+            "nom": "LAZRAK",
+            "prenom": "MOHAMED",
+            "cin": "ZT263174",
+            "email": "mohamed.lazrak@usmba.ac.ma",
+            "cne": "S136344968",
+            "filiere": "SMA"
+        },
+        {
+            "code": "19610",
+            "nom": "L'BABI",
+            "prenom": "TARIK",
+            "cin": "Zt102898",
+            "email": "tarik.l'babi@usmba.ac.ma",
+            "cne": "1212773534",
+            "filiere": "SMP"
+        },
+        {
+            "code": "29469",
+            "nom": "LBESSBASS",
+            "prenom": "ABD ELALI",
+            "cin": "CD265802",
+            "email": "abdelali.lbessbass@usmba.ac.ma",
+            "cne": "N133199633",
+            "filiere": "SMP"
+        },
+        {
+            "code": "29724",
+            "nom": "LEBRIHI",
+            "prenom": "SOUKAINA",
+            "cin": "CD682955",
+            "email": "soukaina.lebrihi@usmba.ac.ma",
+            "cne": "N131232362",
+            "filiere": "SVI"
+        },
+        {
+            "code": "29471",
+            "nom": "LEBRIMCHI",
+            "prenom": "FATIMA-ZOHRA",
+            "cin": "CB317025",
+            "email": "fatima-zohra.lebrimchi@usmba.ac.ma",
+            "cne": "N132319271",
+            "filiere": "SVI"
+        },
+        {
+            "code": "33444",
+            "nom": "LECHHAB",
+            "prenom": "NOUHAYLA",
+            "cin": "CB330171",
+            "email": "nouhayla.lechhab@usmba.ac.ma",
+            "cne": "N135371132",
+            "filiere": "SVI"
+        },
+        {
+            "code": "27290",
+            "nom": "LEGURINI",
+            "prenom": "HAMID",
+            "cin": "CD295867",
+            "email": "hamid.legurini@usmba.ac.ma",
+            "cne": "1315796689",
+            "filiere": "SMP"
+        },
+        {
+            "code": "34181",
+            "nom": "LEKHRARFI",
+            "prenom": "SAAD",
+            "cin": "CD691680",
+            "email": "saad.lekhrarfi@usmba.ac.ma",
+            "cne": "N139152344",
+            "filiere": "SMP"
+        },
+        {
+            "code": "31526",
+            "nom": "LEMBARKY",
+            "prenom": "SANAE",
+            "cin": "CN34970",
+            "email": "sanae.lembarky@usmba.ac.ma",
+            "cne": "N137098108",
+            "filiere": "SMA"
+        },
+        {
+            "code": "30448",
+            "nom": "LEMBARRAA",
+            "prenom": "ADNANE",
+            "cin": "C548926",
+            "email": "adnane.lembarraa@usmba.ac.ma",
+            "cne": "Z163206247",
+            "filiere": "SMP"
+        },
+        {
+            "code": "36046",
+            "nom": "LEMHAMDI",
+            "prenom": "IKRAM",
+            "cin": "CN41957",
+            "email": "ikram.lemhamdi@usmba.ac.ma",
+            "cne": "N139122868",
+            "filiere": "SVI"
+        },
+        {
+            "code": "33445",
+            "nom": "LEMHOUOUAR",
+            "prenom": "MERYEM",
+            "cin": "CD657593",
+            "email": "meryem.lemhououar@usmba.ac.ma",
+            "cne": "N133211963",
+            "filiere": "SVI"
+        },
+        {
+            "code": "36047",
+            "nom": "LEMMASSI",
+            "prenom": "AYOUB",
+            "cin": "CD689829",
+            "email": "ayoub.lemmassi@usmba.ac.ma",
+            "cne": "N130276087",
+            "filiere": "SVI"
+        },
+        {
+            "code": "36048",
+            "nom": "LEMSIDI",
+            "prenom": "FATIMA-ZAHRAE",
+            "cin": "CD354217",
+            "email": "fatima-zahrae.lemsidi@usmba.ac.ma",
+            "cne": "N120028734",
+            "filiere": "SMP"
+        },
+        {
+            "code": "29473",
+            "nom": "LEMSIDI",
+            "prenom": "IBRAHIM",
+            "cin": "CD489393",
+            "email": "ibrahim.lemsidi@usmba.ac.ma",
+            "cne": "N132224425",
+            "filiere": "SMP"
+        },
+        {
+            "code": "36051",
+            "nom": "LEMSIDI",
+            "prenom": "MOHAMMED",
+            "cin": "CD679310",
+            "email": "mohammed.lemsidi@usmba.ac.ma",
+            "cne": "N135338061",
+            "filiere": "SMP"
+        },
+        {
+            "code": "36050",
+            "nom": "LEMSIDI",
+            "prenom": "MERYEM",
+            "cin": "CD687456",
+            "email": "meryem.lemsidi@usmba.ac.ma",
+            "cne": "N130224515",
+            "filiere": "SVI"
+        },
+        {
+            "code": "31272",
+            "nom": "LEMSSAHLI",
+            "prenom": "KAWTAR",
+            "cin": "CD716098",
+            "email": "kawtar.lemssahli@usmba.ac.ma",
+            "cne": "N136172416",
+            "filiere": "SVI"
+        },
+        {
+            "code": "36717",
+            "nom": "LEMZIOUKA",
+            "prenom": "KHALID",
+            "cin": "ZT265585",
+            "email": "khalid.lemziouka@usmba.ac.ma",
+            "cne": "N133199494",
+            "filiere": "SMP"
+        },
+        {
+            "code": "11463",
+            "nom": "LFAQUIR",
+            "prenom": "ANWAR",
+            "cin": "CB266217",
+            "email": "anwar.lfaquir@usmba.ac.ma",
+            "cne": "2927764518",
+            "filiere": "SMP"
+        },
+        {
+            "code": "31274",
+            "nom": "LHOUSNI",
+            "prenom": "LAMYAE",
+            "cin": "CB318523",
+            "email": "lamyae.lhousni@usmba.ac.ma",
+            "cne": "N140033129",
+            "filiere": "SVI"
+        },
+        {
+            "code": "36770",
+            "nom": "LIBOURKI",
+            "prenom": "CHAYMAE",
+            "cin": "CD435724",
+            "email": "chaymae.libourki@usmba.ac.ma",
+            "cne": "N136228419",
+            "filiere": "SMP"
+        },
+        {
+            "code": "22925",
+            "nom": "LIMA DA COSTA VAZ",
+            "prenom": "GICILENE",
+            "cin": "S137598",
+            "email": "gicilene.limadacostavaz@usmba.ac.ma",
+            "cne": "1311201346",
+            "filiere": "SMC"
+        },
+        {
+            "code": "30025",
+            "nom": "LIWOKE LISUMBU",
+            "prenom": "KEWOLY",
+            "cin": "OP0026472",
+            "email": "kewoly.liwokelisumbu@usmba.ac.ma",
+            "cne": "1680110086",
+            "filiere": "SMI"
+        },
+        {
+            "code": "29477",
+            "nom": "L'KIMA",
+            "prenom": "MINA",
+            "cin": "CD721370",
+            "email": "mina.l'kima@usmba.ac.ma",
+            "cne": "N138328180",
+            "filiere": "SMC"
+        },
+        {
+            "code": "36863",
+            "nom": "LONCHAMP",
+            "prenom": "PIERRE  LOIC",
+            "cin": "O00258940",
+            "email": "pierreloic.lonchamp@usmba.ac.ma",
+            "cne": "1980110025",
+            "filiere": "SMA"
+        },
+        {
+            "code": "29728",
+            "nom": "SRISRA",
+            "prenom": "MOHAMED",
+            "cin": "ZT254432",
+            "email": "mohamed.srisra@usmba.ac.ma",
+            "cne": "S141013283",
+            "filiere": "SMP"
+        },
+        {
+            "code": "33855",
+            "nom": "SRISRA",
+            "prenom": "NOAMAN",
+            "cin": "ZT283815",
+            "email": "noaman.srisra@usmba.ac.ma",
+            "cne": "S140024148",
+            "filiere": "SMC"
+        },
+        {
+            "code": "36787",
+            "nom": "SRITI",
+            "prenom": "RAJAE",
+            "cin": "CD726227",
+            "email": "rajae.sriti@usmba.ac.ma",
+            "cne": "N133304944",
+            "filiere": "SVI"
+        },
+        {
+            "code": "29730",
+            "nom": "STITOU",
+            "prenom": "YAHYA",
+            "cin": "CD741357",
+            "email": "yahya.stitou@usmba.ac.ma",
+            "cne": "N132214638",
+            "filiere": "SVI"
+        },
+        {
+            "code": "36440",
+            "nom": "STITOU",
+            "prenom": "GHITA",
+            "cin": "CD745577",
+            "email": "ghita.stitou@usmba.ac.ma",
+            "cne": "N130351262",
+            "filiere": "SMP"
+        },
+        {
+            "code": "33856",
+            "nom": "STITOU",
+            "prenom": "KAOUTAR",
+            "cin": "ZT276127",
+            "email": "kaoutar.stitou@usmba.ac.ma",
+            "cne": "S138238162",
+            "filiere": "SVI"
+        },
+        {
+            "code": "34253",
+            "nom": "SYLLA",
+            "prenom": "ABDERRAHMANE",
+            "cin": "AA02862994",
+            "email": "abderrahmane.sylla@usmba.ac.ma",
+            "cne": "1880110056",
+            "filiere": "STU"
+        },
+        {
+            "code": "31732",
+            "nom": "SYLLA",
+            "prenom": "CHEIKHOUNA",
+            "cin": "AO1954603",
+            "email": "cheikhouna.sylla@usmba.ac.ma",
+            "cne": "1780110022",
+            "filiere": "STU"
+        },
+        {
+            "code": "33990",
+            "nom": "SYLLA",
+            "prenom": "DJIBRIL",
+            "cin": "O0391245",
+            "email": "djibril.sylla@usmba.ac.ma",
+            "cne": "1880110012",
+            "filiere": "SVI"
+        },
+        {
+            "code": "27774",
+            "nom": "TABBAI",
+            "prenom": "NOUHAYLA",
+            "cin": "CD271906",
+            "email": "nouhayla.tabbai@usmba.ac.ma",
+            "cne": "N135316540",
+            "filiere": "SVI"
+        },
+        {
+            "code": "36444",
+            "nom": "TABBAL",
+            "prenom": "KAMAL",
+            "cin": "PA258990",
+            "email": "kamal.tabbal@usmba.ac.ma",
+            "cne": "S139425743",
+            "filiere": "SVI"
+        },
+        {
+            "code": "33857",
+            "nom": "TABET",
+            "prenom": "ABDELILAH",
+            "cin": "CD678640",
+            "email": "abdelilah.tabet@usmba.ac.ma",
+            "cne": "N137374904",
+            "filiere": "SMP"
+        },
+        {
+            "code": "31936",
+            "nom": "TADJADINE  MAHAMAT",
+            "prenom": "HAMID",
+            "cin": "R0312614",
+            "email": "hamid.tadjadinemahamat@usmba.ac.ma",
+            "cne": "1780110103",
+            "filiere": "STU"
+        },
+        {
+            "code": "33858",
+            "nom": "TADLAOUI",
+            "prenom": "AYA",
+            "cin": "CD287789",
+            "email": "aya.tadlaoui@usmba.ac.ma",
+            "cne": "N135172926",
+            "filiere": "SMI"
+        },
+        {
+            "code": "28032",
+            "nom": "TADLAOUI HABIBI",
+            "prenom": "OUMAYMA",
+            "cin": "CD529188",
+            "email": "oumayma.tadlaouihabibi@usmba.ac.ma",
+            "cne": "1512753490",
+            "filiere": "SVI"
+        },
+        {
+            "code": "30512",
+            "nom": "TAFRAOUT",
+            "prenom": "OUSSAMA",
+            "cin": "Cb320650",
+            "email": "oussama.tafraout@usmba.ac.ma",
+            "cne": "N130359615",
+            "filiere": "SMP"
+        },
+        {
+            "code": "36446",
+            "nom": "TAGHROUTE",
+            "prenom": "SOUKAYNA",
+            "cin": "CN43364",
+            "email": "soukayna.taghroute@usmba.ac.ma",
+            "cne": "N134262312",
+            "filiere": "SVI"
+        },
+        {
+            "code": "27781",
+            "nom": "TAGHZIZE",
+            "prenom": "IBRAHIM",
+            "cin": "CB311938",
+            "email": "ibrahim.taghzize@usmba.ac.ma",
+            "cne": "N136293305",
+            "filiere": "SVI"
+        },
+        {
+            "code": "27782",
+            "nom": "TAGMOUTI",
+            "prenom": "GHITA",
+            "cin": "CD488804",
+            "email": "ghita.tagmouti@usmba.ac.ma",
+            "cne": "N138251347",
+            "filiere": "SMC"
+        },
+        {
+            "code": "27783",
+            "nom": "TAGNAOUTI",
+            "prenom": "GHITA",
+            "cin": "CD568123",
+            "email": "ghita.tagnaouti@usmba.ac.ma",
+            "cne": "N143016941",
+            "filiere": "SMP"
+        },
+        {
+            "code": "31666",
+            "nom": "TAGNAOUTI MOUMNANI",
+            "prenom": "YAZID",
+            "cin": "CD644221",
+            "email": "yazid.tagnaoutimoumnani@usmba.ac.ma",
+            "cne": "N134382065",
+            "filiere": "SMI"
+        },
+        {
+            "code": "29734",
+            "nom": "TAHAR",
+            "prenom": "ABDELLAH",
+            "cin": "Cd674439",
+            "email": "abdellah.tahar@usmba.ac.ma",
+            "cne": "N132238143",
+            "filiere": "SMP"
+        },
+        {
+            "code": "30552",
+            "nom": "TAHIRI",
+            "prenom": "YASSINE",
+            "cin": "CB323773",
+            "email": "yassine.tahiri@usmba.ac.ma",
+            "cne": "N131285357",
+            "filiere": "SMP"
+        },
+        {
+            "code": "36449",
+            "nom": "TAHIRI",
+            "prenom": "SOUKAINA",
+            "cin": "CD659280",
+            "email": "soukaina.tahiri@usmba.ac.ma",
+            "cne": "N136348632",
+            "filiere": "SMA"
+        },
+        {
+            "code": "31409",
+            "nom": "TAHIRI",
+            "prenom": "MOHAMED",
+            "cin": "CD691678",
+            "email": "mohamed.tahiri@usmba.ac.ma",
+            "cne": "N136376753",
+            "filiere": "SVI"
+        },
+        {
+            "code": "36448",
+            "nom": "TAHIRI",
+            "prenom": "YOUSSRA",
+            "cin": "Cd745757",
+            "email": "youssra.tahiri@usmba.ac.ma",
+            "cne": "N138364106",
+            "filiere": "SVI"
+        },
+        {
+            "code": "27786",
+            "nom": "TAHIRI",
+            "prenom": "AISSAM",
+            "cin": "CN29489",
+            "email": "aissam.tahiri@usmba.ac.ma",
+            "cne": "N139310439",
+            "filiere": "SVI"
+        },
+        {
+            "code": "34355",
+            "nom": "TAHIROU MOUSSA",
+            "prenom": "MAHAMADOU",
+            "cin": "10PC68695",
+            "email": "mahamadou.tahiroumoussa@usmba.ac.ma",
+            "cne": "1880110019",
+            "filiere": "SVI"
+        },
+        {
+            "code": "27787",
+            "nom": "TAHMOUN",
+            "prenom": "YASSINE",
+            "cin": "cd253069",
+            "email": "yassine.tahmoun@usmba.ac.ma",
+            "cne": "n135316592",
+            "filiere": "SVI"
+        },
+        {
+            "code": "30553",
+            "nom": "TAHOUACH",
+            "prenom": "OUMAYMA",
+            "cin": "CD387220",
+            "email": "oumayma.tahouach@usmba.ac.ma",
+            "cne": "N146011407",
+            "filiere": "SMP"
+        },
+        {
+            "code": "18685",
+            "nom": "TAHRI",
+            "prenom": "NABIL",
+            "cin": "CD594638",
+            "email": "nabil.tahri@usmba.ac.ma",
+            "cne": "1210852363",
+            "filiere": "SMP"
+        },
+        {
+            "code": "36452",
+            "nom": "TAHRI JOUTI HASSANI",
+            "prenom": "JIHANE",
+            "cin": "CD388959",
+            "email": "jihane.tahrijoutihassani@usmba.ac.ma",
+            "cne": "N146020950",
+            "filiere": "SMA"
+        },
+        {
+            "code": "30554",
+            "nom": "TAHRIOUI",
+            "prenom": "OUAFAE",
+            "cin": "CD664852",
+            "email": "ouafae.tahrioui@usmba.ac.ma",
+            "cne": "N130165069",
+            "filiere": "SMP"
+        },
+        {
+            "code": "33861",
+            "nom": "TAIBANE",
+            "prenom": "ANAS",
+            "cin": "Cd343911",
+            "email": "anas.taibane@usmba.ac.ma",
+            "cne": "N132227692",
+            "filiere": "SMP"
+        },
+        {
+            "code": "23860",
+            "nom": "TAIBI",
+            "prenom": "MOURAD",
+            "cin": "CD624500",
+            "email": "mourad.taibi@usmba.ac.ma",
+            "cne": "1411760536",
+            "filiere": "SVI"
+        },
+        {
+            "code": "8897",
+            "nom": "TAIFI",
+            "prenom": "IMANE",
+            "cin": "ZT78570",
+            "email": "imane.taifi@usmba.ac.ma",
+            "cne": "2826816001",
+            "filiere": "SMI"
+        },
+        {
+            "code": "27791",
+            "nom": "TAIMI",
+            "prenom": "SALMA",
+            "cin": "CD529443",
+            "email": "salma.taimi@usmba.ac.ma",
+            "cne": "N143017473",
+            "filiere": "SVI"
+        },
+        {
+            "code": "33863",
+            "nom": "TAJMOUATI",
+            "prenom": "HIND",
+            "cin": "CD354305",
+            "email": "hind.tajmouati@usmba.ac.ma",
+            "cne": "N133182279",
+            "filiere": "STU"
+        },
+        {
+            "code": "31667",
+            "nom": "TAJMOUATI",
+            "prenom": "MOAD",
+            "cin": "CD690994",
+            "email": "moad.tajmouati@usmba.ac.ma",
+            "cne": "N133255677",
+            "filiere": "SMI"
+        },
+        {
+            "code": "31534",
+            "nom": "TAJMOUATI",
+            "prenom": "ZINEB",
+            "cin": "CD713722",
+            "email": "zineb.tajmouati@usmba.ac.ma",
+            "cne": "N133203745",
+            "filiere": "SMI"
+        },
+        {
+            "code": "18197",
+            "nom": "TAJRI",
+            "prenom": "ABDELHAFID",
+            "cin": "DO15279",
+            "email": "abdelhafid.tajri@usmba.ac.ma",
+            "cne": "1228746376",
+            "filiere": "SVI"
+        },
+        {
+            "code": "31412",
+            "nom": "TAKIE",
+            "prenom": "MAROUANE",
+            "cin": "CD266956",
+            "email": "marouane.takie@usmba.ac.ma",
+            "cne": "N134161639",
+            "filiere": "SVI"
+        },
+        {
+            "code": "33864",
+            "nom": "TAKKI",
+            "prenom": "MOHAMMED",
+            "cin": "CD685628",
+            "email": "mohammed.takki@usmba.ac.ma",
+            "cne": "N133195745",
+            "filiere": "SMP"
+        },
+        {
+            "code": "29735",
+            "nom": "TALBI",
+            "prenom": "AYOUB",
+            "cin": "CD588368",
+            "email": "ayoub.talbi@usmba.ac.ma",
+            "cne": "N137177906",
+            "filiere": "SMP"
+        },
+        {
+            "code": "29737",
+            "nom": "TALBI",
+            "prenom": "CHAYMAE",
+            "cin": "CN31427",
+            "email": "chaymae.talbi@usmba.ac.ma",
+            "cne": "N139094852",
+            "filiere": "SVI"
+        },
+        {
+            "code": "30555",
+            "nom": "TALBI",
+            "prenom": "ALI",
+            "cin": "CN31695",
+            "email": "ali.talbi@usmba.ac.ma",
+            "cne": "N140011171",
+            "filiere": "SMP"
+        },
+        {
+            "code": "29738",
+            "nom": "TALBI",
+            "prenom": "FADOUA",
+            "cin": "CN317991",
+            "email": "fadoua.talbi@usmba.ac.ma",
+            "cne": "N134268652",
+            "filiere": "SMC"
+        },
+        {
+            "code": "33866",
+            "nom": "TALEB",
+            "prenom": "MOHAMMED",
+            "cin": "CD436752",
+            "email": "mohammed.taleb@usmba.ac.ma",
+            "cne": "N142036504",
+            "filiere": "SMP"
+        },
+        {
+            "code": "31413",
+            "nom": "TALEB",
+            "prenom": "SANAE",
+            "cin": "Z478801",
+            "email": "sanae.taleb@usmba.ac.ma",
+            "cne": "1128833019",
+            "filiere": "SVI"
+        },
+        {
+            "code": "36457",
+            "nom": "TALHA",
+            "prenom": "EL MEHDI",
+            "cin": "CD905496",
+            "email": "elmehdi.talha@usmba.ac.ma",
+            "cne": "N139164451",
+            "filiere": "SMP"
+        },
+        {
+            "code": "33867",
+            "nom": "TALHAOUI",
+            "prenom": "NEZHA",
+            "cin": "CD289925",
+            "email": "nezha.talhaoui@usmba.ac.ma",
+            "cne": "N135317223",
+            "filiere": "SMP"
+        },
+        {
+            "code": "36458",
+            "nom": "TALHAOUI",
+            "prenom": "ANAS",
+            "cin": "CD752475",
+            "email": "anas.talhaoui@usmba.ac.ma",
+            "cne": "N132253088",
+            "filiere": "SMP"
+        },
+        {
+            "code": "36922",
+            "nom": "TALL",
+            "prenom": "FATOUMATA",
+            "cin": "19AA21725",
+            "email": "fatoumata.tall@usmba.ac.ma",
+            "cne": "1980110076",
+            "filiere": "SVI"
+        },
+        {
+            "code": "33869",
+            "nom": "TALLIL",
+            "prenom": "FATINE",
+            "cin": "CD666177",
+            "email": "fatine.tallil@usmba.ac.ma",
+            "cne": "N134350914",
+            "filiere": "SMP"
+        },
+        {
+            "code": "30556",
+            "nom": "TALMANI",
+            "prenom": "YOUSRA",
+            "cin": "CD742574",
+            "email": "yousra.talmani@usmba.ac.ma",
+            "cne": "N131223468",
+            "filiere": "SMP"
+        },
+        {
+            "code": "28081",
+            "nom": "TAMAI",
+            "prenom": "AHMED",
+            "cin": "Z546535",
+            "email": "ahmed.tamai@usmba.ac.ma",
+            "cne": "1311810531",
+            "filiere": "SMP"
+        },
+        {
+            "code": "24858",
+            "nom": "TAMIMI",
+            "prenom": "IMANE",
+            "cin": "CD197811",
+            "email": "imane.tamimi@usmba.ac.ma",
+            "cne": "1411744005",
+            "filiere": "SVI"
+        },
+        {
+            "code": "29740",
+            "nom": "TAMIMI",
+            "prenom": "ABDELHAK",
+            "cin": "CD297046",
+            "email": "abdelhak.tamimi@usmba.ac.ma",
+            "cne": "N130264710",
+            "filiere": "SMP"
+        },
+        {
+            "code": "24866",
+            "nom": "TAMIMI",
+            "prenom": "HOUDA",
+            "cin": "Zt115161",
+            "email": "houda.tamimi@usmba.ac.ma",
+            "cne": "1414776144",
+            "filiere": "SVI"
+        },
+        {
+            "code": "22530",
+            "nom": "TAMIMI",
+            "prenom": "YOUSSEF",
+            "cin": "ZT177954",
+            "email": "youssef.tamimi@usmba.ac.ma",
+            "cne": "1311807232",
+            "filiere": "SMP"
+        },
+        {
+            "code": "29739",
+            "nom": "TAMIMI",
+            "prenom": "KAOUTHAR",
+            "cin": "ZT253613",
+            "email": "kaouthar.tamimi@usmba.ac.ma",
+            "cne": "S135104603",
+            "filiere": "SMI"
+        },
+        {
+            "code": "24697",
+            "nom": "TAMOUH",
+            "prenom": "MOHAMMED",
+            "cin": "CD290147",
+            "email": "mohammed.tamouh@usmba.ac.ma",
+            "cne": "1411762124",
+            "filiere": "SVI"
+        },
+        {
+            "code": "29925",
+            "nom": "TANGARA",
+            "prenom": "OUSMANE",
+            "cin": "AA0041313",
+            "email": "ousmane.tangara@usmba.ac.ma",
+            "cne": "1680110054",
+            "filiere": "STU"
+        },
+        {
+            "code": "24021",
+            "nom": "TAOUDI",
+            "prenom": "IMAD",
+            "cin": "CB272727",
+            "email": "imad.taoudi@usmba.ac.ma",
+            "cne": "1411777895",
+            "filiere": "SMC"
+        },
+        {
+            "code": "29741",
+            "nom": "TAOUFYQ",
+            "prenom": "CHAYMAE",
+            "cin": "CD282470",
+            "email": "chaymae.taoufyq@usmba.ac.ma",
+            "cne": "N134269053",
+            "filiere": "SVI"
+        },
+        {
+            "code": "29742",
+            "nom": "TAOUSI",
+            "prenom": "ILHAM",
+            "cin": "CN31787",
+            "email": "ilham.taousi@usmba.ac.ma",
+            "cne": "N132308609",
+            "filiere": "SMP"
+        },
+        {
+            "code": "17085",
+            "nom": "TOUZANI",
+            "prenom": "SOFIA",
+            "cin": "ZT124039",
+            "email": "sofia.touzani@usmba.ac.ma",
+            "cne": "1210813913",
+            "filiere": "SMA"
+        },
+        {
+            "code": "27837",
+            "nom": "TOUZANI",
+            "prenom": "MOHAMMED SALAH",
+            "cin": "ZT223485",
+            "email": "mohammedsalah.touzani@usmba.ac.ma",
+            "cne": "S135341923",
+            "filiere": "SMI"
+        },
+        {
+            "code": "33893",
+            "nom": "TOUZANI",
+            "prenom": "NOUR EDDINE",
+            "cin": "ZT285272",
+            "email": "noureddine.touzani@usmba.ac.ma",
+            "cne": "S140023959",
+            "filiere": "SMP"
+        },
+        {
+            "code": "31918",
+            "nom": "TRAORE",
+            "prenom": "NOURYA  SYLVIE",
+            "cin": "17AL92417",
+            "email": "nouryasylvie.traore@usmba.ac.ma",
+            "cne": "1780110057",
+            "filiere": "STU"
+        },
+        {
+            "code": "29886",
+            "nom": "TRAORE",
+            "prenom": "SEKOU",
+            "cin": "AA0037734",
+            "email": "sekou.traore@usmba.ac.ma",
+            "cne": "1680110015",
+            "filiere": "SMI"
+        },
+        {
+            "code": "29988",
+            "nom": "TRAORE",
+            "prenom": "MORIBA M MORIBA",
+            "cin": "AA0049813",
+            "email": "moribammoriba.traore@usmba.ac.ma",
+            "cne": "1680110073",
+            "filiere": "STU"
+        },
+        {
+            "code": "36590",
+            "nom": "TRAORE",
+            "prenom": "MAHAMADOU",
+            "cin": "AA0105894",
+            "email": "mahamadou.traore@usmba.ac.ma",
+            "cne": "1980110067",
+            "filiere": "SMA"
+        },
+        {
+            "code": "31736",
+            "nom": "TRAORE",
+            "prenom": "FATOUMATA",
+            "cin": "AA0157364",
+            "email": "fatoumata.traore@usmba.ac.ma",
+            "cne": "1780110038",
+            "filiere": "STU"
+        },
+        {
+            "code": "36910",
+            "nom": "TRAORE",
+            "prenom": "ADAMA  SEYDOU",
+            "cin": "AA0421723",
+            "email": "adamaseydou.traore@usmba.ac.ma",
+            "cne": "1980110070",
+            "filiere": "SMA"
+        },
+        {
+            "code": "36909",
+            "nom": "TRAVERS",
+            "prenom": "RUBEL  ROMEO",
+            "cin": "PP0040522",
+            "email": "rubelromeo.travers@usmba.ac.ma",
+            "cne": "1980110069",
+            "filiere": "SVI"
+        },
+        {
+            "code": "33894",
+            "nom": "TREBAK",
+            "prenom": "FATIMA",
+            "cin": "CD665212",
+            "email": "fatima.trebak@usmba.ac.ma",
+            "cne": "N146030034",
+            "filiere": "SVI"
+        },
+        {
+            "code": "31427",
+            "nom": "TRIBAK",
+            "prenom": "FATIMA ZOHRA",
+            "cin": "CD434519",
+            "email": "fatimazohra.tribak@usmba.ac.ma",
+            "cne": "N139174040",
+            "filiere": "SVI"
+        },
+        {
+            "code": "33896",
+            "nom": "TRICHINE",
+            "prenom": "FATIHA",
+            "cin": "CD675141",
+            "email": "fatiha.trichine@usmba.ac.ma",
+            "cne": "N134226294",
+            "filiere": "SMC"
+        },
+        {
+            "code": "22572",
+            "nom": "TRIFESSE",
+            "prenom": "SALIHA",
+            "cin": "Cd631182",
+            "email": "saliha.trifesse@usmba.ac.ma",
+            "cne": "1310761678",
+            "filiere": "SVI"
+        },
+        {
+            "code": "31428",
+            "nom": "TRIKI",
+            "prenom": "AMINA",
+            "cin": "Z604673",
+            "email": "amina.triki@usmba.ac.ma",
+            "cne": "S148052660",
+            "filiere": "SVI"
+        },
+        {
+            "code": "18247",
+            "nom": "TRISS",
+            "prenom": "ABDELHAKIM",
+            "cin": "zt127336",
+            "email": "abdelhakim.triss@usmba.ac.ma",
+            "cne": "1229810834",
+            "filiere": "SMP"
+        },
+        {
+            "code": "33898",
+            "nom": "TRITAH",
+            "prenom": "SAAD",
+            "cin": "CB278132",
+            "email": "saad.tritah@usmba.ac.ma",
+            "cne": "Z183201910",
+            "filiere": "SMP"
+        },
+        {
+            "code": "24099",
+            "nom": "TYACH",
+            "prenom": "AYOUB",
+            "cin": "CD549249",
+            "email": "ayoub.tyach@usmba.ac.ma",
+            "cne": "1412744217",
+            "filiere": "SMP"
+        },
+        {
+            "code": "36911",
+            "nom": "VITALI",
+            "prenom": "MOUSSA",
+            "cin": "NBE518858",
+            "email": "moussa.vitali@usmba.ac.ma",
+            "cne": "1980110071",
+            "filiere": "SVI"
+        },
+        {
+            "code": "36501",
+            "nom": "WAFAE",
+            "prenom": "MEHDAOUI",
+            "cin": "CD698582",
+            "email": "mehdaoui.wafae@usmba.ac.ma",
+            "cne": "N131175127",
+            "filiere": "SVI"
+        },
+        {
+            "code": "29760",
+            "nom": "WARDI",
+            "prenom": "EL MEHDI",
+            "cin": "CD693834",
+            "email": "elmehdi.wardi@usmba.ac.ma",
+            "cne": "N134215269",
+            "filiere": "SMA"
+        },
+        {
+            "code": "36502",
+            "nom": "WARDI",
+            "prenom": "YOUNES",
+            "cin": "U202522",
+            "email": "younes.wardi@usmba.ac.ma",
+            "cne": "N137262472",
+            "filiere": "SVI"
+        },
+        {
+            "code": "29761",
+            "nom": "WARI",
+            "prenom": "OUSSAMA",
+            "cin": "CD673196",
+            "email": "oussama.wari@usmba.ac.ma",
+            "cne": "N139190780",
+            "filiere": "SMI"
+        },
+        {
+            "code": "36940",
+            "nom": "WEMAKOY",
+            "prenom": "DESIRE",
+            "cin": "OP0521692",
+            "email": "desire.wemakoy@usmba.ac.ma",
+            "cne": "1980110090",
+            "filiere": "SMA"
+        },
+        {
+            "code": "31430",
+            "nom": "YAACOUBI",
+            "prenom": "OUAFAA",
+            "cin": "CD702458",
+            "email": "ouafaa.yaacoubi@usmba.ac.ma",
+            "cne": "N135171481",
+            "filiere": "SVI"
+        },
+        {
+            "code": "31431",
+            "nom": "YAAKOUBI",
+            "prenom": "HAJAR",
+            "cin": "CD676449",
+            "email": "hajar.yaakoubi@usmba.ac.ma",
+            "cne": "N139164017",
+            "filiere": "SVI"
+        },
+        {
+            "code": "27844",
+            "nom": "YACHOU",
+            "prenom": "FATIMA EZ ZAHRAE",
+            "cin": "CD251798",
+            "email": "fatimaezzahrae.yachou@usmba.ac.ma",
+            "cne": "1411783385",
+            "filiere": "SVI"
+        },
+        {
+            "code": "36505",
+            "nom": "YACINE",
+            "prenom": "YASAMINE",
+            "cin": "CN42363",
+            "email": "yasamine.yacine@usmba.ac.ma",
+            "cne": "CN133042000",
+            "filiere": "SVI"
+        },
+        {
+            "code": "34315",
+            "nom": "YAHIAOUI",
+            "prenom": "LOUBNA",
+            "cin": "CB316314",
+            "email": "loubna.yahiaoui@usmba.ac.ma",
+            "cne": "N136335506",
+            "filiere": "SVI"
+        },
+        {
+            "code": "29763",
+            "nom": "YAHYA",
+            "prenom": "ACHRAF",
+            "cin": "CD721354",
+            "email": "achraf.yahya@usmba.ac.ma",
+            "cne": "N139124725",
+            "filiere": "SVI"
+        },
+        {
+            "code": "33904",
+            "nom": "YAHYA",
+            "prenom": "KARIM",
+            "cin": "DB28381",
+            "email": "karim.yahya@usmba.ac.ma",
+            "cne": "M137529220",
+            "filiere": "SMP"
+        },
+        {
+            "code": "19280",
+            "nom": "YAHYAOUI",
+            "prenom": "SANAE",
+            "cin": "CN17238",
+            "email": "sanae.yahyaoui@usmba.ac.ma",
+            "cne": "1210742723",
+            "filiere": "SMP"
+        },
+        {
+            "code": "29765",
+            "nom": "YAJIOUI",
+            "prenom": "AHMED",
+            "cin": "CD740725",
+            "email": "ahmed.yajioui@usmba.ac.ma",
+            "cne": "N138360734",
+            "filiere": "SMC"
+        },
+        {
+            "code": "29389",
+            "nom": "KHANOUSSI",
+            "prenom": "MOUAD",
+            "cin": "T278650",
+            "email": "mouad.khanoussi@usmba.ac.ma",
+            "cne": "1513364873",
+            "filiere": "SMP"
+        },
+        {
+            "code": "36250",
+            "nom": "NIBRACE",
+            "prenom": "MOHAMED",
+            "cin": "BK629389",
+            "email": "mohamed.nibrace@usmba.ac.ma",
+            "cne": "R138711676",
+            "filiere": "SVI"
+        },
+        {
+            "code": "22671",
+            "nom": "ZRIRAK",
+            "prenom": "KAOUTAR",
+            "cin": "CD270919",
+            "email": "kaoutar.zrirak@usmba.ac.ma",
+            "cne": "1311751112",
+            "filiere": "SMP"
+        },
+        {
+            "code": "35222",
+            "nom": "EL HIRI",
+            "prenom": "MERYEM",
+            "cin": "CD698655",
+            "email": "meryem.elhiri@usmba.ac.ma",
+            "cne": "N131343641",
+            "filiere": "SMP"
+        },
+        {
+            "code": "27748",
+            "nom": "SIAD",
+            "prenom": "OUMAIMA",
+            "cin": "GJ47692",
+            "email": "oumaima.siad@usmba.ac.ma",
+            "cne": "1513812864",
+            "filiere": "SMI"
+        },
+        {
+            "code": "36768",
+            "nom": "LABIAD",
+            "prenom": "ZAKARIAE",
+            "cin": "CD568066",
+            "email": "zakariae.labiad@usmba.ac.ma",
+            "cne": "N134123977",
+            "filiere": "SVI"
+        },
+        {
+            "code": "13265",
+            "nom": "EL-JAZOULI",
+            "prenom": "IHSAN",
+            "cin": "S406774",
+            "email": "ihsan.el-jazouli@usmba.ac.ma",
+            "cne": "1010772762",
+            "filiere": "SMA"
+        },
+        {
+            "code": "23199",
+            "nom": "ECH-CHOUIKY",
+            "prenom": "MOHCINE",
+            "cin": "CD623274",
+            "email": "mohcine.ech-chouiky@usmba.ac.ma",
+            "cne": "1411755993",
+            "filiere": "SMP"
+        },
+        {
+            "code": "23199",
+            "nom": "ECH-CHOUIKY",
+            "prenom": "MOHCINE",
+            "cin": "CD623274",
+            "email": "mohcine.ech-chouiky@usmba.ac.ma",
+            "cne": "14115755993",
+            "filiere": "SMP"
+        },
+        {
+            "code": "32918",
+            "nom": "ELMCHACHTI",
+            "prenom": "OTHMANE",
+            "cin": "S797133",
+            "email": "othmane.elmchachti@usmba.ac.ma",
+            "cne": "H134185041",
+            "filiere": "SMA"
+        },
+        {
+            "code": "27763",
+            "nom": "SOUBAI",
+            "prenom": "LATIFA",
+            "cin": "Pb303972",
+            "email": "latifa.soubai@usmba.ac.ma",
+            "cne": "D135722272",
+            "filiere": "SVI"
+        },
+        {
+            "code": "34164",
+            "nom": "EL-ACHIRI",
+            "prenom": "OMAR",
+            "cin": "ZT280955",
+            "email": "omar.el-achiri@usmba.ac.ma",
+            "cne": "S136303607",
+            "filiere": "SMP"
+        },
+        {
+            "code": "27291",
+            "nom": "LEMKHYAR",
+            "prenom": "HANANE",
+            "cin": "Z596661",
+            "email": "hanane.lemkhyar@usmba.ac.ma",
+            "cne": "S139421146",
+            "filiere": "SVI"
+        },
+        {
+            "code": "23050",
+            "nom": "BARBARA",
+            "prenom": "HANANE",
+            "cin": "CD548524",
+            "email": "hanane.barbara@usmba.ac.ma",
+            "cne": "1412746028",
+            "filiere": "SMP"
+        },
+        {
+            "code": "24104",
+            "nom": "BELAYACH",
+            "prenom": "OTMANE",
+            "cin": "CD566870",
+            "email": "otmane.belayach@usmba.ac.ma",
+            "cne": "1412744255",
+            "filiere": "SMC"
+        },
+        {
+            "code": "15988",
+            "nom": "EL HABBI",
+            "prenom": "CHAHIDA",
+            "cin": "CD609508",
+            "email": "chahida.elhabbi@usmba.ac.ma",
+            "cne": "1129761693",
+            "filiere": "SVI"
+        },
+        {
+            "code": "30343",
+            "nom": "FEDIOUEL",
+            "prenom": "HAJAR",
+            "cin": "KB185798",
+            "email": "hajar.fediouel@usmba.ac.ma",
+            "cne": "P132510962",
+            "filiere": "SMP"
+        },
+        {
+            "code": "16262",
+            "nom": "KHATARTA",
+            "prenom": "KHALID",
+            "cin": "CD235162",
+            "email": "khalid.khatarta@usmba.ac.ma",
+            "cne": "1128760805",
+            "filiere": "SVI"
+        },
+        {
+            "code": "22192",
+            "nom": "NABAOUI",
+            "prenom": "SALIMA",
+            "cin": "CB302011",
+            "email": "salima.nabaoui@usmba.ac.ma",
+            "cne": "1311765277",
+            "filiere": "SMP"
+        },
+        {
+            "code": "18750",
+            "nom": "ALOUI",
+            "prenom": "YOUNES",
+            "cin": "ZT126287",
+            "email": "younes.aloui@usmba.ac.ma",
+            "cne": "1210810038",
+            "filiere": "SMP"
+        },
+        {
+            "code": "32562",
+            "nom": "EL BALDI",
+            "prenom": "SABRIA",
+            "cin": "ZT284331",
+            "email": "sabria.elbaldi@usmba.ac.ma",
+            "cne": "N139228526",
+            "filiere": "SMP"
+        }
+]

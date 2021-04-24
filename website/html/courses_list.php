@@ -27,8 +27,8 @@ require('templates/data.php');
 			<?php 
 				echo '<ol type="1">';
 				for ($i = 0; $i < count($filieres); $i++) {
-					$codeF = $filieres[$i]["CodeFiliere"];
-					$IntituleF = $filieres[$i]["IntituleFiliere"];
+					$codeF = $filieres[$i]["id_filiere"];
+					$IntituleF = $filieres[$i]["nom_filiere"];
 			?>			
 				<li> <a href="students_list.php?codeF=<?=$codeF?>"> <?=$IntituleF?></a> </li>
 							

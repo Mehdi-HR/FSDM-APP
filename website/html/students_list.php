@@ -1,20 +1,17 @@
 <?php	
 
 if(isset($_GET["codeF"])){
-	$filiere = $_GET["codeF"];
+	$id_filiere = $_GET["codeF"];
 }
 else{
-	$filiere = 'SMI';	#filiere par defaut
+	$id_filiere = 'SMI';	#filiere par defaut
 }
 
 require('templates/data.php');
 
 //Calcul
-$listeEtudiantsFiliere = getListeParFiliere($filiere);
+$listeEtudiantsFiliere = getListeParFiliere($id_filiere);
 $nbEtudiantsFiliere = count($listeEtudiantsFiliere);
-$listeEtudiantsReussisFiliere = getListeReussisParFiliere($filiere);
-$nbEtudiantsReussisFiliere = count($listeEtudiantsReussisFiliere);
-$meilleurNoteFiliere = getMeilleurNoteParFiliere($filiere);
 ?>
 
 
@@ -32,25 +29,22 @@ $meilleurNoteFiliere = getMeilleurNoteParFiliere($filiere);
 
 	 ?>		
 	<div id="main">
-		<h1>Liste des etudiants de la filiere: <?php echo "$filiere"; ?></h1>
+		<h1>Liste des etudiants de la filiere: <?php echo "$id_filiere"; ?></h1>
 	</div>
 	<hr>
 </header>
 <section>
-	<div class="stats">
-		<p>Nombre des etudiants reussis : <?php echo $nbEtudiantsReussisFiliere ; ?> 
-			<br>
-		Meilleur note : <?php echo $meilleurNoteFiliere ?>
-		</p>		
-	</div>
-	<hr>
+
 	    <table border="table" cellspacing="1px" cellpadding="5px">
 			<thead>
-				<tr> 
+				<tr>
+					<th>Code</th> 
 					<th>Nom</th>
 					<th>Prenom</th>
-					<th>Note</th>
-					<th>Mention</th>					
+					<th>CIN</th>
+					<th>Email</th>
+					<th>CNE</th>
+					<th>Filiere</th>
 					<th>Details</th>					
 
 				</tr>
@@ -58,15 +52,17 @@ $meilleurNoteFiliere = getMeilleurNoteParFiliere($filiere);
 			<tbody>
 				<?php
 				for ($i=0; $i < $nbEtudiantsFiliere ; $i++) {
-					$mention = getMention($listeEtudiantsFiliere[$i]['note']);
-					$codeE = $listeEtudiantsFiliere[$i]['code']; 
+					$codeE = $listeEtudiantsFiliere[$i]['code_etudiant']; 
 				 	echo "
 					
 					 	<tr>
+						 	<td>$codeE</td>
 					 		<td>{$listeEtudiantsFiliere[$i]['nom']}</td>
 					 		<td>{$listeEtudiantsFiliere[$i]['prenom']}</td>
-					 		<td>{$listeEtudiantsFiliere[$i]['note']}</td>
-					 		<td>$mention</td>	
+					 		<td>{$listeEtudiantsFiliere[$i]['cin']}</td>
+					 		<td>{$listeEtudiantsFiliere[$i]['email']}</td>
+					 		<td>{$listeEtudiantsFiliere[$i]['cne']}</td>
+					 		<td>{$listeEtudiantsFiliere[$i]['id_filiere']}</td>
 					 		<td>";
 					 ?>		
 					<a style = "text-decoration: none;" class= 'details' href='student_details.php?codeE=<?=$codeE?>'> ... </a>
