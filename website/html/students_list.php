@@ -28,6 +28,11 @@ $nbEtudiantsFiliere = count($listeEtudiantsFiliere);
 		include("templates/header.php");
 
 	 ?>		
+<hr>
+<?php
+	include('templates/nav.php');
+?>
+<hr>
 	<div id="main">
 		<h1>Liste des etudiants de la filiere: <?php echo "$id_filiere"; ?></h1>
 	</div>
@@ -79,8 +84,8 @@ $nbEtudiantsFiliere = count($listeEtudiantsFiliere);
 </section>
 
 <?php
-	include('templates/nav.php');
-?>
+	include('templates/nav2.php');
+?>	
 <hr>
 
 <?php 

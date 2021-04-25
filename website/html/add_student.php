@@ -1,5 +1,5 @@
 <?php 
-
+require('templates/data.php');
 require('templates/config.php');
 
 $code = ''; 
@@ -91,6 +91,13 @@ if( !array_filter($errors) ){
 		$hash = hash("sha256",$password,false);
 		$sql2 = "INSERT INTO utilisateurs(code,nom,prenom,type,cin,email,hash) VALUES ('$code','$nom','$prenom','$type','$cin','$email','$hash');";
 		mysqli_query($conn,$sql2);
+		$units= getUnitsOfCourse($id_filiere);
+		foreach ($units as $unit) {
+			$id_module = $unit['id_module'];
+			$sql3 = "INSERT INTO etudiant_module(code_etudiant,id_module) 
+					VALUES ('$code','$id_module')";
+			mysqli_query($conn,$sql3);		 
+		}		
 		header('Location: index.php');
 	}		
 	else{

@@ -1,0 +1,547 @@
+[
+  {
+    "id_module": "M01",
+    "nom_module": "Analyse 1",
+    "id_filiere": "SMA",
+    "code_prof": 14342
+    
+  },
+  {
+    "id_module": "M02",
+    "nom_module": "ALGEBRE 1",
+    "id_filiere": "SMA",
+    "code_prof": 17614
+    
+  },
+  {
+    "id_module": "M03",
+    "nom_module": "ALGEBRE 2",
+    "id_filiere": "SMA",
+    "code_prof": 20697
+    
+  },
+  {
+    "id_module": "M04",
+    "nom_module": "Mecanique du Point",
+    "id_filiere": "SMA",
+    "code_prof": 23017
+    
+  },
+  {
+    "id_module": "M05",
+    "nom_module": "Thermodynamique 1",
+    "id_filiere": "SMA",
+    "code_prof": 23019
+    
+  },
+  {
+    "id_module": "M06",
+    "nom_module": "Introduction a l'informatique",
+    "id_filiere": "SMA",
+    "code_prof": 23092
+    
+  },
+  {
+    "id_module": "M07",
+    "nom_module": "Langue et Terminologie I",
+    "id_filiere": "SMA",
+    "code_prof": 24484
+    
+  },
+  {
+    "id_module": "M08",
+    "nom_module": "Analyse 2",
+    "id_filiere": "SMA",
+    "code_prof": 25717
+    
+  },
+  {
+    "id_module": "M09",
+    "nom_module": "Analyse 3",
+    "id_filiere": "SMA",
+    "code_prof": 25719
+    
+  },
+  {
+    "id_module": "M10",
+    "nom_module": "ALGEBRE 3",
+    "id_filiere": "SMA",
+    "code_prof": 25724
+    
+  },
+  {
+    "id_module": "M11",
+    "nom_module": "Electrostatique et Electrocinetique",
+    "id_filiere": "SMA",
+    "code_prof": 25908
+    
+  },
+  {
+    "id_module": "M12",
+    "nom_module": "Optique 1",
+    "id_filiere": "SMA",
+    "code_prof": 25916
+    
+  },
+  {
+    "id_module": "M13",
+    "nom_module": "Algorithmique I",
+    "id_filiere": "SMA",
+    "code_prof": 25917
+    
+  },
+  {
+    "id_module": "M14",
+    "nom_module": "Langue et Terminologie II",
+    "id_filiere": "SMA",
+    "code_prof": 25918
+    
+  },
+  {
+    "id_module": "I01",
+    "nom_module": "Analyse 1",
+    "id_filiere": "SMI",
+    "code_prof": 14342
+    
+  },
+  {
+    "id_module": "I02",
+    "nom_module": "ALGEBRE 1",
+    "id_filiere": "SMI",
+    "code_prof": 17614
+    
+  },
+  {
+    "id_module": "I03",
+    "nom_module": "ALGEBRE 2",
+    "id_filiere": "SMI",
+    "code_prof": 20697
+    
+  },
+  {
+    "id_module": "I04",
+    "nom_module": "Mecanique du Point",
+    "id_filiere": "SMI",
+    "code_prof": 23017
+    
+  },
+  {
+    "id_module": "I05",
+    "nom_module": "Thermodynamique 1",
+    "id_filiere": "SMI",
+    "code_prof": 23019
+    
+  },
+  {
+    "id_module": "I06",
+    "nom_module": "Introduction a l'informatique",
+    "id_filiere": "SMI",
+    "code_prof": 23092
+    
+  },
+  {
+    "id_module": "I07",
+    "nom_module": "Langue et Terminologie I",
+    "id_filiere": "SMI",
+    "code_prof": 24484
+    
+  },
+  {
+    "id_module": "I08",
+    "nom_module": "Analyse 2",
+    "id_filiere": "SMI",
+    "code_prof": 25717
+    
+  },
+  {
+    "id_module": "I09",
+    "nom_module": "Analyse 3",
+    "id_filiere": "SMI",
+    "code_prof": 25719
+    
+  },
+  {
+    "id_module": "I10",
+    "nom_module": "ALGEBRE 3",
+    "id_filiere": "SMI",
+    "code_prof": 25724
+    
+  },
+  {
+    "id_module": "I11",
+    "nom_module": "Electrostatique et Electrocinetique",
+    "id_filiere": "SMI",
+    "code_prof": 25908
+    
+  },
+  {
+    "id_module": "I12",
+    "nom_module": "Optique 1",
+    "id_filiere": "SMI",
+    "code_prof": 25916
+    
+  },
+  {
+    "id_module": "I13",
+    "nom_module": "Algorithmique I",
+    "id_filiere": "SMI",
+    "code_prof": 25917
+    
+  },
+  {
+    "id_module": "I14",
+    "nom_module": "Langue et Terminologie II",
+    "id_filiere": "SMI",
+    "code_prof": 25918
+    
+  },
+  
+
+
+
+
+
+  
+  {
+    "id_module": "P01",
+    "nom_module": "Mecanique du point",
+    "id_filiere": "SMP",
+    "code_prof": 25928
+  },
+  {
+    "id_module": "P02",
+    "nom_module": "Thermodynamique 1",
+    "id_filiere": "SMP",
+    "code_prof": 27448
+  },
+  {
+    "id_module": "P03",
+    "nom_module": "Atomistique",
+    "id_filiere": "SMP",
+    "code_prof": 28050
+  },
+  {
+    "id_module": "P04",
+    "nom_module": "Thermochimie",
+    "id_filiere": "SMP",
+    "code_prof": 28464
+  },
+  {
+    "id_module": "P05",
+    "nom_module": "Analyse 1",
+    "id_filiere": "SMP",
+    "code_prof": 28465
+  },
+  {
+    "id_module": "P06",
+    "nom_module": "Algebre 1",
+    "id_filiere": "SMP",
+    "code_prof": 28466
+  },
+  {
+    "id_module": "P07",
+    "nom_module": "Langue et Terminologie I",
+    "id_filiere": "SMP",
+    "code_prof": 28573
+  },
+  {
+    "id_module": "P08",
+    "nom_module": "Electrostatique et Electrocinetique",
+    "id_filiere": "SMP",
+    "code_prof": 28576
+  },
+  {
+    "id_module": "P09",
+    "nom_module": "Optique Geometrique",
+    "id_filiere": "SMP",
+    "code_prof": 28579
+  },
+  {
+    "id_module": "P10",
+    "nom_module": "Liaisons Chimiques",
+    "id_filiere": "SMP",
+    "code_prof": 28581
+  },
+  {
+    "id_module": "P11",
+    "nom_module": "Chimie des Solutions",
+    "id_filiere": "SMP",
+    "code_prof": 28585
+  },
+  {
+    "id_module": "P12",
+    "nom_module": "Analyse 2",
+    "id_filiere": "SMP",
+    "code_prof": 28587
+  },
+  {
+    "id_module": "P13",
+    "nom_module": "Algebre 2",
+    "id_filiere": "SMP",
+    "code_prof": 28589
+  },
+  {
+    "id_module": "P14",
+    "nom_module": "Langue et Terminologie II",
+    "id_filiere": "SMP",
+    "code_prof": 30076
+  },
+  {
+    "id_module": "C01",
+    "nom_module": "Mecanique du point",
+    "id_filiere": "SMC",
+    "code_prof": 25928
+  },
+  {
+    "id_module": "C02",
+    "nom_module": "Thermodynamique 1",
+    "id_filiere": "SMC",
+    "code_prof": 27448
+  },
+  {
+    "id_module": "C03",
+    "nom_module": "Atomistique",
+    "id_filiere": "SMC",
+    "code_prof": 28050
+  },
+  {
+    "id_module": "C04",
+    "nom_module": "Thermochimie",
+    "id_filiere": "SMC",
+    "code_prof": 28464
+  },
+  {
+    "id_module": "C05",
+    "nom_module": "Analyse 1",
+    "id_filiere": "SMC",
+    "code_prof": 28465
+  },
+  {
+    "id_module": "C06",
+    "nom_module": "Algebre 1",
+    "id_filiere": "SMC",
+    "code_prof": 28466
+  },
+  {
+    "id_module": "C07",
+    "nom_module": "Langue et Terminologie I",
+    "id_filiere": "SMC",
+    "code_prof": 28573
+  },
+  {
+    "id_module": "C08",
+    "nom_module": "Electrostatique et Electrocinetique",
+    "id_filiere": "SMC",
+    "code_prof": 28576
+  },
+  {
+    "id_module": "C09",
+    "nom_module": "Optique Geometrique",
+    "id_filiere": "SMC",
+    "code_prof": 28579
+  },
+  {
+    "id_module": "C10",
+    "nom_module": "Liaisons Chimiques",
+    "id_filiere": "SMC",
+    "code_prof": 28581
+  },
+  {
+    "id_module": "C11",
+    "nom_module": "Chimie des Solutions",
+    "id_filiere": "SMC",
+    "code_prof": 28585
+  },
+  {
+    "id_module": "C12",
+    "nom_module": "Analyse 2",
+    "id_filiere": "SMC",
+    "code_prof": 28587
+  },
+  {
+    "id_module": "C13",
+    "nom_module": "Algebre 2",
+    "id_filiere": "SMC",
+    "code_prof": 28589
+  },
+  {
+    "id_module": "C14",
+    "nom_module": "Langue et Terminologie II",
+    "id_filiere": "SMC",
+    "code_prof": 30076
+  },
+
+
+
+    {
+      "id_module": "B01",
+      "nom_module": "Biologie Cellulaire",
+      "id_filiere": "SVI",
+      "code_prof": 30111
+    },
+    {
+      "id_module": "B02",
+      "nom_module": "Embryologie et Histologie",
+      "id_filiere": "SVI",
+      "code_prof": 30593
+    },
+    {
+      "id_module": "B03",
+      "nom_module": "Geologie generale",
+      "id_filiere": "SVI",
+      "code_prof": 30793
+    },
+    {
+      "id_module": "B04",
+      "nom_module": "Mathematiques",
+      "id_filiere": "SVI",
+      "code_prof": 30794
+    },
+    {
+      "id_module": "B05",
+      "nom_module": "Physique I",
+      "id_filiere": "SVI",
+      "code_prof": 30796
+    },
+    {
+      "id_module": "B06",
+      "nom_module": "Chimie Generale",
+      "id_filiere": "SVI",
+      "code_prof": 30799
+    },
+    {
+      "id_module": "B07",
+      "nom_module": "Langue et Terminologie I",
+      "id_filiere": "SVI",
+      "code_prof": 30838
+    },
+    {
+      "id_module": "B08",
+      "nom_module": "Biologie des organismes animaux",
+      "id_filiere": "SVI",
+      "code_prof": 31692
+    },
+    {
+      "id_module": "B09",
+      "nom_module": "Biologie des organismes vegetaux",
+      "id_filiere": "SVI",
+      "code_prof": 32103
+    },
+    {
+      "id_module": "B10",
+      "nom_module": "Geodynamique externe",
+      "id_filiere": "SVI",
+      "code_prof": 32105
+    },
+    {
+      "id_module": "B11",
+      "nom_module": "Geodynamique interne",
+      "id_filiere": "SVI",
+      "code_prof": 32107
+    },
+    {
+      "id_module": "B12",
+      "nom_module": "Physique II",
+      "id_filiere": "SVI",
+      "code_prof": 32110
+    },
+    {
+      "id_module": "B13",
+      "nom_module": "Chimie Organique",
+      "id_filiere": "SVI",
+      "code_prof": 32111
+    },
+    {
+      "id_module": "B14",
+      "nom_module": "Langue et Terminologie II",
+      "id_filiere": "SVI",
+      "code_prof": 32235
+    },
+    {
+      "id_module": "G01",
+      "nom_module": "Biologie Cellulaire",
+      "id_filiere": "STU",
+      "code_prof": 30111
+    },
+    {
+      "id_module": "G02",
+      "nom_module": "Embryologie et Histologie",
+      "id_filiere": "STU",
+      "code_prof": 30593
+    },
+    {
+      "id_module": "G03",
+      "nom_module": "Geologie generale",
+      "id_filiere": "STU",
+      "code_prof": 30793
+    },
+    {
+      "id_module": "G04",
+      "nom_module": "Mathematiques",
+      "id_filiere": "STU",
+      "code_prof": 30794
+    },
+    {
+      "id_module": "G05",
+      "nom_module": "Physique I",
+      "id_filiere": "STU",
+      "code_prof": 30796
+    },
+    {
+      "id_module": "G06",
+      "nom_module": "Chimie Generale",
+      "id_filiere": "STU",
+      "code_prof": 30799
+    },
+    {
+      "id_module": "G07",
+      "nom_module": "Langue et Terminologie I",
+      "id_filiere": "STU",
+      "code_prof": 30838
+    },
+    {
+      "id_module": "G08",
+      "nom_module": "Biologie des organismes animaux",
+      "id_filiere": "STU",
+      "code_prof": 31692
+    },
+    {
+      "id_module": "G09",
+      "nom_module": "Biologie des organismes vegetaux",
+      "id_filiere": "STU",
+      "code_prof": 32103
+    },
+    {
+      "id_module": "G10",
+      "nom_module": "Geodynamique externe",
+      "id_filiere": "STU",
+      "code_prof": 32105
+    },
+    {
+      "id_module": "G11",
+      "nom_module": "Geodynamique interne",
+      "id_filiere": "STU",
+      "code_prof": 32107
+    },
+    {
+      "id_module": "G12",
+      "nom_module": "Physique II",
+      "id_filiere": "STU",
+      "code_prof": 32110
+    },
+    {
+      "id_module": "G13",
+      "nom_module": "Chimie Organique",
+      "id_filiere": "STU",
+      "code_prof": 32111
+    },
+    {
+      "id_module": "G14",
+      "nom_module": "Langue et Terminologie II",
+      "id_filiere": "STU",
+      "code_prof": 32235
+    }
+  
+
+
+]

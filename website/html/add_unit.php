@@ -1,5 +1,5 @@
 <?php 
-
+	require('templates/data.php');
     require('templates/config.php');
 
     $code_prof = ''; 
@@ -19,7 +19,7 @@
 		if(empty($id_module)){
 			$errors['id_module'] = 'Veuillez entrer un id de module';
 		}else{
-			if (!preg_match('/^([A-Za-z][0-9]{3})$/', $id_module)) {
+			if (!preg_match('/^([A-Za-z][0-9]{2})$/', $id_module)) {
 				$errors['id_module'] = 'Veuillez entrer un id de module valide';
 				}	
 			
@@ -57,8 +57,16 @@
 
 
 	if( !array_filter($errors) ){
-		$sql = "INSERT INTO modules(id_module,nom_module,id_filiere,code_prof) VALUES ('$id_module','$nom','$id_filiere','$code_prof');";
+		$sql = "INSERT INTO modules(id_module,nom_module,id_filiere,code_prof) 
+				VALUES ('$id_module','$nom','$id_filiere','$code_prof');";
 		if( mysqli_query($conn,$sql) ){
+			$students= getListeParFiliere($id_filiere);
+			foreach ($students as $student) {
+				$code_etudiant = $student['code_etudiant'];
+				$sql2 = "INSERT INTO etudiant_module(code_etudiant,id_module) 
+						VALUES ('$code_etudiant','$id_module')";
+				mysqli_query($conn,$sql2) or die("second query failed");		 
+			}
 			header('Location: index.php');
 		}else{
 			echo "failed to run insert query";

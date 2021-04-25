@@ -18,12 +18,17 @@ require('templates/data.php');
 		include("templates/header.php");
 
 	 ?>
+	 <hr>
+<?php
+	include('templates/nav.php');
+?>
+<hr>
 	<div id="main">
-		<h1>Affichage des resultats</h1>
+		<h1>Affichage des filieres</h1>
 	</div>
 	<hr>
 	<div class="liste">
-		<h3>Cliquez sur une filiere pour voir les resultats</h3>
+		<h3>Cliquez sur une filiere pour voir les listes</h3>
 			<?php 
 				echo '<ol type="1">';
 				for ($i = 0; $i < count($filieres); $i++) {
@@ -38,10 +43,7 @@ require('templates/data.php');
 	</div>
 	<hr>
 </header>
-<?php
-	include('templates/nav.php');
-?>
-<hr>
+
 
 <?php 
 	include('templates/footer.php');
