@@ -8,11 +8,9 @@
 		$nom_module = $unit['nom_module'];
 		$id_filiere = $unit['id_filiere'];
 		$code_prof = $unit['code_prof'];
-		
-		
-
-
-		$sql = "INSERT INTO modules(id_module,nom_module,id_filiere,code_prof) VALUES  ('$id_module','$nom_module','$id_filiere','$code_prof');";
+		$id_semestre = $unit['id_semestre']; 
+		$sql = "INSERT INTO modules(id_module,nom_module,id_filiere,code_prof,id_semestre) VALUES  ('$id_module','$nom_module','$id_filiere','$code_prof','$id_semestre');";
 		
         mysqli_query($conn,$sql);
 }
+?>

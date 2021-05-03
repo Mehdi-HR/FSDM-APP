@@ -94,11 +94,17 @@ if( !array_filter($errors) ){
 		$units= getUnitsOfCourse($id_filiere);
 		foreach ($units as $unit) {
 			$id_module = $unit['id_module'];
-			$sql3 = "INSERT INTO etudiant_module(code_etudiant,id_module) 
-					VALUES ('$code','$id_module')";
+			$sql3 = "INSERT INTO etudiant_module(code_etudiant,id_module,etat) 
+					VALUES ('$code_etudiant','$id_module','non inscris')";
 			mysqli_query($conn,$sql3);		 
-		}		
+		}
+		foreach ($semesters as $semester) {
+			$id_semestre = $semester['id_semestre'];
+			$sql = "INSERT INTO etudiant_semestre(code_etudiant,id_semestre,etat) 
+					VALUES ('$code','$id_semestre','non inscris')";
+			mysqli_query($conn,$sql);			
 		header('Location: index.php');
+		}
 	}		
 	else{
 		echo "failed to run insert query";

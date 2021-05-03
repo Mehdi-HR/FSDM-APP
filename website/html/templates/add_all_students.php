@@ -1,5 +1,4 @@
 <?php 
-
 	require('config.php');
 	$students_json = file_get_contents('../../ressources/students_json.json');
 	$students_array = json_decode($students_json,true); 
@@ -18,7 +17,7 @@
 			$password = $cin;
 			$hash = hash("sha256",$password,false);
 			$sql2 = "INSERT INTO utilisateurs(code,nom,prenom,type,cin,email,hash) VALUES ('$code','$nom','$prenom','$type','$cin','$email','$hash');";
-			mysqli_query($conn,$sql2);	
+			mysqli_query($conn,$sql2);						
 		}
 
 }

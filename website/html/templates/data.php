@@ -109,6 +109,20 @@ function getUnitsOfCourse($filiere){
 	return $modulesDeLaFiliere;
 }
 
+
+//fetch semesters
+$sql = 'SELECT * FROM semestres;';
+$result = mysqli_query($conn,$sql);
+//Definition du tableau des semestres
+$semestres = [];
+while($semestre = mysqli_fetch_assoc($result)){
+	$semestres[] = $semestre;
+}
 	mysqli_close($conn);
+
+
+
+ 
+
 
 ?>

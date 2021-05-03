@@ -6,14 +6,15 @@
     $nom = ''; 
     $id_filiere = '';
     $id_module = '';
-	$errors = ['code_prof'=>'', 'nom'=>'', 'id_filiere'=>'', 'id_module'=>''];
+    $id_semestre = '';
+	$errors = ['code_prof'=>'', 'nom'=>'', 'id_filiere'=>'', 'id_module'=>'','id_semestre'=>''];
 	if(isSet($_POST['envoyer']))
 	{
 		$nom = mysqli_real_escape_string($conn,trim($_POST['nom']));
 		$id_module = mysqli_real_escape_string($conn,trim($_POST['id_module']));
 		$id_filiere = mysqli_real_escape_string($conn,trim($_POST['id_filiere']));
 		$code_prof = intval(mysqli_real_escape_string($conn,trim($_POST['code_prof'])));
-
+		$id_semestre = intval(mysqli_real_escape_string($conn,trim($_POST['id_semestre'])));
 		
 		//id_module
 		if(empty($id_module)){
@@ -45,6 +46,16 @@
 				}	
         }
         
+
+        //id semestre
+		if(empty($id_semestre)){
+			$errors['id_semestre'] = 'Veuillez entrer un id de professeur';
+		}else{
+			if ($id < 1) {
+				$errors['id_semestre'] = 'id_semestre > 0 !!!';
+				}	
+        }
+
 		//id_filiere
 		if(empty($id_filiere)){
 			$errors['id_filiere'] = 'Veuillez entrer un id de filiere';
@@ -57,14 +68,14 @@
 
 
 	if( !array_filter($errors) ){
-		$sql = "INSERT INTO modules(id_module,nom_module,id_filiere,code_prof) 
-				VALUES ('$id_module','$nom','$id_filiere','$code_prof');";
+		$sql = "INSERT INTO modules(id_module,nom_module,id_filiere,code_prof,id_semestre) 
+				VALUES ('$id_module','$nom','$id_filiere','$code_prof','$id_semestre');";
 		if( mysqli_query($conn,$sql) ){
 			$students= getListeParFiliere($id_filiere);
 			foreach ($students as $student) {
 				$code_etudiant = $student['code_etudiant'];
-				$sql2 = "INSERT INTO etudiant_module(code_etudiant,id_module) 
-						VALUES ('$code_etudiant','$id_module')";
+				$sql2 = "INSERT INTO etudiant_module(code_etudiant,id_module,etat) 
+					VALUES ('$code_etudiant','$id_module','non inscris')";
 				mysqli_query($conn,$sql2) or die("second query failed");		 
 			}
 			header('Location: index.php');
@@ -139,6 +150,18 @@ include("templates/header.php");
 				<option>SMC</option>				
 			</select>			<br>
 			<div class="error" style="color:#E31215;" > <?php echo " <strong> {$errors['id_filiere']} </strong>" ?> </div>
+			<br>
+			<!--id_semestre-->
+			<label>Choisir un semestre &nbsp &nbsp &nbsp &nbsp  :</label>
+			<select class="mySelect" id="id_semestre" name="id_semestre" >
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+				<option>6</option>				
+			</select>			<br>
+			<div class="error" style="color:#E31215;" > <?php echo " <strong> {$errors['id_semestre']} </strong>" ?> </div>
 			<br>
 			<input type="submit" id="submit" name="envoyer" value="Envoyer">	
 			<input type="reset" name="annuler" value="Annuler">	

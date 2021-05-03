@@ -34,7 +34,7 @@ $modules[]=$module;
 
 foreach($modules as $module){
 
-  $sql4="UPDATE etudinat_module SET id_module='$module[id_module]' WHERE code_etudiant='$id' ";
+  $sql4="UPDATE etudiant_module SET id_module='$module[id_module]' WHERE code_etudiant='$id' ";
   $result3 = mysqli_query($conn, $sql3);
   if ( false===$result2 ) {
     printf("error: %s\n", mysqli_error($conn));
