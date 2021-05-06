@@ -26,14 +26,13 @@ $professeur = getProfByCode($code);
      <?php
 	include('templates/nav.php');
 ?>
-<hr>
-
 	<div id="main">
 		<h1>Details du professeur : <?=$code?> </h1>
 	</div>
-	<hr>
 	<div>
-	    <table border="table" cellspacing="1px" cellpadding="5px">
+<center>
+	
+   <table border="table" cellspacing="1px" cellpadding="5px">
 	    	<?php foreach ($professeur as $key => $value) {
 	    		$Key = ucfirst($key);
 	    		echo " 
@@ -45,16 +44,21 @@ $professeur = getProfByCode($code);
 	    	}
 	    	?>
 	    </table>	
+
+</center>
+	 
+
+	</div>
 	    <div>
 		    <ul>
-		    	<li><a  style="color: #E31215; padding-left:18%" 
+		    	<li><a  style="color: #E31215; padding-left:12%" 
 		    			href="modify_professor.php?codeP=<?=$code?>">Modifier</a></li>
 		    	<li><a  style="color: #E31215;padding-left:4%" 
-		    			href="delete_professor.php?codeP=<?=$code?>">Supprimer</a></li>	    	
+		    			href="delete_professor.php?codeP=<?=$code?>">Supprimer</a></li>	    
+				<li><a  style="color: #E31215;padding-left:4%" 
+		    			href="professorUnits.php?codeP=<?=$code?>">Modules</a></li>	 		    				
 		    </ul>	    	
 	    </div>
-	</div>
-	<hr>
 </header>
 
 <?php 

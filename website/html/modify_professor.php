@@ -16,7 +16,7 @@ if (isset($_GET['codeP'])) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Modifier le professeur&nbsp&nbsp: <?=$professor['code_prof']?></title>
 </head>
 <body>
 <header id="mainHeader"> 
@@ -28,7 +28,6 @@ include("templates/header.php");
 	<div id="main">
 		<h1>Modifier le professeur&nbsp&nbsp: <?=$professor['code_prof']?></h1>
 	</div>
-	<hr>
 </header>
 <section>
 	<div class="form">
@@ -65,14 +64,13 @@ include("templates/header.php");
 		</form>
     
 	</div>
-	<hr>
 </section>
 <?php 	
 
 require('templates/nav.php');
 
  ?>
-<hr>
+
 
 <?php 	
 

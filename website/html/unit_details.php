@@ -21,17 +21,16 @@ $module =  getUnitById($code);
 	<?php 
 
 		include("templates/header.php");  ?>
-	 <hr>
+
 	 <?php
 	include('templates/nav.php');
 ?>
-<hr>
 	 
 	<div id="main">
 		<h1>Details du module : <?=$code?> </h1>
 	</div>
-	<hr>
-	<div>
+<center>
+<div>
 	    <table border="table" cellspacing="1px" cellpadding="5px">
 	    	<?php foreach ($module as $key => $value) {
 	    		$Key = ucfirst($key);
@@ -44,16 +43,22 @@ $module =  getUnitById($code);
 	    	}
 	    	?>
 	    </table>	
+
+	</div>
+
+	</center>
+	
 	    <div>
 		    <ul>
-		    	<li><a  style="color: #E31215; padding-left:18%" 
+		    	<li><a  style="color: #E31215; " 
 		    			href="modify_unit.php?id_module=<?=$code?>">Modifier</a></li>
 		    	<li><a  style="color: #E31215;padding-left:4%" 
-		    			href="delete_unit.php?id_module=<?=$code?>">Supprimer</a></li>	    	
+		    			href="delete_unit.php?id_module=<?=$code?>">Supprimer</a></li>
+				<li><a  style="color: #E31215;padding-left:4%" 
+		    			href="unit_students.php?id_module=<?=$code?>">Liste des etudiants </a></li>
+				<li><a  style="color: #E31215;padding-left:4%" href="affect_grades.php?id_module=<?=$code?>">Gerer les notes</a></li>								    	
 		    </ul>	    	
 	    </div>
-	</div>
-	<hr>
 </header>
 
 

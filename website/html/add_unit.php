@@ -110,7 +110,6 @@ include("templates/header.php");
 	<div id="main">
 		<h1>Ajouter un module</h1>
 	</div>
-	<hr>
 </header>
 <section>
 	<div class="form">
@@ -167,14 +166,12 @@ include("templates/header.php");
 			<input type="reset" name="annuler" value="Annuler">	
 		</form>
 	</div>
-	<hr>
 </section>
 <?php 	
 
 require('templates/nav.php');
 
  ?>
-<hr>
 
 <?php 	
 

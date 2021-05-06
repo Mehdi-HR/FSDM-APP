@@ -1,6 +1,4 @@
-<?php 
-
-echo '<nav id="mainNavbar">
+<nav id="mainNavbar">
 <ul>
 	<li><a href="index.php">Acceuil</a></li>
 	<li><a href="courses_list.php">Liste des etudiants</a></li>
@@ -9,6 +7,5 @@ echo '<nav id="mainNavbar">
 	
 
 </ul>
-</nav>'
+</nav>
 
- ?>

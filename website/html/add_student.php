@@ -84,27 +84,54 @@ if(isSet($_POST['envoyer']))
 	}
 
 if( !array_filter($errors) ){
+	//ajouter a table etudiants
 	$type = 'E';
 	$sql = "INSERT INTO etudiants(code_etudiant,nom,prenom,cin,email,cne,id_filiere) VALUES ('$code','$nom','$prenom','$cin','$email','$cne','$id_filiere');";
 	if( mysqli_query($conn,$sql) ){
+		//ajouter a table utilisateur
 		$password = $cin;
 		$hash = hash("sha256",$password,false);
 		$sql2 = "INSERT INTO utilisateurs(code,nom,prenom,type,cin,email,hash) VALUES ('$code','$nom','$prenom','$type','$cin','$email','$hash');";
 		mysqli_query($conn,$sql2);
+		//affecter tous les modules de la filiere
 		$units= getUnitsOfCourse($id_filiere);
 		foreach ($units as $unit) {
 			$id_module = $unit['id_module'];
 			$sql3 = "INSERT INTO etudiant_module(code_etudiant,id_module,etat) 
-					VALUES ('$code_etudiant','$id_module','non inscris')";
+					VALUES ('$code','$id_module','non inscris')";
 			mysqli_query($conn,$sql3);		 
 		}
-		foreach ($semesters as $semester) {
-			$id_semestre = $semester['id_semestre'];
-			$sql = "INSERT INTO etudiant_semestre(code_etudiant,id_semestre,etat) 
+		//affecter tous les semestres
+		foreach ($semestres as $semestre) {
+			$id_semestre = $semestre['id_semestre'];
+			$sql4 = "INSERT INTO etudiant_semestre(code_etudiant,id_semestre,etat) 
 					VALUES ('$code','$id_semestre','non inscris')";
-			mysqli_query($conn,$sql);			
-		header('Location: index.php');
+			mysqli_query($conn,$sql4);					
 		}
+		
+		//inscrire au s1
+		$sql5 = "UPDATE etudiant_semestre 
+				SET etat ='inscris' 
+				WHERE id_semestre = 1
+				AND code_etudiant = $code;";
+		mysqli_query($conn,$sql5);
+		
+		//inscription au modules du s1
+		$units = getUnitsOfSemester(1);
+		foreach ($units as $unit) {
+			$id_module = $unit['id_module'];
+			$sql6 = "UPDATE etudiant_module 
+					 SET etat = 'inscris' 
+					 WHERE id_module = '$id_module' 
+					 AND code_etudiant = $code; ";
+			$result = mysqli_query($conn,$sql6);
+			if($result == false){
+				printf("error: %s\n", mysqli_error($conn));
+			}				 
+		}
+	
+		
+		header('Location: index.php');
 	}		
 	else{
 		echo "failed to run insert query";
@@ -138,7 +165,6 @@ include("templates/header.php");
 	<div id="main">
 		<h1>Ajouter un etudiant</h1>
 	</div>
-	<hr>
 </header>
 <section>
 	<div class="form">
@@ -206,7 +232,6 @@ include("templates/header.php");
 			<input type="reset" name="annuler" value="Annuler">	
 		</form>
 	</div>
-	<hr>
 </section>
 
 <?php 	
@@ -214,7 +239,6 @@ include("templates/header.php");
 require('templates/nav.php');
 
  ?>
-<hr>
 
 <?php 	
 

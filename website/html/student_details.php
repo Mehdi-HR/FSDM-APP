@@ -23,11 +23,13 @@ $etudiant = getStudentByCode($code);
 		include("templates/header.php");
 
 	 ?>
+<?php
+	include('templates/nav.php');
+?>
 	<div id="main">
 		<h1>Details de l'etudiant : <?=$code?> </h1>
 	</div>
-	<hr>
-	<div>
+	<div style=" margin-left: 35%">
 	    <table border="table" cellspacing="1px" cellpadding="5px">
 	    	<?php foreach ($etudiant as $key => $value) {
 	    		$Key = ucfirst($key);
@@ -40,21 +42,20 @@ $etudiant = getStudentByCode($code);
 	    	}
 	    	?>
 	    </table>	
+
+	</div>
 	    <div>
 		    <ul>
-		    	<li><a  style="color: #E31215; padding-left:18%" 
+		    	<li><a  style="color: #E31215; padding-left:14%" 
 		    			href="modify_student.php?codeE=<?=$code?>">Modifier</a></li>
 		    	<li><a  style="color: #E31215;padding-left:4%" 
-		    			href="delete_student.php?codeE=<?=$code?>">Supprimer</a></li>	    	
+		    			href="delete_student.php?codeE=<?=$code?>">Supprimer</a></li>	    							
+				<li><a  style="color: #E31215;padding-left:4%" 
+		    			href="studentUnits.php?codeE=<?=$code?>">Modules</a></li>			    			
 		    </ul>	    	
 	    </div>
-	</div>
-	<hr>
 </header>
-<?php
-	include('templates/nav.php');
-?>
-<hr>
+
 
 <?php 
 	include('templates/footer.php');

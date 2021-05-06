@@ -31,7 +31,6 @@ include("templates/header.php");
 	<div id="main">
 		<h1>Modifier le module&nbsp&nbsp: <?=$module['id_module']?></h1>
 	</div>
-	<hr>
 </header>
 <section>
 	<div class="form">
@@ -45,16 +44,16 @@ include("templates/header.php");
 			
 
 			<!--nom_module-->
-			<label>Entrer le nom &nbsp &nbsp &nbsp:</label>
+			<label>Nom du module:</label>
 			<input type="text" id="nom_module"name="nom_module"  value = "<?=$module['nom_module']?>" disabled><br>
 			<br>
 			<!--id_filiere-->
-			<label>Entrer le prenom:</label>
+			<label>Id de la filiere:&nbsp &nbsp</label>
 			<input type="text" id="id_filiere" name="id_filiere" value = "<?=$module['id_filiere']?>" disabled><br>
 			<br>
 
 			<!--code_prof-->	
-			<label>Entrer le code du professeur  &nbsp &nbsp &nbsp :</label>
+			<label>Entrer le code du professeur:   &nbsp &nbsp &nbsp </label>
 			<input type="text" id="code_prof" name="code_prof" value = "<?=$module['code_prof']?>" > <br>
             <br>
 
@@ -73,14 +72,12 @@ include("templates/header.php");
 
 		
 	</div>
-	<hr>
 </section>
 <?php 	
 
 require('templates/nav.php');
 
  ?>
-<hr>
 
 <?php 	
 

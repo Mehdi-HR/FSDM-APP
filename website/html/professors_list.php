@@ -21,18 +21,15 @@ require('templates/data.php');
 		include("templates/header.php");
 
 	 ?>		
-	 	 <hr>
 <?php
 	include('templates/nav.php');
 ?>
-<hr>
 	<div id="main">
 		<h1>Liste des professeurs: </h1>
 	</div>
-	<hr>
 </header>
 <section>
-
+<center>
 	    <table border="table" cellspacing="1px" cellpadding="5px">
 			<thead>
 				<tr>
@@ -69,15 +66,17 @@ require('templates/data.php');
 				 ?>																			
 			</tbody>
 		</table>
+	
+	
+</center>
 
-	<hr>
+
 </section>
 
 
 <?php
 	include('templates/nav2.php');
 ?>	
-<hr>
 
 <?php 
 	include('templates/footer.php');

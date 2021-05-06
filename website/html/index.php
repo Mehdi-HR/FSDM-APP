@@ -19,17 +19,16 @@ include("templates/header.php");
 	<div id="main">
 		<h1>Gestion des etudiants</h1>
 	</div>
-	<hr>
 	<div class="paragraph">
 		<p> Bienvenue dans la page d'accueil de notre application Web. Vous pouvez gerer d'une maniere tres aisee la base de donnees des etudiants. En accedant a la liste, vous pouvez voir le detail d'un etudiant et le modifier ou le supprimer. A partir du menu, vous pouvez ajouter un nouveau etudiant ou afficher toute la liste. 
 			<strong>Testez!</strong></p>
 	</div>
-	<hr>
+
 </header>
 <?php
 include('templates/nav.php');	
 ?>
-<hr>
+
 
 <?php 	
 

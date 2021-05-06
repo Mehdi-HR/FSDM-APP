@@ -28,15 +28,13 @@ $nbEtudiantsFiliere = count($listeEtudiantsFiliere);
 		include("templates/header.php");
 
 	 ?>		
-<hr>
 <?php
 	include('templates/nav.php');
 ?>
-<hr>
+
 	<div id="main">
 		<h1>Liste des etudiants de la filiere: <?php echo "$id_filiere"; ?></h1>
 	</div>
-	<hr>
 </header>
 <section>
 
@@ -57,7 +55,8 @@ $nbEtudiantsFiliere = count($listeEtudiantsFiliere);
 			<tbody>
 				<?php
 				for ($i=0; $i < $nbEtudiantsFiliere ; $i++) {
-					$codeE = $listeEtudiantsFiliere[$i]['code_etudiant']; 
+					$codeE = $listeEtudiantsFiliere[$i]['code_etudiant'];
+					 
 				 	echo "
 					
 					 	<tr>
@@ -80,13 +79,13 @@ $nbEtudiantsFiliere = count($listeEtudiantsFiliere);
 			</tbody>
 		</table>
 
-	<hr>
+
 </section>
 
 <?php
 	include('templates/nav2.php');
 ?>	
-<hr>
+
 
 <?php 
 	include('templates/footer.php');

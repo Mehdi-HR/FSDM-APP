@@ -121,8 +121,18 @@ while($semestre = mysqli_fetch_assoc($result)){
 	mysqli_close($conn);
 
 
-
+function getUnitsOfSemester($id_semestre){
+	global $modules;
+	$modulesDuSemestre = [];
+	foreach($modules as $module){
+		if ($module['id_semestre'] == $id_semestre) {
+			$modulesDuSemestre[] = $module; 
+		}
+	}
+	return $modulesDuSemestre;
+}
  
 
+$units = getUnitsOfSemester(1);
 
 ?>

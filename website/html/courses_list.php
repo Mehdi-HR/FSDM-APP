@@ -18,15 +18,12 @@ require('templates/data.php');
 		include("templates/header.php");
 
 	 ?>
-	 <hr>
 <?php
 	include('templates/nav.php');
 ?>
-<hr>
 	<div id="main">
 		<h1>Affichage des filieres</h1>
 	</div>
-	<hr>
 	<div class="liste">
 		<h3>Cliquez sur une filiere pour voir les listes</h3>
 			<?php 
@@ -41,7 +38,7 @@ require('templates/data.php');
 
 	
 	</div>
-	<hr>
+
 </header>
 
 

@@ -21,18 +21,16 @@ require('templates/data.php');
 		include("templates/header.php");
 
 	 ?>		
-	 <hr>
 	 <?php
 	include('templates/nav.php');
 ?>
-<hr>
 	 
 	<div id="main">
 		<h1>Liste des modules: </h1>
 	</div>
-	<hr>
 </header>
 <section>
+<center>	
 
 	    <table border="table" cellspacing="1px" cellpadding="5px">
 			<thead>
@@ -68,14 +66,20 @@ require('templates/data.php');
 			</tbody>
 		</table>
 
-	<hr>
+
+
+</center>
+
 </section>
 
-
+<div style="padding-left = 20%">	
 <?php
 	include('templates/nav2.php');
-?>	
-<hr>
+?>
+
+</div>
+	
+
 
 <?php 
 	include('templates/footer.php');
