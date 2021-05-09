@@ -9,12 +9,21 @@ if (isset($_GET['codeE'])) {
 	GLOBAL $etudiant;
 	if($etudiant['id_filiere']==$e){
 	echo "selected" ;
-}
+}}
 
+Function selectedMajor($e){
+	GLOBAL $etudiant;
+	if($etudiant['id_filiere']==$e){
+	echo "false" ;
+	
+}
+else{
+	echo "true";
+}
  }
  require('templates/config.php');
-//echo $codeE;
- $sql="SELECT * FROM etudiant_semestre WHERE code_etudiant='$_GET[codeE]'";
+///echo $codeE;
+ $sql="SELECT id_semestre, annee_universitaire,etat FROM etudiant_semestre WHERE code_etudiant='$_GET[codeE]'";
  $result= mysqli_query($conn,$sql);
  if($result===false){
 	 echo mysqli_error($conn);
@@ -25,21 +34,33 @@ if (isset($_GET['codeE'])) {
 	 {
 			$table[]=$t;
 	 }
-	 
+	
 $etat=array_column($table,'etat');
-//  print_r($etat);
-$id_semestre=array('S1','S2','S3','S4','S5','S6');
-// print_r($id_semestre);
-$c=array_combine($id_semestre,$etat);
-//print_r($c);
-//print($c['S1']);
-Function checkSemester($s){
-	global $c;
-	if($c["$s"]=='inscris'|| $c["$s"]=='Inscrit'){
+
+//print_r($etat ) ;
+
+$id_semestre=array_column($table,'id_semestre');
+
+$annee_universitaire=array_column($table,'annee_universitaire');
+$combine=array_combine($id_semestre,$etat);
+//echo $combine['1'];
+Function checkSemester($c){
+	global $combine;
+	if(strtolower($combine[$c])!='non inscrit'){
 		echo "checked";
 	}
 
 }
+Function readOnly($c){
+	global $combine;
+	if(strtolower($combine[$c])!='non inscrit'){
+		echo "disabled";
+	}
+
+}
+
+
+
 }
 
 
@@ -68,7 +89,9 @@ include("templates/header.php");
 		<h1>Modifier etudiant</h1>
 	</div>
 </header>
+<!--   -->
 <section>
+
 	<div class="form">
 	<form class="myForm" action="update_student.php" id="form" method="POST">
 			
@@ -103,27 +126,27 @@ include("templates/header.php");
 					
 
 			<!--id_filiere-->
-		 <!-- <label>Entrer la filiere  &nbsp &nbsp &nbsp :</label>
-			<input type="text" id="filiere" name="id_filiere" placeholder="Entrer la filiere" value = "<?=$etudiant['id_filiere']?>" required> <br>
-		 -->
+		 <label>Entrer la filiere  &nbsp &nbsp &nbsp :</label>
+			<input type="text" id="filiere" name="id_filiere" placeholder="Entrer la filiere" value = "<?=$etudiant['id_filiere']?>" readonly> <br>
+		
 		<!--id_filiere-->
-			<label>Choisir une filiere:</label>
-			<select class="mySelect" id="id_filiere" name="id_filiere" >
-				<option <?php select_filiere("SMI")?> >SMI</option>				
-				<option <?php select_filiere("SMA")?>>SMA</option>
-				<option <?php select_filiere("SVI")?>>SVI</option>
-				<option <?php select_filiere("STU")?>>STU</option>
-				<option <?php select_filiere("SMP")?>>SMP</option>
-				<option <?php select_filiere("SMC")?>>SMC</option>				
-			</select>
-			<br><br>
+			<!-- <label>Choisir une filiere:</label> -->
+							
+				<!-- <select >
+			<option <?php select_filiere("SMI")?>  onchange="return <?php selectedMajor('SMI')?>"  >SMI</option>
+				<option <?php select_filiere("SMA")?> onchange="return <?php selectedMajor('SMA')?>" >SMA</option>
+				<option <?php select_filiere("SVI")?> onchange="return <?php selectedMajor('SVI')?> ">SVI</option>
+				<option <?php select_filiere("STU")?> onchange="return <?php selectedMajor('STU')?> " >STU</option>
+				<option <?php select_filiere("SMP")?> onchange="return <?php selectedMajor('SMP')?>" >SMP</option>
+				<option <?php select_filiere("SMC")?> onchange="return <?php selectedMajor('SMC')?>" >SMC</option>	</select>
+			<br><br> --> 
 			
-			<label>Semestre 1</label><input type="checkbox" name="S1" id="1"  <?=checkSemester('S1')?> ><label > &nbsp &nbsp</label>
-			<label>Semestre 2</label><input type="checkbox" name="S2" id="2" <?=checkSemester('S2')?>><label > &nbsp &nbsp</label>
-			<label>Semestre 3</label><input type="checkbox" name="S3" id="3"  <?=checkSemester('S3')?>><label > &nbsp &nbsp</label><br>
-			<label>Semestre 4</label><input type="checkbox" name="S4" id="4"  <?=checkSemester('S4')?>><label > &nbsp &nbsp</label>
-			<label>Semestre 5</label><input type="checkbox" name="S5" id="5"  <?=checkSemester('S5')?>><label > &nbsp &nbsp</label>
-			<label>Semestre 6</label><input type="checkbox" name="S6" id="6"  <?=checkSemester('S6')?>><br><br>
+			<label>Semestre 1</label><input type="checkbox" name="S1" id="1"<?=checkSemester('1')?>  <?=readOnly('1')?> ><label > &nbsp &nbsp</label>
+			<label>Semestre 2</label><input type="checkbox" name="S2" id="2" <?=checkSemester('2')?>   <?=readOnly('2')?>><label > &nbsp &nbsp</label>
+			<label>Semestre 3</label><input type="checkbox" name="S3" id="3"  <?=checkSemester('3')?>   <?=readOnly('3')?>><label > &nbsp &nbsp</label><br>
+			<label>Semestre 4</label><input type="checkbox" name="S4" id="4"  <?=checkSemester('4')?> <?=readOnly('4')?>><label > &nbsp &nbsp</label>
+			<label>Semestre 5</label><input type="checkbox" name="S5" id="5"  <?=checkSemester('5')?>  <?=readOnly('5')?>><label > &nbsp &nbsp</label>
+			<label>Semestre 6</label><input type="checkbox" name="S6" id="6"  <?=checkSemester('6')?>  <?=readOnly('6')?>><br><br>
 
 			<input type="submit" id="submit" name="envoyer" value="Envoyer">	
 			<input type="reset" name="annuler" value="Annuler">	

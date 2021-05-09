@@ -3,7 +3,7 @@ if(isset($_GET["codeP"])){
     $code=$_GET["codeP"];
 }
 require('templates/config.php');
-$sql="SELECT m.nom_module, m.id_module, m.id_semestre FROM modules m INNER JOIN professeurs p ON p.code_prof=m.code_prof WHERE p.code_prof='$code'";
+$sql="SELECT m.nom_module, m.id_module, m.id_semestre, p.annee_universitaire FROM professeur_module p INNER JOIN modules m ON p.id_module = m.id_module  WHERE code_prof = '$code';" ;
 $result=mysqli_query($conn,$sql);
 $modules=[];
 if ( false===$result ) {
@@ -34,7 +34,7 @@ while($module=mysqli_fetch_assoc($result)){
 
 <body>
 
-<h1>Modifier l'etudiant&nbsp&nbsp: <?=$code?></h1>
+<h1>Modules du professeur&nbsp&nbsp: <?=$code?></h1>
 <center>
   
     <table border='table'>
@@ -43,6 +43,7 @@ while($module=mysqli_fetch_assoc($result)){
     <td>Code</td>
     <td> Module</td>
     <td>Semestre</td>
+    <td>Annee Universitaire</td>
     
     </tr>
   <?php  foreach($modules as $m){?>
@@ -51,7 +52,7 @@ while($module=mysqli_fetch_assoc($result)){
         <td><?=$m["id_module"]?></td>
         <td><?=$m["nom_module"]?></td>
         <td><?=$m["id_semestre"]?></td>
-       
+       <td><?=$m["annee_universitaire"]?></td>
 
        </tr>
    

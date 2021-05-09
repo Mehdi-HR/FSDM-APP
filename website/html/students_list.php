@@ -37,7 +37,8 @@ $nbEtudiantsFiliere = count($listeEtudiantsFiliere);
 	</div>
 </header>
 <section>
-
+<center>
+	
 	    <table border="table" cellspacing="1px" cellpadding="5px">
 			<thead>
 				<tr>
@@ -78,6 +79,7 @@ $nbEtudiantsFiliere = count($listeEtudiantsFiliere);
 				 ?>																			
 			</tbody>
 		</table>
+</center>
 
 
 </section>

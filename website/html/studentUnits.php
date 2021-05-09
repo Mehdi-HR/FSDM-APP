@@ -2,8 +2,16 @@
 if(isset($_GET["codeE"])){
     $code=$_GET["codeE"];
 }
+require('templates/data.php');
+if(isset($_POST['annee_universitaire'])){
+  $annee_choisie = $_POST['annee_universitaire'];    
+}
+else{
+  $annee_choisie = getActualUniYear();
+}
+
 require('templates/config.php');
-$sql="SELECT nom_module, e.id_module, etat, id_semestre, e.note FROM etudiant_module e INNER JOIN modules m ON e.id_module=m.id_module WHERE e.code_etudiant='$code'";
+$sql="SELECT nom_module, e.id_module, etat, id_semestre, e.note FROM etudiant_module e INNER JOIN modules m ON e.id_module=m.id_module WHERE e.code_etudiant='$code' AND annee_universitaire = '$annee_choisie'";
 $result=mysqli_query($conn,$sql);
 $modules=[];
 if ( false===$result ) {
@@ -39,6 +47,16 @@ require('templates/nav.php');
 
  ?>
 <h1>Modules de l'etudiant&nbsp&nbsp: <?=$code?></h1>
+  <div style="  margin-left: 90%">
+    <form method="POST">
+        <select id="annee_universitaire" name="annee_universitaire" onchange="this.form.submit();">
+            <?php foreach ($annees_universitaires as $annee_universitaire) { ?>
+              <option value="<?=$annee_universitaire?>" <?php if($annee_universitaire==$annee_choisie) echo "selected"; ?>><?=$annee_universitaire?></option>
+            <?php } ?>
+        </select>
+
+    </form>
+  </div>
 <center>    
 
     <table border='table'>

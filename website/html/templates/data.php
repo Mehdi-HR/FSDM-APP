@@ -118,7 +118,6 @@ $semestres = [];
 while($semestre = mysqli_fetch_assoc($result)){
 	$semestres[] = $semestre;
 }
-	mysqli_close($conn);
 
 
 function getUnitsOfSemester($id_semestre){
@@ -132,7 +131,77 @@ function getUnitsOfSemester($id_semestre){
 	return $modulesDuSemestre;
 }
  
+function yearToUniYear($year){
+		$first_year = $year;
+		$second_year = $first_year + 1;
+		$uni_year = $first_year.'-'.$second_year;
+		return $uni_year;
+}
 
-$units = getUnitsOfSemester(1);
+function etatDuSemestreActuellement($code_etudiant,$id_semestre){
+	$annee_universitaire = yearToUniYear(date('Y'));
+	$sql = "SELECT LOWER * FROM etudiant_semestre WHERE code_etudiant = $code_etudiant AND id_ semestre = $id_semestre AND annee_universitaire = $annee_universitaire;";
+	$result = mysqli_query($conn,$sql);
+	if($result == false){
+		printf("error: %s\n", mysqli_error($conn));
+		return NULL;
+	}
+	$row = mysqli_fetch_assoc($result);
+	return $row['etat'];		
+}
+
+function getListByYear($etudiants,$annee){
+
+	$etudiants_annee = [];
+	foreach ( $etudiants as $etudiant ) {
+		if ( $etudiant["date_inscription"] == $annee ){
+			$etudiants_annee[] = $etudiant;	
+		}	
+	}
+	return $etudiants_annee;
+
+}
+
+function getActualUniYear(){
+	$year = date('Y');
+	$month = date('n');
+	if($month >= 7 AND $month <= 12)
+		return yearToUniYear($year);
+	else 
+		return yearToUniYear($year-1);	 
+}
+
+function getNextUniYear($uni_year){
+	$first_year = substr($uni_year,5);
+	$second_year = $first_year+1;
+	return $first_year.'-'.$second_year;
+}
+
+//Fetch UNI YEARS 
+
+$sql = "SELECT * FROM annees_universitaires;";
+$result = mysqli_query($conn,$sql);
+//Definition du tableau d'etudiants
+$annees_universitaires = [];
+while($annee_universitaire = mysqli_fetch_assoc($result)){
+	$annees_universitaires[] = $annee_universitaire['id'];
+}
+
+
+function getUnitsOfSemesterByMajor($id,$filiere){
+    global $modules;
+        $modulesDuSemestreParFiliere = [];
+        foreach($modules as $module){
+            if ($module['id_semestre'] == $id && $module['id_filiere'] == $filiere) {
+                $modulesDuSemestreParFiliere[] = $module; 
+            }
+        }
+        return $modulesDuSemestreParFiliere;    
+}
+
+
+mysqli_close($conn);
+
+
 
 ?>

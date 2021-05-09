@@ -1,11 +1,29 @@
 <?php
+require('templates/data.php');
 require('templates/config.php');
+
 if(isset($_GET['id_module'])){
     $id_module=$_GET['id_module'];
   }
 
-$sql="SELECT e.code_etudiant, e.nom, e.prenom, m.note  FROM etudiants e INNER JOIN etudiant_module m ON e.code_etudiant =m.code_etudiant WHERE m.id_module= '$id_module'AND 
-  (upper(m.etat) = upper('inscrit') OR upper(m.etat) = upper('valide') OR upper(m.etat) = upper('reinscrit')) ;";
+if(isset($_POST['annee_universitaire'])){
+  $annee_choisie = $_POST['annee_universitaire'];    
+}
+else{
+  $annee_choisie = getActualUniYear();
+}
+
+$condition = "";
+if($annee_choisie == getActualUniYear()){
+  $condition = "AND 
+  (upper(m.etat) != upper('non inscrit'))";
+}
+if($annee_choisie < getActualUniYear()){
+  $condition = "AND 
+  (upper(m.etat) = upper('non valide')OR upper(m.etat) = upper('valide'))";  
+}
+
+$sql="SELECT e.code_etudiant, e.nom, e.prenom, m.note ,m.etat FROM etudiants e INNER JOIN etudiant_module m ON e.code_etudiant =m.code_etudiant WHERE m.id_module= '$id_module'".$condition."AND m.annee_universitaire = '$annee_choisie';";
 
 
 $result = mysqli_query($conn, $sql);
@@ -38,32 +56,53 @@ include("templates/header.php");
 	include('../html/templates/nav.php');
 ?>
 
-	<div id="main">
+	<div id="main" >
 		<h1>Liste des etudiants du module <?php echo "$id_module"; ?></h1>
 	</div>
+  <div style="  margin-left: 90%">
+    <form method="POST">
+        <select id="annee_universitaire" name="annee_universitaire" onchange="this.form.submit();">
+            <?php foreach ($annees_universitaires as $annee_universitaire) { ?>
+              <option value="<?=$annee_universitaire?>" <?php if($annee_universitaire==$annee_choisie) echo "selected"; ?>><?=$annee_universitaire?></option>
+            <?php } ?>
+        </select>
+
+    </form>
+  </div>
       <div style="  display: flex;
   justify-content: center;">
       <form method="POST" id="convert_form" action="../api's/export.php">
 <table border="solid" id="table_content">
+<thead>
+  
 <tr>
-<td>Code etudiant</td>
-<td>Nom</td>
-<td>Prenom</td>
-<td>Note</td>
+<th>Code etudiant</th>
+<th>Nom</th>
+<th>Prenom</th>
+<th>Etat</th>
+<th>Note</th>
 </tr>
 
+</thead>
+
+<tbody>
+  
 <?php foreach ($etudiants as $e) { ?>
-		 
-		 
+     
+     
          <tr>
              <td> <?= $e["code_etudiant"] ?> </a></td>
              <td> <?= $e["nom"] ?> </a></td>
              <td> <?= $e["prenom"] ?> </a></td>
+             <td> <?= $e["etat"] ?> </a></td>             
              <td> <?= $e["note"] ?> </a></td>
                          
-         </tr>	
+         </tr>  
  
      <?php } ?>
+
+</tbody>
+
 </table>
 <input type="hidden" name="file_content" id="file_content" />
 <button style = " margin-left:30%" type="button" name="convert" id="convert" class="btn btn-primary">Telecharger</button>

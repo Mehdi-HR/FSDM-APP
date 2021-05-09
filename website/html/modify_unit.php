@@ -1,12 +1,36 @@
 <?php
-require('templates/data.php');
-
+require('templates/config.php');
 if (isset($_GET['id_module'])) {
 	$id_module = $_GET['id_module'];
-    $module=getUnitById($id_module);
+    // $module=getUnitById($id_module);
 }
+$sql="SELECT * FROM modules WHERE id_module='$id_module' ";
+$result=mysqli_query($conn,$sql);
+$module=mysqli_fetch_assoc($result);
 
+function yearToUniYear($year){
+	$first_year = $year;
+	$second_year = $first_year + 1;
+	$uni_year = $first_year.'-'.$second_year;
+	return $uni_year;
+  }
+  function getActualUniYear(){
+	  $year = date('Y');
+	  $month = date('n');
+	  if($month >= 7 AND $month <= 12)
+		  return yearToUniYear($year);
+	  else 
+		  return yearToUniYear($year-1);	 
+  }
+  
+  $year=getActualUniYear();
+
+
+$sql="SELECT * FROM professeur_module WHERE id_module='$id_module'";
+$result=mysqli_query($conn,$sql);
+$prof=mysqli_fetch_assoc($result);
 ?>
+
 
 
 
@@ -54,7 +78,7 @@ include("templates/header.php");
 
 			<!--code_prof-->	
 			<label>Entrer le code du professeur:   &nbsp &nbsp &nbsp </label>
-			<input type="text" id="code_prof" name="code_prof" value = "<?=$module['code_prof']?>" > <br>
+			<input type="text" id="code_prof" name="code_prof" value = "<?=$prof['code_prof']?>" > <br>
             <br>
 
 			

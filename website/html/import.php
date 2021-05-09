@@ -1,8 +1,7 @@
 <?php
-
+require('templates/data.php');
 //POUR IMPORTER LES NOTES A LA BASE DE DONNEES
 
-echo $_POST['id_module'];
 
 
 include '../vendor/autoload.php';
@@ -32,8 +31,8 @@ if($_FILES["import_excel"]["name"] != '')
   {
    $insert_data = [
     'code_etudiant'  => $column[0],
-    
-    'note'  => $column[3]
+    'etat'  => $column[3],
+    'note'  => $column[4]
   ];
   //echo json_encode($insert_data);
 
@@ -41,7 +40,14 @@ if($_FILES["import_excel"]["name"] != '')
   $sql="UPDATE etudiant_module SET note= '$insert_data[note]' WHERE code_etudiant= '$insert_data[code_etudiant]' AND id_module='$_POST[id_module]' ";
 
   $sql2="UPDATE etudiant_module SET etat = 'Valide' WHERE code_etudiant= '$insert_data[code_etudiant]' AND id_module='$_POST[id_module]'";
-  $sql3="UPDATE etudiant_module SET etat = 'Reinscrit' WHERE code_etudiant= '$insert_data[code_etudiant]' AND id_module='$_POST[id_module]'";
+
+
+  $sql3="UPDATE etudiant_module SET etat = 'non valide' WHERE code_etudiant= '$insert_data[code_etudiant]' AND id_module='$_POST[id_module]'";
+  
+  $next_uni_year = getNextUniYear(getActualUniYear());
+  $sql4 = "INSERT INTO etudiant_module(code_etudiant,id_module,annee_universitaire,etat) 
+  VALUES ('$insert_data[code_etudiant]','$_POST[id_module]','$next_uni_year','reinscrit');";
+
 
 $result=mysqli_query($conn,$sql);
 if ( false===$result ) {
@@ -53,9 +59,8 @@ else {
   }
   else{
     mysqli_query($conn,$sql3);
-
+    mysqli_query($conn,$sql4);
   }
-  echo 'Success.';
 }
  }
   $message = '<div class="alert alert-success">Data Imported Successfully</div>';

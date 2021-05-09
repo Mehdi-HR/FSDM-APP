@@ -11,15 +11,21 @@
         include("../html/templates/header.php");
 
      ?>
-     <hr>
-<?php
-    include('../html/templates/nav.php');
-?>
-<hr>
+<nav id="mainNavbar">
+<ul style="padding-left: 27%">
+    <li><a href="../html/index.php">Acceuil</a></li>
+    <li><a href="../html/courses_list.php">Liste des etudiants</a></li>
+    <li><a href="../html/professors_list.php">Liste des professeurs</a></li>
+    <li><a href="../html/units_list.php">Liste de modules</a></li>
+    <li><a href="./index.php">Ressources</a></li>
+
+</ul>
+
+</nav>
+
     <div id="main">
         <h1>Uploads : </h1>
     </div>
-    <hr>
 
 </header>
 
@@ -56,7 +62,6 @@ for ($a = 2; $a < count($files); $a++)
 
 ?>
 </table>
-    <hr>
 
 </section>    
 

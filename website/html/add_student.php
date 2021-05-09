@@ -84,44 +84,49 @@ if(isSet($_POST['envoyer']))
 	}
 
 if( !array_filter($errors) ){
+	$date = date('d-m-y');	
 	//ajouter a table etudiants
 	$type = 'E';
-	$sql = "INSERT INTO etudiants(code_etudiant,nom,prenom,cin,email,cne,id_filiere) VALUES ('$code','$nom','$prenom','$cin','$email','$cne','$id_filiere');";
+	$sql = "INSERT INTO etudiants(code_etudiant,nom,prenom,cin,date_inscription,email,cne,id_filiere) VALUES ('$code','$nom','$prenom','$cin','$date','$email','$cne','$id_filiere');";
 	if( mysqli_query($conn,$sql) ){
 		//ajouter a table utilisateur
 		$password = $cin;
 		$hash = hash("sha256",$password,false);
-		$sql2 = "INSERT INTO utilisateurs(code,nom,prenom,type,cin,email,hash) VALUES ('$code','$nom','$prenom','$type','$cin','$email','$hash');";
+		$sql2 = "INSERT INTO utilisateurs(code,nom,prenom,type,cin,date_inscription,email,hash) VALUES ('$code','$nom','$prenom','$type','$cin','$date','$email','$hash');";
 		mysqli_query($conn,$sql2);
 		//affecter tous les modules de la filiere
+		yearToUniYear(date('Y'));		
 		$units= getUnitsOfCourse($id_filiere);
 		foreach ($units as $unit) {
 			$id_module = $unit['id_module'];
-			$sql3 = "INSERT INTO etudiant_module(code_etudiant,id_module,etat) 
-					VALUES ('$code','$id_module','non inscris')";
-			mysqli_query($conn,$sql3);		 
+			$sql3 = "INSERT INTO etudiant_module(code_etudiant,id_module,annee_universitaire,etat) 
+					VALUES ('$code','$id_module','$uni_year','non inscrit')";
+			$result = mysqli_query($conn,$sql3);
+			if($result == false){
+				printf("%s",mysqli_error($conn));
+			}		 
 		}
 		//affecter tous les semestres
 		foreach ($semestres as $semestre) {
 			$id_semestre = $semestre['id_semestre'];
-			$sql4 = "INSERT INTO etudiant_semestre(code_etudiant,id_semestre,etat) 
-					VALUES ('$code','$id_semestre','non inscris')";
-			mysqli_query($conn,$sql4);					
+			$sql4 = "INSERT INTO etudiant_semestre(code_etudiant,id_semestre,annee_universitaire,etat) 
+					VALUES ('$code','$id_semestre','$uni_year','non inscrit')";
+			mysqli_query($conn,$sql4) or die("Modules non affectes");					
 		}
 		
 		//inscrire au s1
 		$sql5 = "UPDATE etudiant_semestre 
-				SET etat ='inscris' 
+				SET etat ='inscrit' 
 				WHERE id_semestre = 1
 				AND code_etudiant = $code;";
-		mysqli_query($conn,$sql5);
+		mysqli_query($conn,$sql5) or die("Inscription au semestres non effectue");
 		
 		//inscription au modules du s1
 		$units = getUnitsOfSemester(1);
 		foreach ($units as $unit) {
 			$id_module = $unit['id_module'];
 			$sql6 = "UPDATE etudiant_module 
-					 SET etat = 'inscris' 
+					 SET etat = 'inscrit' 
 					 WHERE id_module = '$id_module' 
 					 AND code_etudiant = $code; ";
 			$result = mysqli_query($conn,$sql6);

@@ -51,7 +51,7 @@
 		if(empty($id_semestre)){
 			$errors['id_semestre'] = 'Veuillez entrer un id de professeur';
 		}else{
-			if ($id < 1) {
+			if ($id_semestre < 1) {
 				$errors['id_semestre'] = 'id_semestre > 0 !!!';
 				}	
         }
@@ -68,15 +68,20 @@
 
 
 	if( !array_filter($errors) ){
-		$sql = "INSERT INTO modules(id_module,nom_module,id_filiere,code_prof,id_semestre) 
-				VALUES ('$id_module','$nom','$id_filiere','$code_prof','$id_semestre');";
+		$annee_universitaire = yearToUniYear(date('Y'));	
+		$sql = "INSERT INTO modules(id_module,nom_module,id_filiere,id_semestre) 
+				VALUES ('$id_module','$nom','$id_filiere','$id_semestre');";
 		if( mysqli_query($conn,$sql) ){
 			$students= getListeParFiliere($id_filiere);
 			foreach ($students as $student) {
 				$code_etudiant = $student['code_etudiant'];
-				$sql2 = "INSERT INTO etudiant_module(code_etudiant,id_module,etat) 
-					VALUES ('$code_etudiant','$id_module','non inscris')";
-				mysqli_query($conn,$sql2) or die("second query failed");		 
+				$etat = etatDuSemestreActuellement($code_etudiant,$id_semestre);
+				$sql2 = "INSERT INTO etudiant_module(code_etudiant,id_module,annee_universitaire,etat) 
+					VALUES ('$code_etudiant','$id_module','$uni_year','$etat')";
+				mysqli_query($conn,$sql2) or die("second query failed");
+				$sql3 = "INSERT INTO professeur_module(code_prof,id_module,annee_universitaire) VALUES('$code_prof','$id_module','$uni_year')";
+				mysqli_query($conn,$sql3) or die("third query failed");
+
 			}
 			header('Location: index.php');
 		}else{
