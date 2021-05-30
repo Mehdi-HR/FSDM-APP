@@ -11,7 +11,7 @@
 </head>
 <body>
 <header id="mainHeader"> 
-<?php 
+<?php  
 
 include("templates/header.php");
 
@@ -20,7 +20,22 @@ include("templates/header.php");
 		<h1>Gestion des etudiants</h1>
 	</div>
 	<div class="paragraph">
-		<p> Bienvenue dans la page d'accueil de notre application Web. Vous pouvez gerer d'une maniere tres aisee la base de donnees des etudiants. En accedant a la liste, vous pouvez voir le detail d'un etudiant et le modifier ou le supprimer. A partir du menu, vous pouvez ajouter un nouveau etudiant ou afficher toute la liste. 
+		<p> Bienvenue dans la page d'accueil de l'application web designee pour l'administration de la faculte des sciences Dhar ElMehraz.
+			<br>
+		Autant qu'administrateur, l'application:
+		<br>
+		-Vous donne acces aux tables des etudiants,des professeurs ainsi que des modules.	
+		<br>
+		-Vous permet d'ajouter/de modifier/de supprimer tout etudiant, professeur ou module de la FSDM.
+		<br>	
+		-Vous permet de telecharger la liste des etudiants inscrits actuellement a chaque module et entrer leurs notes par l'intermediaire d'Excel. 
+		<br>
+		-Vous permet aussi d'affecter a tout moment, un module au professeur qui l'enseigne.
+		<br>		
+		-Vous offre la possibilite de telecharger sur le site des differentes ressources accessibles par les etudiants(emplois du temps,planning d'Examen...). 
+		<br>
+		-Vous permet de publier des annonces aux utilisateurs de la FSDM APP.
+		<br>
 			<strong>Testez!</strong></p>
 	</div>
 

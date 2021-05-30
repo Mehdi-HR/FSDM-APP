@@ -1,5 +1,6 @@
-<?php	
-
+ <?php	
+  session_start();
+if (isset($_SESSION['user_id']) && isset($_SESSION['user_email'])) { 
 if(isset($_GET["codeF"])){
 	$id_filiere = $_GET["codeF"];
 }
@@ -92,6 +93,10 @@ $nbEtudiantsFiliere = count($listeEtudiantsFiliere);
 <?php 
 	include('templates/footer.php');
  ?>
-
+<?php 
+}else {
+ header("Location: index.php");
+}
+?>
 </body>
 </html>

@@ -1,4 +1,6 @@
 <?php
+ session_start();
+if (isset($_SESSION['user_id']) && isset($_SESSION['user_email'])) { 
 if(isset($_GET["codeP"])){
     $code=$_GET["codeP"];
 }
@@ -21,7 +23,7 @@ while($module=mysqli_fetch_assoc($result)){
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Modules</title>
     <link rel="stylesheet" type="text/css" href="../css/style.css">
@@ -70,5 +72,11 @@ require('templates/nav.php');
  ?>
 <?php 
 	include('templates/footer.php');
- ?>
+ ?> 
+<?php 
+}else {
+ header("Location: index.php");
+}
+?>
+
 </html>

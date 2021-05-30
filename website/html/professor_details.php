@@ -1,4 +1,6 @@
 <?php 
+ session_start();
+if (isset($_SESSION['user_id']) && isset($_SESSION['user_email'])) { 
 
 if (isset($_GET['codeP'])) {
 	$code = $_GET['codeP'];
@@ -20,7 +22,7 @@ $professeur = getProfByCode($code);
 <header id="mainHeader"> 
 	<?php 
 
-		include("templates/header.php");
+ 		include("templates/header.php");
 
 	 ?>
      <?php
@@ -50,7 +52,7 @@ $professeur = getProfByCode($code);
 
 	</div>
 	    <div>
-		    <ul>
+		    <ul style="padding-left: 30%">
 		    	<li><a  style="color: #E31215; padding-left:12%" 
 		    			href="modify_professor.php?codeP=<?=$code?>">Modifier</a></li>
 		    	<li><a  style="color: #E31215;padding-left:4%" 
@@ -64,6 +66,10 @@ $professeur = getProfByCode($code);
 <?php 
 	include('templates/footer.php');
  ?>
-
+<?php 
+}else {
+ header("Location: index.php");
+}
+?>
 </body>
 </html>

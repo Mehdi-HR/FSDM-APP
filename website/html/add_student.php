@@ -1,4 +1,10 @@
 <?php 
+
+
+session_start();
+
+if (isset($_SESSION['user_id']) && isset($_SESSION['user_email'])) { 
+
 require('templates/data.php');
 require('templates/config.php');
 
@@ -69,7 +75,7 @@ if(isSet($_POST['envoyer']))
 	if(empty($cne)){
 		$errors['cne'] = 'Veuillez entrer un cne';
 	}else{
-		if (!preg_match('/^([A-Za-z]([0-9]{9}))$/', $cne)) {
+		if (!preg_match('/^([A-Za-z0-9]([0-9]{9}))$/', $cne)) {
 			$errors['cne'] = 'Veuillez entrer un cne valide';
 			}	
 	}		
@@ -85,9 +91,11 @@ if(isSet($_POST['envoyer']))
 
 if( !array_filter($errors) ){
 	$date = date('d-m-y');	
+
 	//ajouter a table etudiants
 	$type = 'E';
-	$sql = "INSERT INTO etudiants(code_etudiant,nom,prenom,cin,date_inscription,email,cne,id_filiere) VALUES ('$code','$nom','$prenom','$cin','$date','$email','$cne','$id_filiere');";
+	$sql = "INSERT INTO etudiants(code_etudiant,nom,prenom,cin,date_inscription,email,cne,id_filiere) 
+	VALUES ('$code','$nom','$prenom','$cin','$date','$email','$cne','$id_filiere');";
 	if( mysqli_query($conn,$sql) ){
 		//ajouter a table utilisateur
 		$password = $cin;
@@ -95,7 +103,8 @@ if( !array_filter($errors) ){
 		$sql2 = "INSERT INTO utilisateurs(code,nom,prenom,type,cin,date_inscription,email,hash) VALUES ('$code','$nom','$prenom','$type','$cin','$date','$email','$hash');";
 		mysqli_query($conn,$sql2);
 		//affecter tous les modules de la filiere
-		yearToUniYear(date('Y'));		
+		$uni_year=yearToUniYear(date('Y'));
+			
 		$units= getUnitsOfCourse($id_filiere);
 		foreach ($units as $unit) {
 			$id_module = $unit['id_module'];
@@ -252,6 +261,10 @@ require('templates/footer.php');
  ?>
 
 
-
+<?php 
+}else {
+ header("Location: index.php");
+}
+?>
 </body>
 </html>

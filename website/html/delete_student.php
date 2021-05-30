@@ -1,4 +1,6 @@
 <?php 
+ session_start();
+ if (isset($_SESSION['user_id']) && isset($_SESSION['user_email'])) { 
 
 if(isset($_GET['codeE'])){
 	$code = $_GET['codeE'];
@@ -17,6 +19,10 @@ if(isset($_GET['codeE'])){
 	header('Location: index.php');
 	
 	mysqli_close($conn);
+}
+
+}else {
+ header("Location: index.php");
 }
 
  ?>

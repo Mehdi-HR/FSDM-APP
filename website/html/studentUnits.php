@@ -1,4 +1,6 @@
 <?php
+ session_start();
+if (isset($_SESSION['user_id']) && isset($_SESSION['user_email'])) { 
 if(isset($_GET["codeE"])){
     $code=$_GET["codeE"];
 }
@@ -23,7 +25,7 @@ while($module=mysqli_fetch_assoc($result)){
 //echo json_encode($modules); 
   }
 
- ?>
+ ?> 
 
 <!DOCTYPE html>
 <html lang="en">
@@ -90,5 +92,10 @@ require('templates/nav.php');
 <?php 
 	include('templates/footer.php');
  ?>
+ <?php 
+}else {
+ header("Location: index.php");
+}
+?>
 </html>
  

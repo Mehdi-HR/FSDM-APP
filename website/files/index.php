@@ -12,12 +12,15 @@
 
      ?>
 <nav id="mainNavbar">
-<ul style="padding-left: 27%">
-    <li><a href="../html/index.php">Acceuil</a></li>
-    <li><a href="../html/courses_list.php">Liste des etudiants</a></li>
+<ul style="padding-left: 15%">
+    <li><a href="../html/index.php">Accueil</a></li>
+    <li><a href="../html/students_list.php">Liste des etudiants</a></li>
     <li><a href="../html/professors_list.php">Liste des professeurs</a></li>
-    <li><a href="../html/units_list.php">Liste de modules</a></li>
+    <li><a href="../html/courseUnitsList.php">Liste de modules</a></li>
     <li><a href="./index.php">Ressources</a></li>
+        <li><a href="../html/publish_announcement.php">Publier une annonce</a></li>   
+
+    <li><a href="./logout.php">Deconnexion</a></li>
 
 </ul>
 

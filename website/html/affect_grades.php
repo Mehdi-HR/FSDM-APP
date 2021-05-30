@@ -1,4 +1,6 @@
 <?php
+ session_start();
+if (isset($_SESSION['user_id']) && isset($_SESSION['user_email'])) { 
 if(isset($_GET['id_module'])){
     $module=$_GET['id_module'];
   }
@@ -77,3 +79,9 @@ $(document).ready(function(){
   });
 });
 </script>
+
+<?php 
+}else {
+ header("Location: index.php");
+}
+?>

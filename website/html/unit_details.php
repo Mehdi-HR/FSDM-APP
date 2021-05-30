@@ -1,4 +1,6 @@
 <?php 
+ session_start();
+if (isset($_SESSION['user_id']) && isset($_SESSION['user_email'])) { 
 
 if (isset($_GET['id_module'])) {
 	$code = $_GET['id_module'];
@@ -24,7 +26,7 @@ $module =  getUnitById($code);
 
 	 <?php
 	include('templates/nav.php');
-?>
+?> 
 	 
 	<div id="main">
 		<h1>Details du module : <?=$code?> </h1>
@@ -49,7 +51,7 @@ $module =  getUnitById($code);
 	</center>
 	
 	    <div>
-		    <ul>
+		    <ul style="padding-left: 30%">
 		    	<li><a  style="color: #E31215; " 
 		    			href="modify_unit.php?id_module=<?=$code?>">Modifier</a></li>
 		    	<li><a  style="color: #E31215;padding-left:4%" 
@@ -65,6 +67,10 @@ $module =  getUnitById($code);
 <?php 
 	include('templates/footer.php');
  ?>
-
+<?php 
+}else {
+ header("Location: index.php");
+}
+?>
 </body>
 </html>

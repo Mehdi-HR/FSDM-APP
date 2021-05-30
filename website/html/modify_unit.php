@@ -1,4 +1,6 @@
 <?php
+ session_start();
+if (isset($_SESSION['user_id']) && isset($_SESSION['user_email'])) { 
 require('templates/config.php');
 if (isset($_GET['id_module'])) {
 	$id_module = $_GET['id_module'];
@@ -18,7 +20,7 @@ function yearToUniYear($year){
 	  $year = date('Y');
 	  $month = date('n');
 	  if($month >= 7 AND $month <= 12)
-		  return yearToUniYear($year);
+	 	  return yearToUniYear($year);
 	  else 
 		  return yearToUniYear($year-1);	 
   }
@@ -109,6 +111,11 @@ require('templates/footer.php');
 
  ?>
 
+<?php 
+}else {
+ header("Location: index.php");
+}
+?>
 
 
 </body>

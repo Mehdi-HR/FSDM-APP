@@ -1,5 +1,6 @@
 <?php 
-
+ session_start();
+ if (isset($_SESSION['user_id']) && isset($_SESSION['user_email'])) { 
 if(isset($_GET['codeP'])){
 	$code = $_GET['codeP'];
 	require('templates/config.php');
@@ -13,5 +14,8 @@ if(isset($_GET['codeP'])){
 	mysqli_close($conn);
 
 }
+}else {
+	header("Location: index.php");
+   }
 
  ?>

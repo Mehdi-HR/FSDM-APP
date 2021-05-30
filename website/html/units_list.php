@@ -1,7 +1,14 @@
 <?php	
-
+ session_start();
+if (isset($_SESSION['user_id']) && isset($_SESSION['user_email'])) { 
 
 require('templates/data.php');
+
+if(isset($_GET['id_filiere'])){
+
+	$filiere=$_GET['id_filiere'];
+}
+$modules=getUnitsOfCourse($filiere);
 
 
 
@@ -50,7 +57,7 @@ require('templates/data.php');
 					
 					 	<tr>
                             <td>{$modules[$i]['id_module']}</td>
-					 		<td>{$modules[$i]['nom_module']}</td>
+	 				 		<td>{$modules[$i]['nom_module']}</td>
 					 		<td>{$modules[$i]['id_filiere']}</td>
 					 		
 					 		
@@ -72,7 +79,7 @@ require('templates/data.php');
 
 </section>
 
-<div style="padding-left = 20%">	
+<div style="padding-left : 20%">	
 <?php
 	include('templates/nav2.php');
 ?>
@@ -84,6 +91,10 @@ require('templates/data.php');
 <?php 
 	include('templates/footer.php');
  ?>
-
+  <?php 
+}else {
+ header("Location: index.php");
+}
+?>
 </body>
 </html>

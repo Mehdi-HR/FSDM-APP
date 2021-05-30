@@ -1,4 +1,6 @@
 <?php 
+ session_start();
+ if (isset($_SESSION['user_id']) && isset($_SESSION['user_email'])) { 
 
 if(isset($_GET['id_module'])){
 	$code = $_GET['id_module'];
@@ -12,5 +14,7 @@ if(isset($_GET['id_module'])){
 	mysqli_close($conn);
 
 }
-
+}else {
+	header("Location: index.php");
+   }
  ?>

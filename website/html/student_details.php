@@ -1,5 +1,6 @@
 <?php 
-
+ session_start();
+if (isset($_SESSION['user_id']) && isset($_SESSION['user_email'])) { 
 if (isset($_GET['codeE'])) {
 	$code = $_GET['codeE'];
 }
@@ -19,7 +20,7 @@ $etudiant = getStudentByCode($code);
 <body>
 <header id="mainHeader"> 
 	<?php 
-
+ 
 		include("templates/header.php");
 
 	 ?>
@@ -60,6 +61,10 @@ $etudiant = getStudentByCode($code);
 <?php 
 	include('templates/footer.php');
  ?>
-
+<?php 
+}else {
+ header("Location: index.php");
+}
+?>
 </body>
 </html>

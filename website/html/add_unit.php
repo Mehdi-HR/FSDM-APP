@@ -1,4 +1,11 @@
 <?php 
+
+session_start();
+
+if (isset($_SESSION['user_id']) && isset($_SESSION['user_email'])) { 
+	
+	
+	
 	require('templates/data.php');
     require('templates/config.php');
 
@@ -185,6 +192,10 @@ require('templates/footer.php');
  ?>
 
 
-
+<?php 
+}else {
+ header("Location: index.php");
+}
+?>
 </body>
 </html>

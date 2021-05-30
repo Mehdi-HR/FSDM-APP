@@ -1,5 +1,9 @@
 <?php	
 
+session_start();
+
+if (isset($_SESSION['user_id']) && isset($_SESSION['user_email'])) { 
+
 require('templates/data.php');
 
 ?>
@@ -25,7 +29,7 @@ require('templates/data.php');
 		<h1>Affichage des filieres</h1>
 	</div>
 	<div class="liste">
-		<h3>Cliquez sur une filiere pour voir les listes</h3>
+		<h3>Cliquez sur une filiere pour voir sa liste des etudiants</h3>
 			<?php 
 				echo '<ol type="1">';
 				for ($i = 0; $i < count($filieres); $i++) {
@@ -45,6 +49,10 @@ require('templates/data.php');
 <?php 
 	include('templates/footer.php');
  ?>
-
+<?php 
+}else {
+ header("Location: index.php");
+}
+?>
 </body>
 </html>

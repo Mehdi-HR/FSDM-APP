@@ -14,10 +14,9 @@ if(preg_match('/professors/',$_SERVER['SCRIPT_FILENAME'])){
 }
 ?>
 <nav id="secondaryNavbar">
-<ul>
-	<li><a href="index.php">Acceuil</a></li>
-	<li><a href=<?=$link?>> <?=$txt?></a></li>
-</ul>
+<ol>
+   <center><li ><a href=<?=$link?>> <?=$txt?></a></li></center> 
+</ol>
 </nav>
 
  

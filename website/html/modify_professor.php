@@ -1,5 +1,8 @@
 <?php
+ session_start();
 require('templates/data.php');
+if (isset($_SESSION['user_id']) && isset($_SESSION['user_email'])) { 
+	
 
 if (isset($_GET['codeP'])) {
 	$codeP = $_GET['codeP'];
@@ -78,7 +81,11 @@ require('templates/footer.php');
 
  ?>
 
-
+<?php 
+}else {
+ header("Location: index.php");
+}
+?>
    
 </body>
 </html>

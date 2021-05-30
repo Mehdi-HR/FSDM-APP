@@ -1,4 +1,8 @@
 <?php
+ session_start();
+if (!(isset($_SESSION['user_id']) && isset($_SESSION['user_email']))){
+  header("Location: index.php");
+} 
 require('templates/data.php');
 require('templates/config.php');
 
@@ -24,7 +28,7 @@ if($annee_choisie < getActualUniYear()){
 }
 
 $sql="SELECT e.code_etudiant, e.nom, e.prenom, m.note ,m.etat FROM etudiants e INNER JOIN etudiant_module m ON e.code_etudiant =m.code_etudiant WHERE m.id_module= '$id_module'".$condition."AND m.annee_universitaire = '$annee_choisie';";
-
+ 
 
 $result = mysqli_query($conn, $sql);
 
@@ -123,8 +127,8 @@ include("templates/header.php");
 	include('templates/footer.php');
  ?>
   </body>
-</html>
-
+  
+  
 <script>
 $(document).ready(function(){
  $('#convert').click(function(){
@@ -136,3 +140,5 @@ $(document).ready(function(){
   });
 });
 </script>
+
+</html>
