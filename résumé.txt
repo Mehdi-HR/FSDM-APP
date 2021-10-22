@@ -1,0 +1,9 @@
+# FSDM-APP
+Le présent travail intitulé ‘’Conception et réalisation d’une application mobile multiplateforme pour les étudiants et les professeurs de la FSDM‘’ , est effectué dans le cadre du PFE, pour l’obtention du diplôme Licence Fondamentale SMI, et réalisé au sein du département d’informatique de la FSDM de l’USMBA de Fès. 
+Nous avons développé un système d’information qui propose à la fois une application mobile multiplateforme aux Étudiants et Enseignants, une application web pour l’administration du système d’information ainsi qu’une base de données relationnelle.
+Après la réalisation technique de l’application mobile avec le kit de développement Flutter et Android studio comme environnement de développement …, nous constatons que toutes les fonctionnalités réalisées sont fonctionnelles sur le mobile. Grâce à ces fonctionnalités l’utilisateur reste en contact avec son espace en temps réel à n’importe où il se trouve. 
+Les principales fonctionnalités de l’application mobile sont :
+Authentification des utilisateurs & Redirection vers l’Espace Étudiant ou Enseignant. 
+Consultation de leurs informations personnelles. 
+Pour les enseignants : informations pédagogiques sur les étudiants inscrits dans chaque module d’une filière donnée du semestre en cours.
+Pour les étudiants : Consultation de ses informations pédagogiques :  modules auxquels ils sont inscrits, listes des étudiants de la même filière du même semestre …
